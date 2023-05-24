@@ -10,6 +10,7 @@ function finalProj() {
         });
         console.log(data[0]);
         graph1(data);
+        // graph2(data);
         // question2(data);
         // question3(data);
     });
@@ -32,7 +33,6 @@ function graph1(data) {
     for (let [key, value] of remote1) {
         prop.push({ work_year: key, prop_0: 0, prop_50: 0, prop_100: 0 });
     }
-    console.log(prop);
     let temp = [];
     for (let [key, value] of remote1) {
         for (let [key1, value1] of value) {
@@ -59,14 +59,11 @@ function graph1(data) {
         }
     }
 
-    console.log(prop);
-
     const years = Array.from(remote1.keys()).sort((a, b) => a - b);
 
     const obs = Object.keys(prop[0]).filter((d) => d != "work_year");
     const stack = d3.stack().keys(obs);
     const result = stack(prop);
-    console.log(obs);
 
     const margin = { top: 20, right: 20, bottom: 20, left: 30 },
         width = 600 - margin.left - margin.right,
@@ -172,4 +169,42 @@ function graph1(data) {
         .attr("text-anchor", "middle")
         .style("font-size", "15px")
         .text("Remote Ratio");
+}
+
+// maps
+function graph2(data) {
+    // preprocess data
+    const sal_2023 = data.filter((d) => d.work_year = 2023)
+    const avg_sal = d3.rollup(
+        sal_2023,
+        (v) => d3.mean(v, (d) => d.salary_in_usd),
+        (d) => d.company_location
+    )
+    console.log(avg_sal);
+    var mapAvgSalary = {
+        data: {
+            avr_salary: {
+                format: '${0}',
+                floatingNumbers: 2
+            }
+        },
+        applyData: 'avr_salary',
+        values: avg_sal
+    };
+    console.log(mapAvgSalary);
+
+    const margin = { top: 20, right: 20, bottom: 20, left: 30 },
+        width = 600 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
+
+    const svg = d3
+        .select("#region")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+    // var path = d3.geoPath()
+    //     .projection(d3.geoEqualEarth());
 }
