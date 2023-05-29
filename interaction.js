@@ -86,9 +86,9 @@ function finalProj() {
 
             return acc;
         }, []);
-        // graph1(data1);
+        graph1(data1);
         graph2(result);
-        // graph3(data1);
+        graph3(data1);
     });
 }
 
@@ -141,9 +141,12 @@ function graph1(data) {
     const stack = d3.stack().keys(obs);
     const result = stack(prop);
 
+    var canvasWidth = 600,
+        canvasHeight = 500
+
     const margin = { top: 20, right: 20, bottom: 20, left: 30 },
-        width = 600 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+        width = canvasWidth - margin.left - margin.right,
+        height = canvasHeight - margin.top - margin.bottom;
 
     const svg = d3
         .select("#remote")
@@ -257,9 +260,12 @@ function graph2(data) {
         (d) => d.country_name
     )
 
+    var canvasWidth = 1000,
+        canvasHeight = 600
+
     const margin = { top: 20, right: 20, bottom: 20, left: 30 },
-        width = 1000 - margin.left - margin.right,
-        height = 800 - margin.top - margin.bottom;
+        width = canvasWidth - margin.left - margin.right,
+        height = canvasHeight - margin.top - margin.bottom;
 
     const svg = d3
         .select("#region")
@@ -269,6 +275,47 @@ function graph2(data) {
         .append("g")
         .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
+    var color = d3.scaleQuantize()
+        .domain(d3.extent(avg_sal.values()))
+        .range(["#D8F3DC", "#74C69D", "#52B788", "#40916C", "#2D6A4F", "#081C15"])
+
+    var legend_labels = ["No Data", "< $100K", "$100K - $120K", "$120K - $140K", "$140K - $160K", "$160K - $180K", "> $180K"]
+
+    var legend = svg.append("g")
+        .attr("transform", "translate(0," + (height - 10) + ")")
+        .attr("class", "legend");
+
+    legend.selectAll("rect")
+        .data(color.range().map(function (d, i) {
+            return {
+                x0: i ? width / 6 * i : width / 6 * i,
+                x1: i ? width / 6 * i + width / 6 : width / 6 * i + width / 6,
+                z: d
+            };
+        }))
+        .enter().append("rect")
+        .attr("class", "bars")
+        .attr("height", 10)
+        .attr("x", d => d.x0)
+        .attr("width", d => canvasWidth / 6)
+        .style("fill", d => d.z);
+
+
+    legend.append("text")
+        .attr("class", "label")
+        .attr("x", 0)
+        .attr("y", -10)
+        .text("Full Time Average Salary in USD");
+
+    legend.selectAll("text")
+        .data(legend_labels)
+        .enter().append("text")
+        .attr("class", "label")
+        .attr("x", (d, i) => width / 6 * (i - 1) + 10)
+        .attr("y", 30)
+        .text(d => d);
+
+
     const projection = d3.geoNaturalEarth1();
     const pathgeo = d3.geoPath().projection(projection);
 
@@ -277,7 +324,6 @@ function graph2(data) {
     const worldmap = d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
 
     worldmap.then(function (map) {
-
         svg.append('path')
             .attr('class', 'sphere')
             .attr('d', pathgeo({ type: 'Sphere' }))
@@ -286,7 +332,14 @@ function graph2(data) {
         svg.selectAll("path")
             .data(map.features)
             .enter().append("path").attr("d", pathgeo)
-            .attr("fill", "#DEC5B9")
+            .attr("fill", d => {
+                if (avg_sal.has(d.properties.name)) {
+                    return color(avg_sal.get(d.properties.name))
+                } else {
+                    return "white"
+                }
+            })
+            // .attr("fill", "#DEC5B9")
             .attr("stroke", "black")
             .attr("stroke-width", 0.5)
             .attr("opacity", 0.8)
@@ -294,29 +347,36 @@ function graph2(data) {
                 if (avg_sal.has(d.properties.name)) {
                     tooltip.html(
                         d.properties.name + "<br>"
-                        + avg_sal.get(d.properties.name).toFixed(2))
+                        + avg_sal.get(d.properties.name).toLocaleString(
+                            'en-US', { style: 'currency', currency: 'USD' }
+                            ))
                         .style("opacity", 1)
                         .style("position", "absolute")
                         .style("background-color", "white")
                         .style("left", (event.pageX + 10) + "px")
                         .style("top", (event.pageY - 10) + "px");
                     d3.select(this)
-                        .style("fill", "red")
+                        .style("fill", "#ef233c")
                 } else {
                     tooltip.html(d.properties.name + "<br>" + "No Data")
                         .style("opacity", 1)
                         .style("position", "absolute")
                         .style("background-color", "white")
                         .style("left", (event.pageX + 10) + "px")
-                        .style("top", (event.pageY - 10) + "px");
-                    d3.select(this)
-                        .style("fill", "red")
+                        .style("top", (event.pageY - 10) + "px")
                 }
             })
             .on("mouseout", function () {
                 tooltip.style("opacity", 0);
                 d3.select(this)
-                    .style("fill", "#DEC5B9");
+                    .style("fill", d => {
+                        if (avg_sal.has(d.properties.name)) {
+                            return color(avg_sal.get(d.properties.name))
+                        } else {
+                            return "white"
+                        }
+                    }
+                    )
             });
     });
 }
