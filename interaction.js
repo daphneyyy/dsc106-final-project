@@ -1,6 +1,6 @@
 function finalProj() {
-    let filePath1 = "salaries.csv";
-    let filePath2 = "country_code.csv";
+    let filePath1 = "data/salaries.csv";
+    let filePath2 = "data/country_code.csv";
     Promise.all([
         d3.csv(filePath1),
         d3.csv(filePath2)
@@ -149,8 +149,7 @@ function graph1(data) {
         height = canvasHeight - margin.top - margin.bottom;
 
     const svg = d3
-        .select("#remote")
-        .append("svg")
+        .select("#remote-svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
         .append("g")
@@ -203,35 +202,11 @@ function graph1(data) {
                 .style("stroke", "none");
         });
 
-
-    const legend = svg.append("g")
-        .attr("transform", `translate(${width - margin.right}, ${margin.top})`)
-        .attr("text-anchor", "end")
-        .style("font", "12px sans-serif")
-        .selectAll("g")
-        .data(obs.slice().reverse())
-        .enter()
-        .append("g")
-        .attr("transform", (d, i) => `translate(0, ${i * 20})`);
-
-    legend.append("rect")
-        .attr("x", -19)
-        .attr("width", 19)
-        .attr("height", 19)
-        .attr("fill", (d, i) => colorScale(i));
-
-    legend.append("text")
-        .attr("x", -24)
-        .attr("y", 9.5)
-        .attr("dy", "0.35em")
-        .text(d => d);
-
     svg.append("text")
         .attr("x", (width / 2))
         .attr("y", 0 - (margin.top / 2) + 5)
         .attr("text-anchor", "middle")
         .style("font-size", "16px")
-        .style("text-decoration", "underline")
         .text("Remote Ratio by Work Year");
 
     svg.append("text")
@@ -261,11 +236,17 @@ function graph2(data) {
     )
 
     var canvasWidth = 1000,
-        canvasHeight = 600
+        canvasHeight = 550
 
-    const margin = { top: 20, right: 20, bottom: 20, left: 30 },
+    const margin = { top: 20, right: 20, bottom: 10, left: 30 },
         width = canvasWidth - margin.left - margin.right,
         height = canvasHeight - margin.top - margin.bottom;
+
+    d3.select("#region")
+        .append("p")
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px")
+        .text("Average Salary For Full Time Jobs in 2023");
 
     const svg = d3
         .select("#region")
@@ -279,47 +260,53 @@ function graph2(data) {
         .domain(d3.extent(avg_sal.values()))
         .range(["#D8F3DC", "#74C69D", "#52B788", "#40916C", "#2D6A4F", "#081C15"])
 
-    var legend_labels = ["No Data", "< $100K", "$100K - $120K", "$120K - $140K", "$140K - $160K", "$160K - $180K", "> $180K"]
+    const zoom = d3.zoom()
+        .scaleExtent([1, 8])
+        .on("zoom", function (event) {
+            svg.attr("transform", event.transform);
+        });
+    svg.call(zoom);
 
-    var legend = svg.append("g")
-        .attr("transform", "translate(0," + (height - 10) + ")")
-        .attr("class", "legend");
+    // Reset button functionality
+    const resetButton = d3.select("#region")
+        .append("button")
+        .attr("id", "reset-button")
+        .text("Reset");
+    resetButton.on("click", function () {
+        svg.transition().duration(200).call(zoom.transform, d3.zoomIdentity);
+    });
 
-    legend.selectAll("rect")
-        .data(color.range().map(function (d, i) {
-            return {
-                x0: i ? width / 6 * i : width / 6 * i,
-                x1: i ? width / 6 * i + width / 6 : width / 6 * i + width / 6,
-                z: d
-            };
-        }))
-        .enter().append("rect")
-        .attr("class", "bars")
-        .attr("height", 10)
-        .attr("x", d => d.x0)
-        .attr("width", d => canvasWidth / 6)
-        .style("fill", d => d.z);
+    // Zoom in button functionality
+    const zoomInButton = d3.select("#region")
+        .append("button")
+        .attr("id", "zoom-in-button")
+        .text("Zoom In");
+    zoomInButton.on("click", function () {
+        svg.transition().duration(500).call(zoom.scaleBy, 1.2);
+    });
 
-
-    legend.append("text")
-        .attr("class", "label")
-        .attr("x", 0)
-        .attr("y", -10)
-        .text("Full Time Average Salary in USD");
-
-    legend.selectAll("text")
-        .data(legend_labels)
-        .enter().append("text")
-        .attr("class", "label")
-        .attr("x", (d, i) => width / 6 * (i - 1) + 10)
-        .attr("y", 30)
-        .text(d => d);
-
+    // Zoom out button functionality
+    const zoomOutButton = d3.select("#region")
+        .append("button")
+        .attr("id", "zoom-out-button")
+        .text("Zoom Out");
+    zoomOutButton.on("click", function () {
+        svg.transition().duration(500).call(zoom.scaleBy, 0.8);
+    });
 
     const projection = d3.geoNaturalEarth1();
     const pathgeo = d3.geoPath().projection(projection);
 
-    const tooltip = d3.select("#tooltip");
+    const tooltip = d3.select("#region")
+        .append("div")
+        .attr("id", "map-tooltip")
+        .style("opacity", 0)
+        .style("background-color", "white")
+        .style("border", "solid")
+        .style("border-width", "1px")
+        .style("border-radius", "5px")
+        .style("position", "absolute")
+        .style("padding", "5px");;
 
     const worldmap = d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
 
@@ -339,7 +326,6 @@ function graph2(data) {
                     return "white"
                 }
             })
-            // .attr("fill", "#DEC5B9")
             .attr("stroke", "black")
             .attr("stroke-width", 0.5)
             .attr("opacity", 0.8)
@@ -349,10 +335,8 @@ function graph2(data) {
                         d.properties.name + "<br>"
                         + avg_sal.get(d.properties.name).toLocaleString(
                             'en-US', { style: 'currency', currency: 'USD' }
-                            ))
+                        ))
                         .style("opacity", 1)
-                        .style("position", "absolute")
-                        .style("background-color", "white")
                         .style("left", (event.pageX + 10) + "px")
                         .style("top", (event.pageY - 10) + "px");
                     d3.select(this)
@@ -360,8 +344,6 @@ function graph2(data) {
                 } else {
                     tooltip.html(d.properties.name + "<br>" + "No Data")
                         .style("opacity", 1)
-                        .style("position", "absolute")
-                        .style("background-color", "white")
                         .style("left", (event.pageX + 10) + "px")
                         .style("top", (event.pageY - 10) + "px")
                 }
@@ -379,6 +361,56 @@ function graph2(data) {
                     )
             });
     });
+
+    var canvasWidth2 = canvasWidth,
+        canvasHeight2 = 60
+
+    const margin2 = { top: 20, right: 20, bottom: 20, left: 30 },
+        width2 = canvasWidth2 - margin2.left - margin2.right,
+        height2 = canvasHeight2 - margin2.top - margin2.bottom;
+
+    const svg2 = d3
+        .select("#region")
+        .append("svg")
+        .attr("width", width2 + margin2.left + margin2.right)
+        .attr("height", height2 + margin2.top + margin2.bottom)
+        .append("g")
+        .attr("transform", `translate(${margin2.left}, ${margin2.top})`);
+
+    var legend_labels = ["No Data", "< $100K", "$100K - $120K", "$120K - $140K", "$140K - $160K", "$160K - $180K", "> $180K"]
+
+    var legend = svg2.append("g")
+        .attr("transform", "translate(0," + (height2 - 10) + ")")
+        .attr("class", "legend");
+
+    legend.selectAll("rect")
+        .data(color.range().map(function (d, i) {
+            return {
+                x0: i ? width2 / 6 * i : width2 / 6 * i,
+                x1: i ? width2 / 6 * i + width2 / 6 : width2 / 6 * i + width2 / 6,
+                z: d
+            };
+        }))
+        .enter().append("rect")
+        .attr("class", "bars")
+        .attr("height", 10)
+        .attr("x", d => d.x0)
+        .attr("width", d => canvasWidth2 / 6)
+        .style("fill", d => d.z);
+
+    legend.append("text")
+        .attr("class", "label")
+        .attr("x", 0)
+        .attr("y", -10)
+        .text("Full Time Average Salary in USD");
+
+    legend.selectAll("text")
+        .data(legend_labels)
+        .enter().append("text")
+        .attr("class", "label")
+        .attr("x", (d, i) => width2 / 6 * (i - 1) + 10)
+        .attr("y", 30)
+        .text(d => d);
 }
 
 // line chart
@@ -423,9 +455,9 @@ function graph3(data) {
         width = 600 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
-    const svg = d3
-        .select("#salary")
+    const svg = d3.select("#salary")
         .append("svg")
+        .attr("id", "#salary_svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
         .append("g")
