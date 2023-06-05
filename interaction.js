@@ -148,6 +148,18 @@ function graph1(data) {
         width = canvasWidth - margin.left - margin.right,
         height = canvasHeight - margin.top - margin.bottom;
 
+    const tooltip = d3.select("#remote")
+        .append("div")
+        .attr("id", "remote-tooltip")
+        .style("opacity", 0)
+        .style("position", "absolute")
+        .style("background-color", "white")
+        .style("border", "solid")
+        .style("border-width", "1px")
+        .style("border-radius", "5px")
+        .style("position", "absolute")
+        .style("padding", "5px");
+
     const svg = d3
         .select("#remote-svg")
         .attr("width", width + margin.left + margin.right)
@@ -159,17 +171,10 @@ function graph1(data) {
         .domain([0, 1, 2])
         .range(["#98abc5", "#8a89a6", "#7b6888"]);
 
-    let groups = svg.selectAll(".gbars")
-        .data(result)
-        .enter()
-        .append('g')
-        .attr('class', 'gbars')
-        .style('fill', (d, i) => colorScale(i));
-
     const xScale = d3.scaleBand()
         .domain(years)
         .range([margin.left, width - margin.right])
-        .padding(0.1);
+        .padding(0.2);
 
     const yScale = d3.scaleLinear()
         .domain([0, 1])
@@ -183,7 +188,13 @@ function graph1(data) {
         .attr("transform", `translate(${margin.left}, 0)`)
         .call(d3.axisLeft(yScale));
 
-    groups.selectAll("rect")
+    svg.selectAll(".gbars")
+        .data(result)
+        .enter()
+        .append('g')
+        .attr('class', 'gbars')
+        .style('fill', (d, i) => colorScale(i))
+        .selectAll("rect")
         .data(d => d)
         .enter()
         .append("rect")
@@ -191,15 +202,27 @@ function graph1(data) {
         .attr("y", d => yScale(d[1]))
         .attr("height", d => yScale(d[0]) - yScale(d[1]))
         .attr("width", xScale.bandwidth())
-        .on("mouseover", function (d, i) {
+        .on("mouseover", function (e, d) {
             d3.select(this)
                 .style("stroke", "black")
                 .style("stroke-width", "2");
-
+            tooltip
+                .html(
+                    "Work Year: " + d.data.work_year + "<br>" +
+                    "Remote Ratio: " + (d[1] - d[0]).toFixed(2)
+                )
+                .style("opacity", 1)
+                .style("left", (e.pageX + 10) + "px")
+                .style("top", (e.pageY + 10) + "px");
         })
-        .on("mouseout", function (d, i) {
-            d3.select(this)
-                .style("stroke", "none");
+        .on("mouseout", function (d) {
+            tooltip.style("opacity", 0);
+            d3.select(this).style("stroke", "none");
+        })
+        .on("mousemove", function (e, d) {
+            tooltip
+                .style("left", (e.pageX + 10) + "px")
+                .style("top", (e.pageY + 10) + "px");
         });
 
     svg.append("text")
@@ -242,19 +265,18 @@ function graph2(data) {
         width = canvasWidth - margin.left - margin.right,
         height = canvasHeight - margin.top - margin.bottom;
 
-    d3.select("#region")
-        .append("p")
-        .attr("text-anchor", "middle")
-        .style("font-size", "16px")
-        .text("Average Salary For Full Time Jobs in 2023");
+    // d3.select("#region")
+    //     .append("p")
+    //     .attr("text-anchor", "middle")
+    //     .style("font-size", "16px")
+    //     .text("Average Salary For Full Time Jobs in 2023");
 
     const svg = d3
-        .select("#region")
-        .append("svg")
+        .select("#region-svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
         .append("g")
-        .attr("transform", `translate(${margin.left}, ${margin.top})`);
+        .attr("transform", `translate(${margin.left}, 0)`);
 
     var color = d3.scaleQuantize()
         .domain(d3.extent(avg_sal.values()))
@@ -306,7 +328,7 @@ function graph2(data) {
         .style("border-width", "1px")
         .style("border-radius", "5px")
         .style("position", "absolute")
-        .style("padding", "5px");;
+        .style("padding", "5px");
 
     const worldmap = d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
 
@@ -370,8 +392,7 @@ function graph2(data) {
         height2 = canvasHeight2 - margin2.top - margin2.bottom;
 
     const svg2 = d3
-        .select("#region")
-        .append("svg")
+        .select("#legend-svg")
         .attr("width", width2 + margin2.left + margin2.right)
         .attr("height", height2 + margin2.top + margin2.bottom)
         .append("g")
@@ -419,45 +440,25 @@ function graph3(data) {
     const avg_sal = d3.rollup(
         data3,
         (v) => d3.mean(v, (d) => d.salary_in_usd),
-        (d) => d.work_year,
-        (d) => d.experience_level
+        (d) => d.experience_level,
+        (d) => d.work_year
     )
     console.log(avg_sal);
-    // const avg_sal2 = d3.rollup(
-    //     data3,
-    //     (v) => d3.mean(v, (d) => d.salary_in_usd),
-    //     (d) => d.experience_level,
-    //     (d) => d.work_year
-    // )
+
     let avg = [];
     Array.from(avg_sal, (
         [key, value]) => (
         value.forEach((v, i) => {
-            avg.push({ work_year: key, experience_level: i, avg_sal: v })
-        }
-        )
-    )
-    );
+            avg.push({ work_year: i, experience_level: key, avg_sal: v })
+        })
+    ));
     console.log(avg);
-    // let prop = [];
-    // for (let [key, value] of avg_sal) {
-    //     prop.push({ work_year: key, prop_0: 0, prop_50: 0, prop_100: 0 });
-    // }
-
-    // const en = avg_sal2.get('EN');
-    // const mi = avg_sal2.get('MI');
-    // const se = avg_sal2.get('SE');
-    // const ex = avg_sal2.get('EX');
-    // console.log(Array.from(avg_sal2, ([name, value]) => ({ name, value })));
-    const years = Array.from(avg_sal.keys()).sort((a, b) => a - b);
 
     const margin = { top: 20, right: 20, bottom: 20, left: 30 },
         width = 600 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
-    const svg = d3.select("#salary")
-        .append("svg")
-        .attr("id", "#salary_svg")
+    const svg = d3.select("#salary-svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
         .append("g")
@@ -471,13 +472,12 @@ function graph3(data) {
     }
 
     const xScale = d3.scaleBand()
-        // .domain([2020, 2021, 2022, 2023])
-        .domain(years)
+        .domain([2020, 2021, 2022, 2023])
+        // .domain(years)
         .range([margin.left, width - margin.right])
         .padding(0.1);
 
     const yScale = d3.scaleLinear()
-        // .domain([0, d3.max(Array.from(avg_sal2.values()).map((d) => d3.max(Array.from(d.values()))))])
         .domain([0, d3.max(Array.from(avg_sal.values()).map((d) => d3.max(Array.from(d.values()))))])
         .range([height - margin.bottom, margin.top]);
 
@@ -498,44 +498,48 @@ function graph3(data) {
         .attr("r", 5)
         .attr("fill", d => colorScale[d.experience_level]);
 
+    const line = d3.line()
+        .x(d => xScale(d[0]) + xScale.bandwidth() / 2)
+        .y(d => yScale(d[1]))
+        .curve(d3.curveMonotoneX);
 
-    // console.log(en);
-    // console.log(mi);
-    // console.log(se);
-    // console.log(ex);
-    // svg.selectAll("circle")
-    //     .data(en)
-    //     .enter()
-    //     .append("circle")
-    //     .attr("cx", (d, i) => xScale(d[0]) + xScale.bandwidth() / 2)
-    //     .attr("cy", (d) => yScale(d[1]))
-    //     .attr("r", 5)
-    //     .attr("fill", colorScale['EN']);
+    svg.append("path")
+        .datum(Array.from(avg_sal.get('EN')).sort((a, b) => a[0] - b[0]))
+        .attr("fill", "none")
+        .attr("stroke", colorScale['EN'])
+        .attr("stroke-width", 1.5)
+        .attr("d", line);
 
-    // svg.selectAll("circle")
-    //     .data(mi)
-    //     .enter()
-    //     .append("circle")
-    //     .attr("cx", (d, i) => xScale(d[0]) + xScale.bandwidth() / 2)
-    //     .attr("cy", (d) => yScale(d[1]))
-    //     .attr("r", 5)
-    //     .attr("fill", colorScale['MI']);
+    svg.append("path")
+        .datum(Array.from(avg_sal.get('MI')).sort((a, b) => a[0] - b[0]))
+        .attr("fill", "none")
+        .attr("stroke", colorScale['MI'])
+        .attr("stroke-width", 1.5)
+        .attr("d", line);
 
-    // svg.selectAll("circle")
-    //     .data(se)
-    //     .enter()
-    //     .append("circle")
-    //     .attr("cx", (d, i) => xScale(d[0]) + xScale.bandwidth() / 2)
-    //     .attr("cy", (d) => yScale(d[1]))
-    //     .attr("r", 5)
-    //     .attr("fill", colorScale['SE']);
+    svg.append("path")
+        .datum(Array.from(avg_sal.get('SE')).sort((a, b) => a[0] - b[0]))
+        .attr("fill", "none")
+        .attr("stroke", colorScale['SE'])
+        .attr("stroke-width", 1.5)
+        .attr("d", line);
 
-    // svg.selectAll("circle")
-    //     .data(ex)
+    svg.append("path")
+        .datum(Array.from(avg_sal.get('EX')).sort((a, b) => a[0] - b[0]))
+        .attr("fill", "none")
+        .attr("stroke", colorScale['EX'])
+        .attr("stroke-width", 1.5)
+        .attr("d", line);
+    // const lines = svg.append("g")
+    //     .attr("class", "lines");
+
+    // lines.selectAll(".line-group")
+    //     .data(Array.from(avg_sal.values()))
     //     .enter()
-    //     .append("circle")
-    //     .attr("cx", (d, i) => xScale(d[0]) + xScale.bandwidth() / 2)
-    //     .attr("cy", (d) => yScale(d[1]))
-    //     .attr("r", 5)
-    //     .attr("fill", colorScale['EX']);
+    //     .append("g")
+    //     .append("path")
+    //     .attr("d", d => line(Array.from(d.entries())))
+    //     .style("stroke", (d, i) => colorScale[Array.from(avg_sal.keys())[i]])
+    //     .style("opacity", 0.5);
+
 }
