@@ -1,6 +1,11 @@
-/* body {
-  background-color: #d7f0f1b9;
-} */
+html {
+  scroll-behavior: smooth;
+}
+
+.category {
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+}
 
 h3 {
   text-align: center;
@@ -29,6 +34,7 @@ p {
 }
 
 #remote {
+  opacity: 1;
   display: flex;
   align-items: center;
 }
