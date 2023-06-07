@@ -34,15 +34,17 @@ def sub_category(x):
         return 'Business'
     else:
         return 'Others'
-    
+
 data['category'] = data['job_title'].apply(category)
 data['sub_category'] = data['job_title'].apply(sub_category)
 
 def assign_full_category(row):
-    if row['sub_category'] != 'Others':
+    if row['sub_category'] != 'Others' and row['category'] != 'Others':
         return row['sub_category'] + ' Data ' + row['category']
-    else:
+    elif row['category'] != 'Others':
         return 'Data ' + row['category']
+    else:
+        return 'Others'
 
 data['full_category'] = data.apply(assign_full_category, axis=1)
 

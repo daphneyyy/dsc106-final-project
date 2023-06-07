@@ -113,3 +113,8 @@ h3 {
   margin-top: auto;
 }
 
+#salary-by-jobs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

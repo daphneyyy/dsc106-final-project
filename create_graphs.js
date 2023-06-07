@@ -699,41 +699,59 @@ function graph3(data) {
         .text("Salary in USD");
 }
 
-// force directed graph
 function graph4(data) {
-    // data[['category', 'full_category', 'salary_in_usd']]
-    const data4 = d3.rollup(
+    const mean_sal_by_cat = d3.rollup(
         data,
         v => d3.mean(v, d => d.salary_in_usd),
         d => d.category
     )
-    // console.log(data4)
-    // console.log(data)
 
+    const mean_sal_by_subcat = d3.rollup(
+        data,
+        v => d3.mean(v, d => d.salary_in_usd),
+        d => d.category,
+        d => d.full_category
+    )
+    console.log(mean_sal_by_subcat)
     var uniquePairs = new Set();
+    var uniqueCategories = new Set();
+    var uniqueFullCategories = new Set();
     data.forEach(d => {
         var pair = d.category + "|" + d.full_category;
         uniquePairs.add(pair);
+        uniqueCategories.add(d.category);
+        if (d.category !== d.full_category) {
+            uniqueFullCategories.add(d.full_category)
+        }
     });
     var uniquePairsArray = Array.from(uniquePairs).map(pair => {
         var [category, full_category] = pair.split("|");
         return { category: category, full_category: full_category };
     });
 
-    // console.log(uniquePairsArray);
-
-    var nodes = [];
+    console.log(uniquePairsArray);
+    var nodes = [{ id: "Data Science Jobs" }];
     var links = [];
 
     // Create nodes and links from the data
-    uniquePairsArray.forEach(pair => {
-        nodes.push({ id: pair.category });
-        nodes.push({ id: pair.full_category });
-        links.push({ source: pair.category, target: pair.full_category });
+    uniqueCategories.forEach(function (category) {
+        nodes.push({ id: category });
+        links.push({ source: 'Data Science Jobs', 
+        target: category, 
+        value: mean_sal_by_cat.get(category) });
     });
-
-    console.log(nodes);
-    console.log(links);
+    uniqueFullCategories.forEach(function (full_category) {
+        nodes.push({ id: full_category });
+    });
+    uniquePairsArray.forEach(pair => {
+        if (pair.category !== pair.full_category) {
+            links.push({
+                source: pair.category,
+                target: pair.full_category,
+                value: mean_sal_by_subcat.get(pair.category).get(pair.full_category)
+            });
+        }
+    });
 
     const graph = {
         nodes: nodes,
@@ -741,52 +759,88 @@ function graph4(data) {
     }
 
     const margin = { top: 20, right: 40, bottom: 20, left: 40 },
-        width = 1000 - margin.left - margin.right,
-        height = 1000 - margin.top - margin.bottom;
-
-    const colorScale = d3.scaleOrdinal()
-        .domain(data4.keys())
-        .range(d3.schemeCategory10);
+        width = 700 - margin.left - margin.right,
+        height = 700 - margin.top - margin.bottom;
 
     const simulation = d3.forceSimulation(graph.nodes)
-        .force("link", d3.forceLink(graph.links).id(d => d.id).distance(100))
+        .force("link", d3.forceLink(graph.links).id(d => d.id))
         .force("charge", d3.forceManyBody().strength(-100))
         .force("center", d3.forceCenter(width / 2, height / 2));
 
-    const svg = d3.select("#force-svg")
+    const svg = d3
+        .select("#force-svg")
         .attr("width", width)
         .attr("height", height)
         .append("g")
         .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-    //create links
+    const colorScale = d3
+        .scaleOrdinal()
+        .domain(mean_sal_by_cat.keys())
+        .range(d3.schemeSet3);
+
+    const thickness = d3
+        .scaleLinear()
+        .domain(d3.extent(graph.links.map(d => d.value)))
+        .range([2, 6]);
+
+    // Create links
     const link = svg
         .selectAll("line")
         .data(graph.links)
         .enter()
         .append("line")
         .attr("stroke", "lightgray")
-        .attr("stroke-width", 1);
+        .attr("stroke-width", d => thickness(d.value));
 
-    //create nodes
+    // Create nodes
     const node = svg
         .selectAll("circle")
         .data(graph.nodes)
         .enter()
         .append("circle")
-        .attr("r", 5)
-        // .attr("fill", d => colorScale(d.id));
-        .style("fill", "#40B5AD");
+        .attr("r", 12)
+        .attr("fill", d => (d.id === "Data Science Jobs" ? "blue" : colorScale(d.id)))
+        .call(d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended)
+        );
+
+    // Add text to nodes
+    const texts = svg
+        .selectAll("text")
+        .data(graph.nodes)
+        .enter()
+        .append("text")
+        .text(d => d.id)
+        .attr("font-size", 12)
+        .attr("dx", 15)
+        .attr("dy", 4);
 
     simulation.on("tick", function () {
-        link
-            .attr("x1", d => d.source.x)
-            .attr("y1", d => d.source.y + 20)
+        link.attr("x1", d => d.source.x)
+            .attr("y1", d => d.source.y)
             .attr("x2", d => d.target.x)
-            .attr("y2", d => d.target.y + 20);
-
-        node
-            .attr("cx", d => d.x)
-            .attr("cy", d => d.y + 20);
+            .attr("y2", d => d.target.y);
+        node.attr("cx", d => d.x).attr("cy", d => d.y);
+        texts.attr("x", d => d.x).attr("y", d => d.y);
     });
+
+    function dragstarted(event, d) {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+    }
+
+    function dragged(event, d) {
+        d.fx = event.x;
+        d.fy = event.y;
+    }
+
+    function dragended(event, d) {
+        if (!event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+    }
 }
