@@ -290,7 +290,7 @@ function graph2(data) {
     svg.call(zoom);
 
     // Reset button functionality
-    const resetButton = d3.select("#region")
+    const resetButton = d3.select(".buttons")
         .append("button")
         .attr("id", "reset-button")
         .text("Reset");
@@ -299,7 +299,7 @@ function graph2(data) {
     });
 
     // Zoom in button functionality
-    const zoomInButton = d3.select("#region")
+    const zoomInButton = d3.select(".buttons")
         .append("button")
         .attr("id", "zoom-in-button")
         .text("Zoom In");
@@ -308,7 +308,7 @@ function graph2(data) {
     });
 
     // Zoom out button functionality
-    const zoomOutButton = d3.select("#region")
+    const zoomOutButton = d3.select(".buttons")
         .append("button")
         .attr("id", "zoom-out-button")
         .text("Zoom Out");
@@ -443,7 +443,6 @@ function graph3(data) {
         (d) => d.experience_level,
         (d) => d.work_year
     )
-    console.log(avg_sal);
 
     let avg = [];
     Array.from(avg_sal, (
@@ -452,11 +451,22 @@ function graph3(data) {
             avg.push({ work_year: i, experience_level: key, avg_sal: v })
         })
     ));
-    console.log(avg);
 
-    const margin = { top: 20, right: 20, bottom: 20, left: 30 },
+    const margin = { top: 20, right: 20, bottom: 20, left: 40 },
         width = 600 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
+
+    const tooltip = d3.select("#salary")
+        .append("div")
+        .attr("id", "salary-tooltip")
+        .style("opacity", 0)
+        .style("position", "absolute")
+        .style("background-color", "white")
+        .style("border", "solid")
+        .style("border-width", "1px")
+        .style("border-radius", "5px")
+        .style("position", "absolute")
+        .style("padding", "5px");
 
     const svg = d3.select("#salary-svg")
         .attr("width", width + margin.left + margin.right)
@@ -473,12 +483,11 @@ function graph3(data) {
 
     const xScale = d3.scaleBand()
         .domain([2020, 2021, 2022, 2023])
-        // .domain(years)
         .range([margin.left, width - margin.right])
         .padding(0.1);
 
     const yScale = d3.scaleLinear()
-        .domain([0, d3.max(Array.from(avg_sal.values()).map((d) => d3.max(Array.from(d.values()))))])
+        .domain([0, d3.max(Array.from(avg_sal.values()).map((d) => d3.max(Array.from(d.values())))) + 10000])
         .range([height - margin.bottom, margin.top]);
 
     svg.append("g")
@@ -489,6 +498,32 @@ function graph3(data) {
         .attr("transform", `translate(${margin.left}, 0)`)
         .call(d3.axisLeft(yScale));
 
+
+    function add_xy_lines(d) {
+        // Add vertical line
+        svg.append("line")
+            .attr("class", "x-line")
+            // .attr("class", "x-line-" + d.experience_level) // Add class based on experience level
+            .attr("x1", xScale(d.work_year) + xScale.bandwidth() / 2)
+            .attr("x2", xScale(d.work_year) + xScale.bandwidth() / 2)
+            .attr("y1", yScale(d.avg_sal))
+            .attr("y2", height - margin.bottom)
+            .attr("stroke", "black")
+            .attr("stroke-dasharray", "3,3");
+
+        // Add horizontal line
+        svg.append("line")
+            .attr("class", "y-line")
+            // .attr("class", "y-line-" + d.experience_level) // Add class based on experience level
+            .attr("y1", yScale(d.avg_sal))
+            .attr("y2", yScale(d.avg_sal))
+            .attr("x1", margin.left)
+            .attr("x2", xScale(d.work_year) + xScale.bandwidth() / 2)
+            .attr("stroke", "black")
+            .attr("stroke-dasharray", "3,3");
+    }
+
+
     svg.selectAll("circle")
         .data(avg)
         .enter()
@@ -496,7 +531,54 @@ function graph3(data) {
         .attr("cx", d => xScale(d.work_year) + xScale.bandwidth() / 2)
         .attr("cy", d => yScale(d.avg_sal))
         .attr("r", 5)
-        .attr("fill", d => colorScale[d.experience_level]);
+        .attr("class", d => d.experience_level)
+        .attr("fill", d => colorScale[d.experience_level])
+        // .on("mouseover", function (e, d) {
+        //     d3.select(this).attr("r", 8);
+        //     tooltip
+        //         .html(
+        //             "Year: " + d.work_year + "<br>" +
+        //             "Experience Level: " + d.experience_level + "<br>" +
+        //             "Average Salary: $" + d.avg_sal.toLocaleString()
+        //         )
+        //         .style("opacity", 1)
+        //         .style("left", (e.pageX + 10) + "px")
+        //         .style("top", (e.pageY + 10) + "px");
+
+        //     add_xy_lines(d);
+        // })
+        .on("mouseover", function (e, d) {
+            const lineOpacity = d3.select("." + d.experience_level).style("opacity");
+            if (lineOpacity !== "0") {
+                d3.select(this).attr("r", 8);
+                tooltip
+                    .html(
+                        "Year: " + d.work_year + "<br>" +
+                        "Experience Level: " + d.experience_level + "<br>" +
+                        "Average Salary: $" + d.avg_sal.toLocaleString()
+                    )
+                    .style("opacity", 1)
+                    .style("left", (e.pageX + 10) + "px")
+                    .style("top", (e.pageY + 10) + "px");
+                add_xy_lines(d);
+            }
+        })
+        .on("mouseout", function () {
+            d3.select(this).attr("r", 5);
+            tooltip.style("opacity", 0);
+            svg.selectAll(".x-line").remove();
+            svg.selectAll(".y-line").remove();
+        })
+        .on("mousemove", function (e, d) {
+            const lineOpacity = d3.select("." + d.experience_level).style("opacity");
+            if (lineOpacity !== "0") {
+                tooltip
+                    .style("left", (e.pageX + 10) + "px")
+                    .style("top", (e.pageY + 10) + "px");
+
+                add_xy_lines(d);
+            }
+        });
 
     const line = d3.line()
         .x(d => xScale(d[0]) + xScale.bandwidth() / 2)
@@ -505,6 +587,7 @@ function graph3(data) {
 
     svg.append("path")
         .datum(Array.from(avg_sal.get('EN')).sort((a, b) => a[0] - b[0]))
+        .attr("class", "EN")
         .attr("fill", "none")
         .attr("stroke", colorScale['EN'])
         .attr("stroke-width", 1.5)
@@ -512,6 +595,7 @@ function graph3(data) {
 
     svg.append("path")
         .datum(Array.from(avg_sal.get('MI')).sort((a, b) => a[0] - b[0]))
+        .attr("class", "MI")
         .attr("fill", "none")
         .attr("stroke", colorScale['MI'])
         .attr("stroke-width", 1.5)
@@ -519,6 +603,7 @@ function graph3(data) {
 
     svg.append("path")
         .datum(Array.from(avg_sal.get('SE')).sort((a, b) => a[0] - b[0]))
+        .attr("class", "SE")
         .attr("fill", "none")
         .attr("stroke", colorScale['SE'])
         .attr("stroke-width", 1.5)
@@ -526,20 +611,69 @@ function graph3(data) {
 
     svg.append("path")
         .datum(Array.from(avg_sal.get('EX')).sort((a, b) => a[0] - b[0]))
+        .attr("class", "EX")
         .attr("fill", "none")
         .attr("stroke", colorScale['EX'])
         .attr("stroke-width", 1.5)
         .attr("d", line);
-    // const lines = svg.append("g")
-    //     .attr("class", "lines");
 
-    // lines.selectAll(".line-group")
-    //     .data(Array.from(avg_sal.values()))
-    //     .enter()
-    //     .append("g")
-    //     .append("path")
-    //     .attr("d", d => line(Array.from(d.entries())))
-    //     .style("stroke", (d, i) => colorScale[Array.from(avg_sal.keys())[i]])
-    //     .style("opacity", 0.5);
+    // Add a legend (interactive)
+    svg.selectAll("legends")
+        .data(Object.keys(colorScale))
+        .enter()
+        .append('g')
+        .append("text")
+        .attr('x', (d, i) => 100 + i * 100)
+        .attr('y', 30)
+        .text(d => d)
+        .style("fill", d => colorScale[d])
+        .style("font-size", 15)
+        .on("click", function (d) {
+            var ele = d.srcElement.__data__
+            var elements = d3.selectAll("." + ele)
+            elements.transition().style("opacity", function () {
+                return elements.style("opacity") == 1 ? 0 : 1;
+            });
+        })
+
+    svg.selectAll("legends")
+        .data(Object.keys(colorScale))
+        .enter()
+        .append('g')
+        .append("rect")
+        .attr('x', (d, i) => 80 + i * 100)
+        .attr('y', 20)
+        .attr('width', 10)
+        .attr('height', 10)
+        .style("fill", d => colorScale[d])
+        .on("click", function (d) {
+            var ele = d.srcElement.__data__
+            var elements = d3.selectAll("." + ele)
+            elements.transition().style("opacity", function () {
+                return elements.style("opacity") == 1 ? 0 : 1;
+            });
+        })
+
+    svg.append("text")
+        .attr("x", (width / 2))
+        .attr("y", 0 - (margin.top / 2) + 5)
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px")
+        .text("Full Time Average Salary in USD");
+
+    svg.append("text")
+        .attr("x", (width / 2))
+        .attr("y", height - margin.bottom + 30)
+        .attr("text-anchor", "middle")
+        .style("font-size", "15px")
+        .text("Work Year");
+
+    svg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("x", 0 - (height / 2) - 20)
+        .attr("y", 0 - margin.left + 25)
+        .attr("text-anchor", "middle")
+        .style("font-size", "15px")
+        .text("Salary in USD");
 
 }
