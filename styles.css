@@ -2,11 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-h3 {
-  text-align: center;
-  margin-top: 20px;
-}
-
 p {
   font-family: 'Trebuchet MS';
   text-align: justify;
@@ -17,11 +12,17 @@ p {
 #title {
   text-align: center;
   margin-top: 50px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Trebuchet MS';
 }
 
 #title h1 {
   font-size: 32px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Trebuchet MS';
 }
 
 #intro {
@@ -70,18 +71,15 @@ p {
   margin-left: 50px;
 }
 
-/* #region {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-} */
-
 #region {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#map-title {
+  text-align: center;
+  margin-top: 50px;
 }
 
 #table {

@@ -89,9 +89,11 @@ function finalProj() {
         graph1(data1);
         graph2(result);
         graph3(data1);
+        graph4(data1);
     });
 }
 
+// bars
 function graph1(data) {
     // preprocess data
     const remote2 = d3.rollup(
@@ -230,7 +232,7 @@ function graph1(data) {
                 .style("top", (e.pageY + 10) + "px");
         })
         .on("mouseout", function (d) {
-            tooltip.style("opacity", 0);
+            tooltip.style("opacity", 0).style("left", 0).style("top", 0);
             d3.select(this).style("stroke", "none");
         })
         .on("mousemove", function (e, d) {
@@ -293,17 +295,11 @@ function graph2(data) {
     )
 
     var canvasWidth = 1000,
-        canvasHeight = 550
+        canvasHeight = 500
 
     const margin = { top: 20, right: 20, bottom: 10, left: 30 },
         width = canvasWidth - margin.left - margin.right,
         height = canvasHeight - margin.top - margin.bottom;
-
-    // d3.select("#region")
-    //     .append("p")
-    //     .attr("text-anchor", "middle")
-    //     .style("font-size", "16px")
-    //     .text("Average Salary For Full Time Jobs in 2023");
 
     const svg = d3
         .select("#region-svg")
@@ -694,4 +690,8 @@ function graph3(data) {
         .attr("text-anchor", "middle")
         .style("font-size", "15px")
         .text("Salary in USD");
+}
+
+// force directed graph
+function graph4(data) {
 }

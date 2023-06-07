@@ -41,7 +41,7 @@ window.addEventListener("scroll", function () {
     var scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
     var salaryPosition = document.getElementById("salary").offsetTop;
     var regionPosition = document.getElementById("region").offsetTop;
-    var scrollThreshold = 300;
+    var scrollThreshold = window.innerHeight / 2;
     if (scrollPosition >= 0 && scrollPosition < salaryPosition - scrollThreshold) {
         showSection("remote");
         hideSection("salary");
