@@ -2,11 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.category {
-  opacity: 0;
-  transition: opacity 0.5s, transform 0.5s;
-}
-
 h3 {
   text-align: center;
   margin-top: 20px;
@@ -16,6 +11,7 @@ p {
   font-family: 'Trebuchet MS';
   text-align: justify;
   font-size: 20px;
+  margin: 20px;
 }
 
 #title {
@@ -33,6 +29,11 @@ p {
   margin: 20px;
 }
 
+.category {
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
 #remote {
   opacity: 1;
   display: flex;
@@ -48,6 +49,7 @@ p {
 
 #remote p {
   flex-grow: 1;
+  margin-right: 50px;
 }
 
 /* salary */
@@ -65,4 +67,51 @@ p {
 
 #salary p {
   flex-grow: 1;
+  margin-left: 50px;
 }
+
+/* #region {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} */
+
+#region {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#table {
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.buttons button {
+  margin-bottom: 10px; /* Add desired spacing between buttons */
+  border-radius: 50%;
+  background-color: #3da272; 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#legend-svg {
+  margin-top: auto;
+}
+

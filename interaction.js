@@ -1,13 +1,11 @@
 function showSection(sectionId) {
     var section = document.getElementById(sectionId);
     section.style.opacity = "1";
-    section.style.transform = "translateY(0)";
 }
 
 function hideSection(sectionId) {
     var section = document.getElementById(sectionId);
     section.style.opacity = "0";
-    section.style.transform = "translateY(100px)";
 }
 
 function smoothScroll(targetId) {
@@ -43,7 +41,7 @@ window.addEventListener("scroll", function () {
     var scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
     var salaryPosition = document.getElementById("salary").offsetTop;
     var regionPosition = document.getElementById("region").offsetTop;
-    var scrollThreshold = 200;
+    var scrollThreshold = 300;
     if (scrollPosition >= 0 && scrollPosition < salaryPosition - scrollThreshold) {
         showSection("remote");
         hideSection("salary");

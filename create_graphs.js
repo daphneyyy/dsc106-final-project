@@ -336,7 +336,7 @@ function graph2(data) {
     const zoomInButton = d3.select(".buttons")
         .append("button")
         .attr("id", "zoom-in-button")
-        .text("Zoom In");
+        .text("+");
     zoomInButton.on("click", function () {
         svg.transition().duration(500).call(zoom.scaleBy, 1.2);
     });
@@ -345,7 +345,7 @@ function graph2(data) {
     const zoomOutButton = d3.select(".buttons")
         .append("button")
         .attr("id", "zoom-out-button")
-        .text("Zoom Out");
+        .text("-");
     zoomOutButton.on("click", function () {
         svg.transition().duration(500).call(zoom.scaleBy, 0.8);
     });
@@ -499,7 +499,6 @@ function graph3(data) {
         .style("border", "solid")
         .style("border-width", "1px")
         .style("border-radius", "5px")
-        .style("position", "absolute")
         .style("padding", "5px");
 
     const svg = d3.select("#salary-svg")
@@ -584,7 +583,7 @@ function graph3(data) {
         })
         .on("mouseout", function () {
             d3.select(this).attr("r", 5);
-            tooltip.style("opacity", 0);
+            tooltip.style("opacity", 0).style("left", 0).style("top", 0);
             svg.selectAll(".x-line").remove();
             svg.selectAll(".y-line").remove();
         })
@@ -644,6 +643,7 @@ function graph3(data) {
         .data(Object.keys(colorScale))
         .enter()
         .append("g")
+        .attr("cursor", "pointer")
         .on("click", function (d) {
             var ele = d.srcElement.__data__
             var elements = d3.selectAll("." + ele)
@@ -655,12 +655,11 @@ function graph3(data) {
             });
         })
 
-    legend.append("rect")
+    legend.append("circle")
         .attr("class", d => "legend-" + d)
-        .attr('x', (d, i) => 80 + i * 100)
-        .attr('y', 20)
-        .attr('width', 10)
-        .attr('height', 10)
+        .attr('cx', (d, i) => i * 100 + 90)
+        .attr('cy', 25)
+        .attr('r', 6)
         .style("fill", d => colorScale[d]);
 
     legend.append("text")
