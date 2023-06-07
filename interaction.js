@@ -144,7 +144,7 @@ function graph1(data) {
     var canvasWidth = 600,
         canvasHeight = 500
 
-    const margin = { top: 20, right: 20, bottom: 20, left: 30 },
+    const margin = { top: 20, right: 60, bottom: 20, left: 30 },
         width = canvasWidth - margin.left - margin.right,
         height = canvasHeight - margin.top - margin.bottom;
 
@@ -223,6 +223,34 @@ function graph1(data) {
             tooltip
                 .style("left", (e.pageX + 10) + "px")
                 .style("top", (e.pageY + 10) + "px");
+        });
+
+    const legend = svg.append("g")
+        .attr("font-size", 12)
+        .selectAll("g")
+        .data(obs)
+        .enter()
+        .append("g")
+        .attr("transform", (d, i) => `translate(0, ${margin.top + i * height / 20})`);
+
+    legend.append("rect")
+        .attr("x", width - margin.right)
+        .attr("width", height / 20 - 1)
+        .attr("height", height / 20 - 1)
+        .attr("fill", (d, i) => colorScale(i));
+
+    legend.append("text")
+        .attr("x", width - margin.right + height / 20)
+        .attr("y", height / 40 - 1)
+        .attr("dy", "0.32em")
+        .text(d => {
+            if (d == "prop_0") {
+                return "No remote work";
+            } else if (d == "prop_50") {
+                return "Hybird";
+            } else {
+                return "Fully remote";
+            }
         });
 
     svg.append("text")
@@ -436,14 +464,14 @@ function graph2(data) {
 
 // line chart
 function graph3(data) {
+    // preprocess data
     const data3 = data.filter((d) => d.employment_type = 'FT')
     const avg_sal = d3.rollup(
         data3,
         (v) => d3.mean(v, (d) => d.salary_in_usd),
         (d) => d.experience_level,
         (d) => d.work_year
-    )
-
+    );
     let avg = [];
     Array.from(avg_sal, (
         [key, value]) => (
@@ -452,7 +480,7 @@ function graph3(data) {
         })
     ));
 
-    const margin = { top: 20, right: 20, bottom: 20, left: 40 },
+    const margin = { top: 20, right: 40, bottom: 20, left: 40 },
         width = 600 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
@@ -487,7 +515,7 @@ function graph3(data) {
         .padding(0.1);
 
     const yScale = d3.scaleLinear()
-        .domain([0, d3.max(Array.from(avg_sal.values()).map((d) => d3.max(Array.from(d.values())))) + 10000])
+        .domain([0, d3.max(Array.from(avg_sal.values()).map((d) => d3.max(Array.from(d.values())))) + 20000])
         .range([height - margin.bottom, margin.top]);
 
     svg.append("g")
@@ -498,12 +526,10 @@ function graph3(data) {
         .attr("transform", `translate(${margin.left}, 0)`)
         .call(d3.axisLeft(yScale));
 
-
     function add_xy_lines(d) {
         // Add vertical line
         svg.append("line")
             .attr("class", "x-line")
-            // .attr("class", "x-line-" + d.experience_level) // Add class based on experience level
             .attr("x1", xScale(d.work_year) + xScale.bandwidth() / 2)
             .attr("x2", xScale(d.work_year) + xScale.bandwidth() / 2)
             .attr("y1", yScale(d.avg_sal))
@@ -514,7 +540,6 @@ function graph3(data) {
         // Add horizontal line
         svg.append("line")
             .attr("class", "y-line")
-            // .attr("class", "y-line-" + d.experience_level) // Add class based on experience level
             .attr("y1", yScale(d.avg_sal))
             .attr("y2", yScale(d.avg_sal))
             .attr("x1", margin.left)
@@ -523,7 +548,7 @@ function graph3(data) {
             .attr("stroke-dasharray", "3,3");
     }
 
-
+    // add points
     svg.selectAll("circle")
         .data(avg)
         .enter()
@@ -533,20 +558,6 @@ function graph3(data) {
         .attr("r", 5)
         .attr("class", d => d.experience_level)
         .attr("fill", d => colorScale[d.experience_level])
-        // .on("mouseover", function (e, d) {
-        //     d3.select(this).attr("r", 8);
-        //     tooltip
-        //         .html(
-        //             "Year: " + d.work_year + "<br>" +
-        //             "Experience Level: " + d.experience_level + "<br>" +
-        //             "Average Salary: $" + d.avg_sal.toLocaleString()
-        //         )
-        //         .style("opacity", 1)
-        //         .style("left", (e.pageX + 10) + "px")
-        //         .style("top", (e.pageY + 10) + "px");
-
-        //     add_xy_lines(d);
-        // })
         .on("mouseover", function (e, d) {
             const lineOpacity = d3.select("." + d.experience_level).style("opacity");
             if (lineOpacity !== "0") {
@@ -555,7 +566,9 @@ function graph3(data) {
                     .html(
                         "Year: " + d.work_year + "<br>" +
                         "Experience Level: " + d.experience_level + "<br>" +
-                        "Average Salary: $" + d.avg_sal.toLocaleString()
+                        "Average Salary: " + d.avg_sal.toLocaleString(
+                            'en-US', { style: 'currency', currency: 'USD' }
+                        )
                     )
                     .style("opacity", 1)
                     .style("left", (e.pageX + 10) + "px")
@@ -580,6 +593,7 @@ function graph3(data) {
             }
         });
 
+    // add lines
     const line = d3.line()
         .x(d => xScale(d[0]) + xScale.bandwidth() / 2)
         .y(d => yScale(d[1]))
@@ -617,43 +631,41 @@ function graph3(data) {
         .attr("stroke-width", 1.5)
         .attr("d", line);
 
-    // Add a legend (interactive)
-    svg.selectAll("legends")
+    // Add legends text
+    const legend = svg.append("g")
+        .attr("font-size", 12)
+        .selectAll("g")
         .data(Object.keys(colorScale))
         .enter()
-        .append('g')
-        .append("text")
+        .append("g")
+        .on("click", function (d) {
+            var ele = d.srcElement.__data__
+            var elements = d3.selectAll("." + ele)
+            elements.transition().style("opacity", function () {
+                return elements.style("opacity") == 1 ? 0 : 1;
+            });
+            d3.selectAll(".legend-" + ele).transition().style("opacity", function () {
+                return elements.style("opacity") == 1 ? 0.4 : 1;
+            });
+        })
+
+    legend.append("rect")
+        .attr("class", d => "legend-" + d)
+        .attr('x', (d, i) => 80 + i * 100)
+        .attr('y', 20)
+        .attr('width', 10)
+        .attr('height', 10)
+        .style("fill", d => colorScale[d]);
+
+    legend.append("text")
+        .attr("class", d => "legend-" + d)
         .attr('x', (d, i) => 100 + i * 100)
         .attr('y', 30)
         .text(d => d)
         .style("fill", d => colorScale[d])
         .style("font-size", 15)
-        .on("click", function (d) {
-            var ele = d.srcElement.__data__
-            var elements = d3.selectAll("." + ele)
-            elements.transition().style("opacity", function () {
-                return elements.style("opacity") == 1 ? 0 : 1;
-            });
-        })
 
-    svg.selectAll("legends")
-        .data(Object.keys(colorScale))
-        .enter()
-        .append('g')
-        .append("rect")
-        .attr('x', (d, i) => 80 + i * 100)
-        .attr('y', 20)
-        .attr('width', 10)
-        .attr('height', 10)
-        .style("fill", d => colorScale[d])
-        .on("click", function (d) {
-            var ele = d.srcElement.__data__
-            var elements = d3.selectAll("." + ele)
-            elements.transition().style("opacity", function () {
-                return elements.style("opacity") == 1 ? 0 : 1;
-            });
-        })
-
+    // Add title
     svg.append("text")
         .attr("x", (width / 2))
         .attr("y", 0 - (margin.top / 2) + 5)
@@ -661,6 +673,7 @@ function graph3(data) {
         .style("font-size", "16px")
         .text("Full Time Average Salary in USD");
 
+    // Add x-axis label
     svg.append("text")
         .attr("x", (width / 2))
         .attr("y", height - margin.bottom + 30)
@@ -668,6 +681,7 @@ function graph3(data) {
         .style("font-size", "15px")
         .text("Work Year");
 
+    // Add y-axis label
     svg.append("text")
         .attr("transform", "rotate(-90)")
         .attr("x", 0 - (height / 2) - 20)
@@ -675,5 +689,4 @@ function graph3(data) {
         .attr("text-anchor", "middle")
         .style("font-size", "15px")
         .text("Salary in USD");
-
 }
