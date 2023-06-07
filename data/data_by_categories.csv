@@ -1,0 +1,4672 @@
+category,full_category,salary_in_usd
+Scientist,Data Scientist,20000
+Engineer,Machine Learning Data Engineer,210000
+Engineer,Machine Learning Data Engineer,190000
+Analyst,Data Analyst,95000
+Analyst,Data Analyst,70000
+Scientist,Data Scientist,195000
+Scientist,Data Scientist,119000
+Scientist,Data Scientist,216000
+Scientist,Data Scientist,184000
+Engineer,Machine Learning Data Engineer,200000
+Engineer,Machine Learning Data Engineer,160000
+Analyst,Data Analyst,80000
+Analyst,Data Analyst,70000
+Engineer,Business Intelligence Data Engineer,185000
+Engineer,Business Intelligence Data Engineer,79600
+Analyst,Data Analyst,73496
+Analyst,Data Analyst,61246
+Engineer,Data Engineer,266450
+Engineer,Data Engineer,177700
+Scientist,Data Scientist,245000
+Scientist,Data Scientist,185000
+Engineer,Machine Learning Data Engineer,247500
+Engineer,Machine Learning Data Engineer,172200
+Scientist,Data Scientist,222200
+Scientist,Data Scientist,136000
+Others,Data Others,55720
+Others,Data Others,50700
+Analyst,Business Data Analyst,56000
+Engineer,Data Engineer,370000
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,196000
+Engineer,Data Engineer,121000
+Engineer,Business Intelligence Data Engineer,202800
+Engineer,Business Intelligence Data Engineer,104300
+Architect,Data Architect,135000
+Architect,Data Architect,115000
+Engineer,Machine Learning Data Engineer,302000
+Engineer,Machine Learning Data Engineer,189000
+Analyst,Data Analyst,65000
+Analyst,Data Analyst,55000
+Engineer,Machine Learning Data Engineer,220000
+Engineer,Machine Learning Data Engineer,170000
+Engineer,Business Intelligence Data Engineer,185000
+Engineer,Business Intelligence Data Engineer,79600
+Analyst,Data Analyst,110000
+Analyst,Data Analyst,75000
+Analyst,Business Intelligence Data Analyst,150000
+Analyst,Business Intelligence Data Analyst,93000
+Analyst,Data Analyst,190000
+Engineer,Data Engineer,46177
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Scientist,Data Scientist,204500
+Scientist,Data Scientist,126400
+Engineer,Machine Learning Data Engineer,216000
+Engineer,Machine Learning Data Engineer,184000
+Analyst,Data Analyst,139600
+Analyst,Data Analyst,85700
+Scientist,Data Scientist,100000
+Scientist,Data Scientist,128750
+Scientist,Data Scientist,79350
+Analyst,Data Analyst,73496
+Analyst,Data Analyst,67371
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Analyst,Data Analyst,174000
+Analyst,Data Analyst,134000
+Engineer,Data Engineer,155000
+Engineer,Data Engineer,125000
+Engineer,Business Intelligence Data Engineer,185000
+Engineer,Business Intelligence Data Engineer,79600
+Engineer,Data Engineer,194400
+Engineer,Data Engineer,132192
+Engineer,Machine Learning Data Engineer,273400
+Engineer,Machine Learning Data Engineer,182200
+Analyst,Data Analyst,165000
+Analyst,Data Analyst,142500
+Scientist,Data Scientist,213654
+Scientist,Data Scientist,142436
+Engineer,Data Engineer,124230
+Engineer,Data Engineer,68637
+Engineer,Data Engineer,204000
+Engineer,Data Engineer,161500
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Architect,Data Architect,200000
+Architect,Data Architect,100000
+Scientist,Data Scientist,260000
+Scientist,Data Scientist,136000
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,148750
+Engineer,Machine Learning Data Engineer,226600
+Engineer,Machine Learning Data Engineer,140100
+Scientist,Data Scientist,135000
+Scientist,Data Scientist,95000
+Engineer,Machine Learning Data Engineer,287700
+Engineer,Machine Learning Data Engineer,148000
+Scientist,Data Scientist,227240
+Scientist,Data Scientist,197600
+Scientist,Data Scientist,161000
+Scientist,Data Scientist,140000
+Engineer,Machine Learning Data Engineer,221000
+Engineer,Machine Learning Data Engineer,185000
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,178500
+Engineer,Machine Learning Data Engineer,180000
+Engineer,Machine Learning Data Engineer,150000
+Analyst,Data Analyst,146100
+Analyst,Data Analyst,112400
+Analyst,Data Analyst,160000
+Analyst,Data Analyst,140000
+Architect,Data Architect,85745
+Architect,Data Architect,79620
+Engineer,Machine Learning Data Engineer,331640
+Engineer,Machine Learning Data Engineer,267720
+Engineer,Data Engineer,285000
+Engineer,Data Engineer,205000
+Engineer,Data Engineer,90000
+Analyst,Data Analyst,120350
+Analyst,Data Analyst,74400
+Engineer,Data Engineer,146000
+Engineer,Data Engineer,94000
+Engineer,Machine Learning Data Engineer,237400
+Engineer,Machine Learning Data Engineer,158200
+Engineer,Business Intelligence Data Engineer,225000
+Engineer,Business Intelligence Data Engineer,156400
+Engineer,Machine Learning Data Engineer,192000
+Engineer,Machine Learning Data Engineer,164000
+Engineer,Business Intelligence Data Engineer,150000
+Engineer,Business Intelligence Data Engineer,141000
+Scientist,Data Scientist,260000
+Scientist,Data Scientist,136000
+Scientist,Data Scientist,309400
+Scientist,Data Scientist,159100
+Analyst,Data Analyst,267000
+Analyst,Data Analyst,205000
+Architect,Data Architect,147100
+Architect,Data Architect,90700
+Analyst,Data Analyst,115000
+Analyst,Data Analyst,72000
+Analyst,Data Analyst,169000
+Analyst,Data Analyst,110600
+Analyst,Data Analyst,67371
+Analyst,Data Analyst,67371
+Engineer,Business Intelligence Data Engineer,185000
+Engineer,Business Intelligence Data Engineer,79600
+Engineer,Data Engineer,165000
+Engineer,Data Engineer,141000
+Engineer,Cloud Data Engineer,176390
+Scientist,Data Scientist,240000
+Scientist,Data Scientist,142000
+Engineer,Machine Learning Data Engineer,180000
+Engineer,Machine Learning Data Engineer,105000
+Analyst,Data Analyst,80000
+Analyst,Data Analyst,60000
+Engineer,Machine Learning Data Engineer,268000
+Engineer,Machine Learning Data Engineer,180000
+Analyst,Data Analyst,144628
+Analyst,Data Analyst,115702
+Analyst,Data Analyst,144000
+Analyst,Data Analyst,132000
+Analyst,Data Analyst,106400
+Analyst,Data Analyst,81800
+Analyst,Data Analyst,134200
+Analyst,Data Analyst,103200
+Analyst,Data Analyst,110000
+Analyst,Data Analyst,93500
+Engineer,Data Engineer,208200
+Engineer,Data Engineer,151200
+Engineer,Machine Learning Data Engineer,240000
+Engineer,Machine Learning Data Engineer,180000
+Scientist,Data Scientist,270000
+Scientist,Data Scientist,220000
+Engineer,Data Engineer,194500
+Engineer,Data Engineer,115500
+Scientist,Data Scientist,225000
+Scientist,Data Scientist,156400
+Analyst,Data Analyst,140000
+Analyst,Data Analyst,100000
+Engineer,Machine Learning Data Engineer,193600
+Engineer,Machine Learning Data Engineer,119700
+Engineer,Machine Learning Data Engineer,225000
+Engineer,Machine Learning Data Engineer,199000
+Analyst,Data Analyst,50000
+Analyst,Data Analyst,40000
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Analyst,Data Analyst,120000
+Analyst,Data Analyst,95000
+Analyst,Data Analyst,97994
+Analyst,Data Analyst,55122
+Scientist,Data Scientist,225000
+Scientist,Data Scientist,156400
+Analyst,Data Analyst,398104
+Scientist,Data Scientist,101594
+Engineer,Data Engineer,41040
+Engineer,Machine Learning Data Engineer,155000
+Engineer,Machine Learning Data Engineer,100000
+Analyst,Data Analyst,85000
+Analyst,Data Analyst,65000
+Architect,Data Architect,280100
+Architect,Data Architect,168100
+Scientist,Machine Learning Data Scientist,200000
+Scientist,Machine Learning Data Scientist,120000
+Engineer,Business Intelligence Data Engineer,185000
+Engineer,Business Intelligence Data Engineer,79600
+Engineer,Data Engineer,149040
+Engineer,Data Engineer,113900
+Engineer,Machine Learning Data Engineer,240000
+Engineer,Machine Learning Data Engineer,180000
+Scientist,Machine Learning Data Scientist,165000
+Scientist,Machine Learning Data Scientist,145000
+Scientist,Machine Learning Data Scientist,165000
+Scientist,Machine Learning Data Scientist,145000
+Architect,Data Architect,274450
+Architect,Data Architect,199600
+Engineer,Data Engineer,83500
+Engineer,Data Engineer,52500
+Developer,Business Intelligence Data Developer,140000
+Developer,Business Intelligence Data Developer,76500
+Scientist,Data Scientist,48600
+Scientist,Data Scientist,38880
+Architect,Data Architect,306000
+Architect,Data Architect,204000
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Analyst,Data Analyst,136000
+Analyst,Data Analyst,104000
+Engineer,Data Engineer,115000
+Engineer,Data Engineer,81500
+Architect,Data Architect,280000
+Scientist,Data Scientist,77405
+Scientist,Data Scientist,250000
+Scientist,Data Scientist,180000
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,70000
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,70000
+Scientist,Data Scientist,240000
+Scientist,Data Scientist,157000
+Scientist,Data Scientist,222200
+Scientist,Data Scientist,136000
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Analyst,Data Analyst,140700
+Analyst,Data Analyst,109600
+Engineer,Machine Learning Data Engineer,278000
+Engineer,Machine Learning Data Engineer,173000
+Analyst,Data Analyst,110000
+Analyst,Data Analyst,95000
+Engineer,Data Engineer,305000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,125000
+Analyst,Data Analyst,155000
+Analyst,Data Analyst,120000
+Analyst,Data Analyst,85000
+Analyst,Data Analyst,80000
+Scientist,Data Scientist,24000
+Engineer,Machine Learning Data Engineer,165400
+Engineer,Machine Learning Data Engineer,127300
+Scientist,Data Scientist,260000
+Scientist,Data Scientist,136000
+Engineer,Business Intelligence Data Engineer,259000
+Engineer,Business Intelligence Data Engineer,138750
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Engineer,Machine Learning Data Engineer,273400
+Engineer,Machine Learning Data Engineer,182200
+Scientist,Data Scientist,192000
+Scientist,Data Scientist,178000
+Scientist,Data Scientist,218000
+Scientist,Data Scientist,85000
+Others,Data Others,132000
+Others,Data Others,71500
+Engineer,Data Engineer,252000
+Engineer,Data Engineer,129000
+Analyst,Data Analyst,215050
+Analyst,Data Analyst,113100
+Scientist,Data Scientist,260000
+Scientist,Data Scientist,136000
+Scientist,Data Scientist,218000
+Scientist,Data Scientist,85000
+Scientist,Data Scientist,130000
+Scientist,Data Scientist,85000
+Engineer,Data Engineer,250000
+Engineer,Data Engineer,200000
+Engineer,Machine Learning Data Engineer,220000
+Engineer,Machine Learning Data Engineer,170000
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,115000
+Scientist,Data Scientist,184000
+Scientist,Data Scientist,123000
+Analyst,Data Analyst,75000
+Analyst,Data Analyst,65000
+Architect,Data Architect,168400
+Architect,Data Architect,90700
+Engineer,Data Engineer,185900
+Engineer,Data Engineer,129300
+Scientist,Data Scientist,258000
+Scientist,Data Scientist,190000
+Analyst,Data Analyst,169000
+Analyst,Data Analyst,110600
+Analyst,Data Analyst,80000
+Analyst,Data Analyst,70000
+Analyst,Data Analyst,136505
+Analyst,Data Analyst,100895
+Engineer,Machine Learning Data Engineer,200000
+Engineer,Machine Learning Data Engineer,150000
+Engineer,Business Intelligence Data Engineer,202800
+Engineer,Business Intelligence Data Engineer,104300
+Engineer,Data Engineer,275300
+Engineer,Data Engineer,183500
+Scientist,Data Scientist,168400
+Scientist,Data Scientist,105200
+Architect,Data Architect,240000
+Architect,Data Architect,150000
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,120000
+Analyst,Data Analyst,93000
+Scientist,Data Scientist,248100
+Scientist,Data Scientist,145900
+Analyst,Data Analyst,177000
+Analyst,Data Analyst,118000
+Analyst,Data Analyst,120350
+Analyst,Data Analyst,74400
+Engineer,Data Engineer,190000
+Engineer,Data Engineer,120000
+Engineer,Machine Learning Data Engineer,237400
+Engineer,Machine Learning Data Engineer,132870
+Architect,Data Architect,248100
+Architect,Data Architect,145900
+Scientist,Data Scientist,170000
+Scientist,Data Scientist,125000
+Engineer,Data Engineer,105000
+Engineer,Data Engineer,90000
+Engineer,Machine Learning Data Engineer,317070
+Engineer,Machine Learning Data Engineer,170730
+Engineer,Machine Learning Data Engineer,170000
+Engineer,Machine Learning Data Engineer,125000
+Engineer,Data Engineer,158700
+Engineer,Data Engineer,123906
+Scientist,Data Scientist,222200
+Scientist,Data Scientist,136000
+Engineer,Data Engineer,166000
+Engineer,Data Engineer,128000
+Engineer,Data Engineer,81001
+Engineer,Data Engineer,66961
+Engineer,Data Engineer,333500
+Engineer,Data Engineer,180500
+Engineer,Machine Learning Data Engineer,242921
+Engineer,Machine Learning Data Engineer,170045
+Architect,Data Architect,248100
+Architect,Data Architect,145900
+Engineer,Data Engineer,91870
+Engineer,Data Engineer,75946
+Engineer,Business Intelligence Data Engineer,225000
+Engineer,Business Intelligence Data Engineer,156400
+Engineer,Data Engineer,257400
+Engineer,Data Engineer,210600
+Others,Data Others,65000
+Others,Data Others,50000
+Engineer,Data Engineer,293000
+Engineer,Data Engineer,180000
+Scientist,Data Scientist,260000
+Scientist,Data Scientist,192000
+Scientist,Machine Learning Data Scientist,170000
+Scientist,Machine Learning Data Scientist,125000
+Analyst,Business Intelligence Data Analyst,99000
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,100000
+Engineer,Machine Learning Data Engineer,233000
+Engineer,Machine Learning Data Engineer,166000
+Engineer,Data Engineer,185100
+Engineer,Data Engineer,127600
+Analyst,Data Analyst,105000
+Analyst,Data Analyst,80000
+Analyst,Data Analyst,160000
+Analyst,Data Analyst,55000
+Engineer,Machine Learning Data Engineer,241000
+Engineer,Machine Learning Data Engineer,163000
+Scientist,Data Scientist,120000
+Scientist,Data Scientist,90000
+Scientist,Data Scientist,218000
+Scientist,Data Scientist,118000
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,168000
+Engineer,Machine Learning Data Engineer,311000
+Engineer,Machine Learning Data Engineer,162540
+Analyst,Data Analyst,51447
+Analyst,Data Analyst,42872
+Scientist,Data Scientist,258750
+Scientist,Data Scientist,185000
+Scientist,Data Scientist,225000
+Scientist,Data Scientist,145000
+Engineer,Machine Learning Data Engineer,226600
+Engineer,Machine Learning Data Engineer,140100
+Scientist,Data Scientist,48600
+Scientist,Data Scientist,38880
+Scientist,Data Scientist,190000
+Scientist,Data Scientist,165000
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,160000
+Engineer,Machine Learning Data Engineer,247500
+Engineer,Machine Learning Data Engineer,172200
+Engineer,Machine Learning Data Engineer,247500
+Engineer,Machine Learning Data Engineer,172200
+Engineer,Data Engineer,153600
+Engineer,Data Engineer,106800
+Developer,Business Intelligence Data Developer,140000
+Developer,Business Intelligence Data Developer,76500
+Developer,Data Developer,182850
+Developer,Data Developer,113000
+Engineer,Data Engineer,150000
+Engineer,Data Engineer,120000
+Analyst,Data Analyst,105000
+Analyst,Data Analyst,95000
+Architect,Data Architect,306000
+Architect,Data Architect,204000
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,135000
+Architect,Data Architect,104119
+Architect,Data Architect,91870
+Analyst,Data Analyst,126000
+Analyst,Data Analyst,86400
+Engineer,Data Engineer,232760
+Engineer,Data Engineer,169280
+Analyst,Data Analyst,136000
+Analyst,Data Analyst,104000
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Scientist,Data Scientist,168000
+Scientist,Data Scientist,130000
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Engineer,Data Engineer,162500
+Engineer,Data Engineer,130000
+Scientist,Data Scientist,240350
+Scientist,Data Scientist,174800
+Engineer,Machine Learning Data Engineer,247500
+Engineer,Machine Learning Data Engineer,172200
+Engineer,Data Engineer,154000
+Engineer,Data Engineer,116000
+Scientist,Data Scientist,168000
+Scientist,Data Scientist,130000
+Analyst,Data Analyst,153600
+Analyst,Data Analyst,107500
+Analyst,Data Analyst,94100
+Analyst,Data Analyst,72400
+Engineer,Machine Learning Data Engineer,178000
+Engineer,Machine Learning Data Engineer,152000
+Scientist,Data Scientist,192000
+Scientist,Data Scientist,164000
+Scientist,Data Scientist,233200
+Scientist,Data Scientist,140000
+Engineer,Data Engineer,194000
+Engineer,Data Engineer,161000
+Engineer,Business Intelligence Data Engineer,225000
+Engineer,Business Intelligence Data Engineer,156400
+Engineer,Data Engineer,210000
+Engineer,Data Engineer,160000
+Analyst,Data Analyst,153600
+Analyst,Data Analyst,107500
+Engineer,Data Engineer,185900
+Engineer,Data Engineer,129300
+Scientist,Data Scientist,145000
+Scientist,Data Scientist,120000
+Analyst,Data Analyst,206000
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,153600
+Analyst,Data Analyst,107500
+Engineer,Data Engineer,146100
+Engineer,Data Engineer,112400
+Engineer,Data Engineer,241000
+Engineer,Data Engineer,155000
+Engineer,Data Engineer,194500
+Engineer,Data Engineer,115500
+Others,Data Others,110000
+Others,Data Others,70000
+Engineer,Machine Learning Data Engineer,199000
+Engineer,Machine Learning Data Engineer,145000
+Scientist,Data Scientist,200000
+Scientist,Data Scientist,170000
+Scientist,Data Scientist,150120
+Scientist,Data Scientist,120096
+Engineer,Machine Learning Data Engineer,253000
+Engineer,Machine Learning Data Engineer,168000
+Scientist,Data Scientist,200000
+Scientist,Data Scientist,170000
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Analyst,Data Analyst,178600
+Analyst,Data Analyst,142880
+Analyst,Data Analyst,255000
+Analyst,Data Analyst,169000
+Scientist,Data Scientist,155000
+Scientist,Data Scientist,100000
+Engineer,Data Engineer,151410
+Engineer,Data Engineer,144200
+Scientist,Data Scientist,151410
+Scientist,Data Scientist,115360
+Engineer,Data Engineer,252000
+Engineer,Data Engineer,129000
+Analyst,Data Analyst,193170
+Analyst,Data Analyst,116480
+Scientist,Data Scientist,250000
+Scientist,Data Scientist,125000
+Engineer,Data Engineer,146000
+Engineer,Data Engineer,94000
+Scientist,Data Scientist,244987
+Scientist,Data Scientist,202114
+Others,Data Others,134742
+Others,Data Others,110244
+Scientist,Data Scientist,260000
+Scientist,Data Scientist,136000
+Others,Data Others,329500
+Others,Data Others,269600
+Architect,Data Architect,250500
+Architect,Data Architect,159500
+Analyst,Data Analyst,115000
+Analyst,Data Analyst,105000
+Architect,Data Architect,250000
+Architect,Data Architect,170000
+Architect,Data Architect,198800
+Architect,Data Architect,105200
+Analyst,Data Analyst,94035
+Analyst,Data Analyst,57920
+Scientist,Data Scientist,222200
+Scientist,Data Scientist,136000
+Analyst,Data Analyst,113600
+Analyst,Data Analyst,60000
+Engineer,Data Engineer,150000
+Engineer,Data Engineer,130000
+Scientist,Data Scientist,256000
+Scientist,Data Scientist,160000
+Engineer,Data Engineer,180000
+Engineer,Data Engineer,165000
+Analyst,Data Analyst,116000
+Analyst,Data Analyst,78000
+Engineer,Data Engineer,245000
+Engineer,Data Engineer,210000
+Analyst,Data Analyst,115934
+Analyst,Data Analyst,81666
+Engineer,Machine Learning Data Engineer,283200
+Engineer,Machine Learning Data Engineer,188800
+Architect,Data Architect,220000
+Architect,Data Architect,150000
+Scientist,Data Scientist,192000
+Scientist,Data Scientist,164000
+Analyst,Business Data Analyst,36000
+Engineer,Data Engineer,32861
+Architect,Data Architect,205640
+Architect,Data Architect,142600
+Engineer,Data Engineer,193200
+Engineer,Data Engineer,156400
+Engineer,Machine Learning Data Engineer,196000
+Engineer,Machine Learning Data Engineer,121000
+Engineer,Data Engineer,72000
+Engineer,Data Engineer,48000
+Engineer,Data Engineer,165000
+Engineer,Data Engineer,132300
+Scientist,Data Scientist,244000
+Scientist,Data Scientist,197000
+Analyst,Data Analyst,328000
+Analyst,Data Analyst,211000
+Scientist,Data Scientist,237000
+Scientist,Data Scientist,201450
+Engineer,Machine Learning Data Engineer,229000
+Engineer,Machine Learning Data Engineer,206000
+Scientist,Data Scientist,231000
+Scientist,Data Scientist,134000
+Engineer,Machine Learning Data Engineer,183750
+Engineer,Machine Learning Data Engineer,165400
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,125000
+Analyst,Data Analyst,152900
+Analyst,Data Analyst,117700
+Scientist,Data Scientist,285800
+Scientist,Data Scientist,154600
+Engineer,Data Engineer,289120
+Engineer,Data Engineer,192400
+Analyst,Data Analyst,179998
+Scientist,Machine Learning Data Scientist,48683
+Scientist,Data Scientist,35000
+Engineer,Data Engineer,230000
+Engineer,Data Engineer,166000
+Architect,Cloud Data Architect,258000
+Scientist,Data Scientist,225000
+Scientist,Data Scientist,156400
+Engineer,Data Engineer,190000
+Engineer,Data Engineer,150000
+Scientist,Data Scientist,196000
+Scientist,Data Scientist,121000
+Scientist,Data Scientist,219000
+Scientist,Data Scientist,141000
+Engineer,Data Engineer,230000
+Engineer,Data Engineer,206000
+Scientist,Data Scientist,192000
+Scientist,Data Scientist,164000
+Engineer,Machine Learning Data Engineer,300000
+Engineer,Machine Learning Data Engineer,260000
+Analyst,Data Analyst,147000
+Analyst,Data Analyst,92000
+Engineer,Machine Learning Data Engineer,200000
+Engineer,Machine Learning Data Engineer,140000
+Analyst,Data Analyst,110000
+Analyst,Data Analyst,70000
+Engineer,Data Engineer,284310
+Engineer,Data Engineer,153090
+Engineer,Machine Learning Data Engineer,261500
+Engineer,Machine Learning Data Engineer,134500
+Analyst,Data Analyst,83200
+Engineer,Data Engineer,204500
+Engineer,Data Engineer,142200
+Analyst,Data Analyst,145000
+Analyst,Data Analyst,106000
+Scientist,Data Scientist,190000
+Scientist,Data Scientist,160000
+Analyst,Data Analyst,275300
+Analyst,Data Analyst,183500
+Engineer,Data Engineer,146992
+Engineer,Data Engineer,122493
+Developer,Data Developer,182850
+Developer,Data Developer,113000
+Engineer,Business Intelligence Data Engineer,202800
+Engineer,Business Intelligence Data Engineer,104300
+Engineer,Data Engineer,215000
+Engineer,Data Engineer,175000
+Scientist,Data Scientist,228856
+Scientist,Data Scientist,144540
+Engineer,Data Engineer,162500
+Engineer,Data Engineer,130000
+Scientist,Data Scientist,140000
+Scientist,Data Scientist,115000
+Engineer,Data Engineer,136600
+Engineer,Data Engineer,109280
+Engineer,Machine Learning Data Engineer,221000
+Engineer,Machine Learning Data Engineer,185000
+Analyst,Data Analyst,84000
+Analyst,Data Analyst,60000
+Analyst,Data Analyst,73496
+Analyst,Data Analyst,61246
+Analyst,Business Intelligence Data Analyst,70000
+Developer,Machine Learning Data Developer,60000
+Engineer,Data Engineer,281000
+Engineer,Data Engineer,196000
+Engineer,Data Engineer,146000
+Engineer,Data Engineer,94000
+Others,Data Others,69500
+Others,Data Others,46400
+Engineer,Data Engineer,185000
+Engineer,Data Engineer,150000
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,115000
+Engineer,Data Engineer,254000
+Engineer,Data Engineer,200000
+Scientist,Data Scientist,260000
+Scientist,Data Scientist,136000
+Scientist,Data Scientist,281000
+Scientist,Data Scientist,181000
+Architect,Data Architect,285000
+Architect,Data Architect,210000
+Analyst,Data Analyst,69525
+Analyst,Data Analyst,61800
+Scientist,Data Scientist,192000
+Scientist,Data Scientist,164000
+Engineer,Machine Learning Data Engineer,178000
+Engineer,Machine Learning Data Engineer,152000
+Developer,Business Intelligence Data Developer,160000
+Scientist,Data Scientist,40000
+Analyst,Data Analyst,125000
+Analyst,Data Analyst,95000
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,110000
+Scientist,Data Scientist,48600
+Scientist,Data Scientist,38880
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,120000
+Engineer,Machine Learning Data Engineer,283200
+Engineer,Machine Learning Data Engineer,188800
+Engineer,Data Engineer,225000
+Engineer,Data Engineer,168000
+Scientist,Data Scientist,140000
+Scientist,Data Scientist,105000
+Scientist,Data Scientist,130001
+Scientist,Data Scientist,71907
+Analyst,Data Analyst,144000
+Analyst,Data Analyst,80000
+Architect,Data Architect,205000
+Architect,Data Architect,150000
+Analyst,Data Analyst,189400
+Analyst,Data Analyst,131685
+Others,Data Others,204500
+Others,Data Others,142200
+Scientist,Data Scientist,150000
+Scientist,Data Scientist,130000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,120000
+Analyst,Data Analyst,172000
+Analyst,Data Analyst,110000
+Scientist,Data Scientist,260000
+Scientist,Data Scientist,136000
+Analyst,Data Analyst,110000
+Analyst,Data Analyst,90000
+Analyst,Business Intelligence Data Analyst,60000
+Scientist,Data Scientist,77696
+Scientist,Data Scientist,55410
+Analyst,Data Analyst,57000
+Others,Data Others,120000
+Others,Data Others,168400
+Others,Data Others,90700
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,95000
+Engineer,Data Engineer,161000
+Engineer,Data Engineer,85000
+Engineer,Data Engineer,240000
+Engineer,Data Engineer,157250
+Scientist,Data Scientist,260000
+Scientist,Data Scientist,136000
+Scientist,Data Scientist,277500
+Scientist,Data Scientist,206000
+Engineer,Machine Learning Data Engineer,165000
+Engineer,Machine Learning Data Engineer,150000
+Scientist,Data Scientist,222200
+Scientist,Data Scientist,136000
+Scientist,Data Scientist,236500
+Scientist,Data Scientist,176000
+Analyst,Data Analyst,155000
+Analyst,Data Analyst,120000
+Scientist,Data Scientist,172800
+Scientist,Data Scientist,110000
+Scientist,Data Scientist,260000
+Scientist,Data Scientist,136000
+Engineer,Data Engineer,171250
+Engineer,Data Engineer,113750
+Engineer,Data Engineer,41809
+Analyst,Data Analyst,60000
+Engineer,Cloud Data Engineer,100000
+Analyst,Business Data Analyst,324006
+Engineer,Data Engineer,146000
+Engineer,Data Engineer,75000
+Engineer,Data Engineer,146000
+Engineer,Data Engineer,75000
+Architect,Data Architect,150000
+Architect,Data Architect,100000
+Analyst,Data Analyst,62000
+Analyst,Data Analyst,55000
+Analyst,Data Analyst,155000
+Analyst,Data Analyst,140000
+Scientist,Data Scientist,36000
+Engineer,Machine Learning Data Engineer,247500
+Engineer,Machine Learning Data Engineer,172200
+Others,Data Others,110000
+Others,Data Others,70000
+Engineer,Machine Learning Data Engineer,230000
+Engineer,Machine Learning Data Engineer,140100
+Engineer,Machine Learning Data Engineer,297300
+Engineer,Machine Learning Data Engineer,198200
+Engineer,Data Engineer,204000
+Engineer,Data Engineer,161500
+Analyst,Data Analyst,144000
+Analyst,Data Analyst,77000
+Others,Data Others,87500
+Others,Data Others,62500
+Analyst,Data Analyst,160000
+Analyst,Data Analyst,135000
+Engineer,Machine Learning Data Engineer,216000
+Engineer,Machine Learning Data Engineer,184000
+Others,Data Others,110244
+Others,Data Others,55122
+Engineer,Data Engineer,253000
+Engineer,Data Engineer,156400
+Engineer,Data Engineer,265000
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,217000
+Engineer,Data Engineer,185000
+Scientist,Data Scientist,177300
+Scientist,Data Scientist,136300
+Analyst,Data Analyst,83000
+Analyst,Data Analyst,72000
+Analyst,Data Analyst,208450
+Analyst,Data Analyst,170550
+Engineer,Data Engineer,72000
+Engineer,Data Engineer,60000
+Engineer,Machine Learning Data Engineer,200000
+Engineer,Machine Learning Data Engineer,130000
+Scientist,Data Scientist,190000
+Scientist,Data Scientist,165000
+Engineer,Data Engineer,165000
+Engineer,Data Engineer,145000
+Scientist,Data Scientist,222200
+Scientist,Data Scientist,136000
+Scientist,Data Scientist,336400
+Scientist,Data Scientist,201900
+Scientist,Data Scientist,189750
+Scientist,Data Scientist,131100
+Analyst,Data Analyst,270000
+Analyst,Data Analyst,95000
+Engineer,Data Engineer,170000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,117300
+Engineer,Data Engineer,69000
+Engineer,Data Engineer,182000
+Engineer,Data Engineer,144000
+Scientist,Data Scientist,244000
+Scientist,Data Scientist,200000
+Analyst,Data Analyst,120000
+Analyst,Data Analyst,100000
+Engineer,Data Engineer,260000
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,190000
+Engineer,Data Engineer,150000
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,160000
+Engineer,Machine Learning Data Engineer,250000
+Engineer,Machine Learning Data Engineer,100000
+Engineer,Machine Learning Data Engineer,225000
+Engineer,Machine Learning Data Engineer,175000
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,236500
+Scientist,Data Scientist,176000
+Scientist,Data Scientist,105000
+Scientist,Data Scientist,102500
+Engineer,Data Engineer,370000
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,260000
+Engineer,Data Engineer,225000
+Architect,Data Architect,370000
+Architect,Data Architect,200000
+Engineer,Data Engineer,186600
+Engineer,Data Engineer,116500
+Engineer,Data Engineer,80000
+Engineer,Data Engineer,60000
+Analyst,Data Analyst,299500
+Analyst,Data Analyst,245100
+Scientist,Machine Learning Data Scientist,222000
+Scientist,Machine Learning Data Scientist,138000
+Analyst,Data Analyst,207300
+Analyst,Data Analyst,149200
+Scientist,Machine Learning Data Scientist,292000
+Scientist,Machine Learning Data Scientist,164500
+Scientist,Machine Learning Data Scientist,292200
+Scientist,Machine Learning Data Scientist,164500
+Engineer,Data Engineer,163800
+Engineer,Data Engineer,126000
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,120000
+Analyst,Data Analyst,140000
+Analyst,Data Analyst,120000
+Scientist,Data Scientist,120000
+Engineer,Data Engineer,280000
+Engineer,Data Engineer,210000
+Scientist,Data Scientist,170000
+Scientist,Data Scientist,150000
+Engineer,Machine Learning Data Engineer,200000
+Engineer,Machine Learning Data Engineer,170000
+Scientist,Data Scientist,225000
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,189750
+Scientist,Data Scientist,131100
+Analyst,Data Analyst,123400
+Analyst,Data Analyst,82200
+Engineer,Data Engineer,48997
+Engineer,Data Engineer,42872
+Engineer,Machine Learning Data Engineer,225000
+Analyst,Data Analyst,50000
+Engineer,Data Engineer,161800
+Engineer,Data Engineer,121400
+Architect,Data Architect,285000
+Architect,Data Architect,193900
+Analyst,Data Analyst,240000
+Analyst,Data Analyst,196000
+Scientist,Data Scientist,214000
+Scientist,Data Scientist,164000
+Scientist,Data Scientist,170000
+Scientist,Data Scientist,155000
+Analyst,Data Analyst,125000
+Analyst,Data Analyst,98000
+Engineer,Machine Learning Data Engineer,199000
+Engineer,Machine Learning Data Engineer,145000
+Engineer,Machine Learning Data Engineer,260000
+Engineer,Machine Learning Data Engineer,200000
+Engineer,Data Engineer,105066
+Engineer,Data Engineer,110244
+Engineer,Data Engineer,85745
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,252000
+Engineer,Data Engineer,129000
+Analyst,Data Analyst,289800
+Analyst,Data Analyst,214000
+Analyst,Data Analyst,142000
+Analyst,Data Analyst,87500
+Scientist,Data Scientist,222200
+Scientist,Data Scientist,136000
+Engineer,Machine Learning Data Engineer,220000
+Engineer,Machine Learning Data Engineer,165000
+Scientist,Data Scientist,48600
+Scientist,Data Scientist,38880
+Scientist,Data Scientist,280830
+Scientist,Data Scientist,173175
+Scientist,Data Scientist,195000
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,275300
+Scientist,Data Scientist,183500
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,145000
+Analyst,Data Analyst,105000
+Analyst,Data Analyst,85000
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,160000
+Developer,Business Intelligence Data Developer,91870
+Developer,Business Intelligence Data Developer,48997
+Engineer,Machine Learning Data Engineer,34963
+Engineer,Data Engineer,162500
+Engineer,Data Engineer,130000
+Engineer,Data Engineer,75061
+Engineer,Data Engineer,64801
+Engineer,Data Engineer,174350
+Engineer,Data Engineer,126800
+Engineer,Data Engineer,71497
+Engineer,Data Engineer,61561
+Engineer,Data Engineer,245000
+Engineer,Data Engineer,140000
+Analyst,Data Analyst,231250
+Analyst,Data Analyst,138750
+Engineer,Machine Learning Data Engineer,155000
+Engineer,Machine Learning Data Engineer,125000
+Engineer,Data Engineer,242000
+Engineer,Data Engineer,195000
+Architect,Data Architect,155000
+Architect,Data Architect,125000
+Scientist,Data Scientist,222200
+Scientist,Data Scientist,136000
+Engineer,Machine Learning Data Engineer,160000
+Engineer,Machine Learning Data Engineer,140000
+Others,Data Others,110000
+Others,Data Others,70000
+Scientist,Data Scientist,183924
+Scientist,Data Scientist,125760
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,105000
+Analyst,Data Analyst,428727
+Analyst,Data Analyst,61246
+Scientist,Data Scientist,86401
+Engineer,Machine Learning Data Engineer,30000
+Engineer,Machine Learning Data Engineer,25500
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,120000
+Scientist,Data Scientist,222200
+Scientist,Data Scientist,136000
+Scientist,Data Scientist,219000
+Scientist,Data Scientist,141000
+Scientist,Data Scientist,147100
+Scientist,Data Scientist,90700
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,100000
+Scientist,Data Scientist,213660
+Scientist,Data Scientist,130760
+Others,Data Others,147100
+Others,Data Others,90700
+Scientist,Data Scientist,170000
+Scientist,Data Scientist,150000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,110000
+Engineer,Data Engineer,275000
+Engineer,Data Engineer,174000
+Analyst,Data Analyst,230000
+Analyst,Data Analyst,143200
+Engineer,Business Intelligence Data Engineer,225000
+Engineer,Business Intelligence Data Engineer,156400
+Engineer,Machine Learning Data Engineer,200000
+Engineer,Machine Learning Data Engineer,130000
+Others,Data Others,90000
+Others,Data Others,72000
+Engineer,Data Engineer,253200
+Engineer,Data Engineer,90700
+Engineer,Data Engineer,342810
+Engineer,Data Engineer,184590
+Engineer,Data Engineer,162500
+Engineer,Data Engineer,130000
+Analyst,Data Analyst,105380
+Analyst,Data Analyst,64500
+Analyst,Data Analyst,30000
+Engineer,Machine Learning Data Engineer,20984
+Scientist,Data Scientist,204620
+Scientist,Data Scientist,110680
+Engineer,Data Engineer,270703
+Engineer,Data Engineer,221484
+Scientist,Data Scientist,212750
+Scientist,Data Scientist,185000
+Scientist,Data Scientist,262000
+Scientist,Data Scientist,245000
+Scientist,Data Scientist,275300
+Scientist,Data Scientist,183500
+Scientist,Data Scientist,218500
+Scientist,Data Scientist,199098
+Engineer,Data Engineer,203300
+Engineer,Data Engineer,123600
+Engineer,Data Engineer,189110
+Engineer,Data Engineer,139000
+Scientist,Data Scientist,258750
+Scientist,Data Scientist,185000
+Engineer,Data Engineer,231500
+Engineer,Data Engineer,166000
+Scientist,Data Scientist,172500
+Scientist,Data Scientist,110500
+Engineer,Data Engineer,238000
+Engineer,Data Engineer,176000
+Engineer,Data Engineer,237000
+Engineer,Data Engineer,201450
+Scientist,Data Scientist,309400
+Scientist,Data Scientist,159100
+Engineer,Data Engineer,115000
+Engineer,Data Engineer,81500
+Scientist,Data Scientist,237000
+Scientist,Data Scientist,201450
+Engineer,Data Engineer,280000
+Engineer,Data Engineer,210000
+Architect,Data Architect,280100
+Architect,Data Architect,168100
+Engineer,Data Engineer,193500
+Engineer,Data Engineer,139000
+Scientist,Data Scientist,65041
+Engineer,Machine Learning Data Engineer,150000
+Engineer,Machine Learning Data Engineer,70201
+Engineer,Machine Learning Data Engineer,97201
+Engineer,Business Intelligence Data Engineer,185900
+Engineer,Business Intelligence Data Engineer,129300
+Engineer,Data Engineer,225000
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,185000
+Engineer,Data Engineer,140000
+Scientist,Data Scientist,48600
+Scientist,Data Scientist,38880
+Scientist,Data Scientist,105000
+Scientist,Data Scientist,70000
+Engineer,Machine Learning Data Engineer,163196
+Engineer,Machine Learning Data Engineer,145885
+Engineer,Data Engineer,217000
+Engineer,Data Engineer,185000
+Analyst,Data Analyst,202800
+Analyst,Data Analyst,104300
+Analyst,Data Analyst,145000
+Analyst,Data Analyst,65000
+Engineer,Data Engineer,165000
+Engineer,Data Engineer,132300
+Engineer,Data Engineer,179170
+Engineer,Data Engineer,94300
+Analyst,Data Analyst,152500
+Analyst,Data Analyst,116450
+Engineer,Data Engineer,247300
+Engineer,Data Engineer,133800
+Engineer,Data Engineer,203000
+Engineer,Data Engineer,133000
+Architect,Data Architect,220000
+Engineer,Machine Learning Data Engineer,56536
+Scientist,Data Scientist,150000
+Scientist,Data Scientist,120000
+Analyst,Data Analyst,289800
+Analyst,Data Analyst,214000
+Analyst,Data Analyst,179820
+Analyst,Data Analyst,143860
+Engineer,Machine Learning Data Engineer,283200
+Engineer,Machine Learning Data Engineer,188800
+Analyst,Data Analyst,289800
+Analyst,Data Analyst,214200
+Engineer,Data Engineer,185900
+Engineer,Data Engineer,129300
+Engineer,Data Engineer,252000
+Engineer,Data Engineer,129000
+Analyst,Data Analyst,155000
+Analyst,Data Analyst,140000
+Engineer,Data Engineer,161800
+Engineer,Data Engineer,141600
+Engineer,Machine Learning Data Engineer,342300
+Engineer,Machine Learning Data Engineer,176100
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,70000
+Engineer,Data Engineer,85000
+Engineer,Data Engineer,65000
+Scientist,Data Scientist,138784
+Scientist,Data Scientist,83270
+Analyst,Data Analyst,75000
+Analyst,Data Analyst,70000
+Analyst,Data Analyst,204500
+Analyst,Data Analyst,138900
+Engineer,Machine Learning Data Engineer,318300
+Engineer,Machine Learning Data Engineer,212200
+Engineer,Data Engineer,95000
+Engineer,Data Engineer,75000
+Scientist,Data Scientist,195000
+Scientist,Data Scientist,160000
+Analyst,Data Analyst,230000
+Analyst,Data Analyst,143200
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,70000
+Analyst,Business Data Analyst,105000
+Scientist,Data Scientist,20690
+Analyst,Data Analyst,46547
+Analyst,Data Analyst,42872
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,115000
+Analyst,Data Analyst,168400
+Analyst,Data Analyst,105200
+Scientist,Data Scientist,309400
+Scientist,Data Scientist,159100
+Engineer,Machine Learning Data Engineer,190000
+Engineer,Machine Learning Data Engineer,150000
+Engineer,Data Engineer,162500
+Engineer,Data Engineer,130000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,120000
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,120000
+Scientist,Data Scientist,222200
+Scientist,Data Scientist,136000
+Analyst,Data Analyst,55122
+Analyst,Data Analyst,42872
+Engineer,Data Engineer,241000
+Engineer,Data Engineer,155000
+Engineer,Data Engineer,220000
+Engineer,Data Engineer,190000
+Scientist,Data Scientist,67371
+Scientist,Data Scientist,55122
+Analyst,Data Analyst,15000
+Engineer,Data Engineer,85745
+Engineer,Data Engineer,58184
+Analyst,Data Analyst,85000
+Analyst,Data Analyst,75000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,140000
+Engineer,Machine Learning Data Engineer,300000
+Engineer,Machine Learning Data Engineer,250000
+Scientist,Data Scientist,228000
+Scientist,Data Scientist,186000
+Scientist,Data Scientist,190000
+Scientist,Data Scientist,170000
+Engineer,Data Engineer,230000
+Engineer,Data Engineer,200000
+Architect,Data Architect,180000
+Architect,Data Architect,115000
+Architect,Data Architect,200000
+Architect,Data Architect,115000
+Engineer,Data Engineer,54001
+Engineer,Data Engineer,220000
+Engineer,Data Engineer,205000
+Engineer,Data Engineer,180000
+Engineer,Data Engineer,130000
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,150000
+Engineer,Data Engineer,215000
+Engineer,Data Engineer,170000
+Engineer,Machine Learning Data Engineer,247500
+Engineer,Machine Learning Data Engineer,172200
+Scientist,Data Scientist,224000
+Scientist,Data Scientist,176000
+Analyst,Data Analyst,120000
+Analyst,Data Analyst,75000
+Engineer,Data Engineer,17039
+Scientist,Data Scientist,67926
+Developer,Data Developer,75048
+Analyst,Data Analyst,140000
+Analyst,Data Analyst,120000
+Engineer,Data Engineer,128000
+Engineer,Data Engineer,81500
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,115000
+Engineer,Data Engineer,185000
+Engineer,Data Engineer,140000
+Others,Data Others,329500
+Others,Data Others,269600
+Analyst,Data Analyst,100000
+Analyst,Data Analyst,80000
+Scientist,Data Scientist,250000
+Scientist,Data Scientist,162500
+Developer,Data Developer,200000
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,115000
+Scientist,Data Scientist,203500
+Scientist,Data Scientist,152000
+Scientist,Data Scientist,239000
+Scientist,Data Scientist,122900
+Scientist,Data Scientist,237000
+Scientist,Data Scientist,145000
+Analyst,Data Analyst,191765
+Analyst,Data Analyst,134236
+Analyst,Data Analyst,190000
+Analyst,Data Analyst,112000
+Scientist,Data Scientist,88256
+Engineer,Data Engineer,85000
+Engineer,Data Engineer,65000
+Analyst,Data Analyst,135000
+Analyst,Data Analyst,105500
+Engineer,Data Engineer,293000
+Engineer,Data Engineer,185000
+Analyst,Data Analyst,80000
+Analyst,Data Analyst,70000
+Engineer,Data Engineer,220000
+Engineer,Data Engineer,160000
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,145000
+Analyst,Data Analyst,200000
+Analyst,Data Analyst,148500
+Scientist,Data Scientist,48600
+Scientist,Data Scientist,38880
+Engineer,Data Engineer,240500
+Engineer,Data Engineer,123700
+Analyst,Data Analyst,152900
+Analyst,Data Analyst,117100
+Analyst,Data Analyst,173000
+Analyst,Data Analyst,113000
+Scientist,Data Scientist,260000
+Scientist,Data Scientist,136000
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,110000
+Scientist,Data Scientist,260000
+Scientist,Data Scientist,136000
+Architect,Data Architect,130000
+Architect,Data Architect,110000
+Scientist,Data Scientist,205000
+Scientist,Data Scientist,184000
+Analyst,Data Analyst,149500
+Analyst,Data Analyst,127075
+Scientist,Data Scientist,195000
+Scientist,Data Scientist,160000
+Engineer,Data Engineer,219535
+Engineer,Data Engineer,146115
+Scientist,Data Scientist,170000
+Scientist,Data Scientist,135000
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,145000
+Scientist,Data Scientist,199000
+Scientist,Data Scientist,162000
+Scientist,Data Scientist,222200
+Scientist,Data Scientist,136000
+Analyst,Data Analyst,221000
+Analyst,Data Analyst,153000
+Analyst,Data Analyst,187000
+Analyst,Data Analyst,128000
+Architect,Data Architect,210000
+Architect,Data Architect,136000
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,100000
+Engineer,Data Engineer,179000
+Engineer,Data Engineer,109000
+Scientist,Data Scientist,245000
+Scientist,Data Scientist,180000
+Analyst,Data Analyst,142000
+Analyst,Data Analyst,75000
+Analyst,Data Analyst,198800
+Analyst,Data Analyst,105200
+Analyst,Data Analyst,125000
+Analyst,Data Analyst,112000
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,155000
+Analyst,Data Analyst,115000
+Analyst,Data Analyst,86000
+Scientist,Data Scientist,165000
+Scientist,Data Scientist,140000
+Analyst,Data Analyst,139000
+Analyst,Data Analyst,106000
+Analyst,Data Analyst,40697
+Developer,Data Developer,275000
+Architect,Machine Learning Data Architect,50000
+Engineer,Machine Learning Data Engineer,280700
+Engineer,Machine Learning Data Engineer,150450
+Scientist,Data Scientist,51797
+Architect,Data Architect,250500
+Architect,Data Architect,159500
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,115000
+Analyst,Data Analyst,140000
+Analyst,Data Analyst,120000
+Scientist,Data Scientist,130001
+Scientist,Data Scientist,71907
+Scientist,Data Scientist,93918
+Scientist,Data Scientist,51962
+Analyst,Data Analyst,175000
+Analyst,Data Analyst,135000
+Engineer,Data Engineer,85000
+Engineer,Data Engineer,65000
+Engineer,Machine Learning Data Engineer,257000
+Engineer,Machine Learning Data Engineer,147000
+Engineer,Data Engineer,222000
+Engineer,Data Engineer,175000
+Scientist,Data Scientist,203000
+Scientist,Data Scientist,133200
+Scientist,Data Scientist,213660
+Scientist,Data Scientist,130760
+Engineer,Data Engineer,221000
+Engineer,Data Engineer,147000
+Analyst,Data Analyst,100000
+Analyst,Data Analyst,80000
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Scientist,Data Scientist,238000
+Scientist,Data Scientist,156000
+Engineer,Machine Learning Data Engineer,304000
+Engineer,Machine Learning Data Engineer,199000
+Engineer,Business Intelligence Data Engineer,48600
+Engineer,Data Engineer,150000
+Engineer,Data Engineer,130000
+Scientist,Data Scientist,140000
+Scientist,Data Scientist,110000
+Analyst,Data Analyst,90000
+Analyst,Data Analyst,75000
+Architect,Data Architect,197459
+Architect,Data Architect,103592
+Engineer,Data Engineer,240000
+Engineer,Data Engineer,183600
+Others,Data Others,130000
+Others,Data Others,80000
+Engineer,Data Engineer,250000
+Engineer,Data Engineer,150000
+Analyst,Data Analyst,160000
+Analyst,Data Analyst,120000
+Engineer,Machine Learning Data Engineer,289076
+Engineer,Machine Learning Data Engineer,202353
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,120000
+Analyst,Data Analyst,155000
+Analyst,Data Analyst,106000
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,160000
+Scientist,Data Scientist,157750
+Scientist,Data Scientist,104650
+Scientist,Data Scientist,180000
+Scientist,Data Scientist,140000
+Scientist,Data Scientist,200000
+Scientist,Data Scientist,145000
+Analyst,Data Analyst,68000
+Engineer,Business Intelligence Data Engineer,60000
+Scientist,Data Scientist,48600
+Scientist,Data Scientist,38880
+Engineer,Data Engineer,85000
+Engineer,Data Engineer,65000
+Engineer,Data Engineer,125000
+Engineer,Data Engineer,90000
+Analyst,Data Analyst,105000
+Analyst,Data Analyst,90000
+Analyst,Data Analyst,179820
+Analyst,Data Analyst,143860
+Analyst,Data Analyst,135000
+Analyst,Data Analyst,105500
+Engineer,Data Engineer,155000
+Engineer,Data Engineer,125000
+Engineer,Machine Learning Data Engineer,241000
+Engineer,Machine Learning Data Engineer,181000
+Scientist,Data Scientist,252000
+Scientist,Data Scientist,154000
+Architect,Data Architect,180000
+Architect,Data Architect,155000
+Scientist,Data Scientist,191765
+Scientist,Data Scientist,134236
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,145000
+Scientist,Data Scientist,237000
+Scientist,Data Scientist,145000
+Engineer,Data Engineer,155000
+Engineer,Data Engineer,125000
+Analyst,Data Analyst,80000
+Analyst,Data Analyst,70000
+Engineer,Data Engineer,146000
+Engineer,Data Engineer,75000
+Analyst,Data Analyst,64200
+Analyst,Data Analyst,56100
+Engineer,Machine Learning Data Engineer,170000
+Engineer,Machine Learning Data Engineer,130000
+Analyst,Data Analyst,208450
+Analyst,Data Analyst,170550
+Engineer,Machine Learning Data Engineer,125000
+Engineer,Machine Learning Data Engineer,100000
+Analyst,Data Analyst,135000
+Analyst,Data Analyst,120000
+Scientist,Data Scientist,200000
+Scientist,Data Scientist,170000
+Scientist,Data Scientist,171250
+Scientist,Data Scientist,113750
+Scientist,Data Scientist,222200
+Scientist,Data Scientist,136000
+Scientist,Data Scientist,260000
+Scientist,Data Scientist,136000
+Analyst,Data Analyst,153600
+Analyst,Data Analyst,100500
+Scientist,Data Scientist,205000
+Scientist,Data Scientist,184000
+Engineer,Machine Learning Data Engineer,115000
+Engineer,Machine Learning Data Engineer,95000
+Analyst,Data Analyst,182500
+Analyst,Data Analyst,121500
+Engineer,Data Engineer,203100
+Engineer,Data Engineer,114500
+Analyst,Data Analyst,73496
+Analyst,Data Analyst,55122
+Engineer,Data Engineer,252000
+Engineer,Data Engineer,129000
+Engineer,Data Engineer,92700
+Engineer,Data Engineer,61800
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,130000
+Scientist,Data Scientist,258000
+Scientist,Data Scientist,190000
+Scientist,Data Scientist,170000
+Scientist,Data Scientist,135000
+Architect,Data Architect,167500
+Architect,Data Architect,106500
+Scientist,Data Scientist,195000
+Scientist,Data Scientist,160000
+Engineer,Data Engineer,146000
+Engineer,Data Engineer,75000
+Engineer,Data Engineer,59888
+Engineer,Data Engineer,286000
+Engineer,Data Engineer,207000
+Analyst,Data Analyst,100000
+Analyst,Data Analyst,80000
+Engineer,Data Engineer,223250
+Engineer,Data Engineer,178600
+Scientist,Data Scientist,353200
+Scientist,Data Scientist,249300
+Scientist,Machine Learning Data Scientist,230000
+Scientist,Machine Learning Data Scientist,220000
+Scientist,Data Scientist,297300
+Scientist,Data Scientist,198200
+Architect,Data Architect,210000
+Architect,Data Architect,151800
+Scientist,Data Scientist,200000
+Scientist,Data Scientist,170000
+Scientist,Data Scientist,317070
+Scientist,Data Scientist,170730
+Engineer,Data Engineer,128000
+Engineer,Data Engineer,81500
+Analyst,Business Data Analyst,21600
+Developer,Data Developer,108000
+Developer,Data Developer,60000
+Engineer,Machine Learning Data Engineer,134000
+Engineer,Machine Learning Data Engineer,124000
+Engineer,Data Engineer,171250
+Engineer,Data Engineer,113750
+Engineer,Data Engineer,165000
+Engineer,Data Engineer,132300
+Scientist,Data Scientist,225000
+Scientist,Data Scientist,175000
+Engineer,Data Engineer,230000
+Engineer,Data Engineer,124500
+Engineer,Machine Learning Data Engineer,247500
+Engineer,Machine Learning Data Engineer,172200
+Analyst,Data Analyst,175000
+Analyst,Data Analyst,145000
+Analyst,Data Analyst,148700
+Analyst,Data Analyst,125600
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,115000
+Architect,Data Architect,200000
+Architect,Data Architect,150000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,120000
+Analyst,Data Analyst,185000
+Analyst,Data Analyst,120250
+Scientist,Data Scientist,275300
+Scientist,Data Scientist,183000
+Architect,Data Architect,170000
+Architect,Data Architect,125000
+Architect,Data Architect,167500
+Architect,Data Architect,106500
+Architect,Data Architect,250000
+Architect,Data Architect,200000
+Engineer,Machine Learning Data Engineer,135000
+Scientist,Data Scientist,420328
+Engineer,Machine Learning Data Engineer,216000
+Engineer,Machine Learning Data Engineer,184000
+Engineer,Data Engineer,180000
+Engineer,Data Engineer,165000
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,143865
+Engineer,Data Engineer,115092
+Engineer,Machine Learning Data Engineer,130000
+Engineer,Machine Learning Data Engineer,90000
+Scientist,Data Scientist,173000
+Scientist,Data Scientist,132000
+Analyst,Data Analyst,208049
+Analyst,Data Analyst,128500
+Analyst,Data Analyst,179820
+Analyst,Data Analyst,143860
+Engineer,Data Engineer,167500
+Engineer,Data Engineer,106500
+Scientist,Data Scientist,275300
+Scientist,Data Scientist,183500
+Engineer,Data Engineer,149600
+Engineer,Data Engineer,102000
+Scientist,Data Scientist,145000
+Scientist,Data Scientist,100000
+Analyst,Data Analyst,190000
+Analyst,Data Analyst,95000
+Analyst,Data Analyst,153600
+Analyst,Data Analyst,106800
+Scientist,Data Scientist,97201
+Scientist,Data Scientist,81001
+Analyst,Data Analyst,128000
+Analyst,Data Analyst,85000
+Engineer,Data Engineer,151000
+Engineer,Data Engineer,140000
+Scientist,Data Scientist,275300
+Scientist,Data Scientist,183500
+Scientist,Machine Learning Data Scientist,220000
+Scientist,Machine Learning Data Scientist,170000
+Analyst,Data Analyst,135000
+Analyst,Data Analyst,105500
+Analyst,Data Analyst,100000
+Analyst,Data Analyst,80000
+Scientist,Machine Learning Data Scientist,43200
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,145000
+Analyst,Data Analyst,154000
+Analyst,Data Analyst,143000
+Scientist,Data Scientist,79620
+Scientist,Data Scientist,51447
+Scientist,Data Scientist,190000
+Scientist,Data Scientist,120000
+Scientist,Data Scientist,85745
+Scientist,Data Scientist,51447
+Scientist,Data Scientist,110244
+Scientist,Data Scientist,73496
+Engineer,Data Engineer,150000
+Engineer,Data Engineer,111000
+Engineer,Data Engineer,265000
+Engineer,Data Engineer,235000
+Scientist,Data Scientist,122240
+Scientist,Data Scientist,73546
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,130000
+Engineer,Data Engineer,75000
+Engineer,Data Engineer,60400
+Analyst,Data Analyst,85000
+Analyst,Data Analyst,75000
+Engineer,Data Engineer,252000
+Engineer,Data Engineer,129000
+Engineer,Data Engineer,92700
+Engineer,Data Engineer,61800
+Scientist,Data Scientist,172309
+Scientist,Data Scientist,60481
+Analyst,Data Analyst,83500
+Analyst,Data Analyst,52500
+Scientist,Data Scientist,201036
+Scientist,Data Scientist,134024
+Analyst,Data Analyst,165000
+Analyst,Data Analyst,140000
+Engineer,Data Engineer,62000
+Engineer,Data Engineer,58000
+Scientist,Data Scientist,172000
+Scientist,Data Scientist,115000
+Engineer,Data Engineer,125000
+Engineer,Data Engineer,90000
+Engineer,Data Engineer,163800
+Engineer,Data Engineer,126000
+Scientist,Data Scientist,237000
+Scientist,Data Scientist,145000
+Engineer,Data Engineer,90000
+Engineer,Data Engineer,90000
+Engineer,Data Engineer,139500
+Engineer,Data Engineer,109400
+Scientist,Data Scientist,258000
+Scientist,Data Scientist,190000
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,205600
+Engineer,Data Engineer,105700
+Engineer,Data Engineer,252000
+Engineer,Data Engineer,129000
+Scientist,Data Scientist,239748
+Scientist,Data Scientist,159832
+Scientist,Data Scientist,186300
+Scientist,Data Scientist,102500
+Engineer,Data Engineer,165000
+Engineer,Data Engineer,132300
+Scientist,Data Scientist,190000
+Scientist,Data Scientist,126000
+Architect,Data Architect,149040
+Architect,Data Architect,113900
+Engineer,Data Engineer,153600
+Engineer,Data Engineer,106800
+Engineer,Data Engineer,172600
+Engineer,Data Engineer,107900
+Analyst,Data Analyst,180180
+Analyst,Data Analyst,106020
+Architect,Data Architect,376080
+Architect,Data Architect,213120
+Analyst,Data Analyst,153600
+Analyst,Data Analyst,100500
+Analyst,Data Analyst,206500
+Analyst,Data Analyst,121600
+Engineer,Data Engineer,260000
+Engineer,Data Engineer,225000
+Engineer,Data Engineer,194500
+Engineer,Data Engineer,115500
+Engineer,Cloud Data Engineer,170000
+Scientist,Machine Learning Data Scientist,90000
+Analyst,Data Analyst,95000
+Analyst,Data Analyst,70000
+Engineer,Data Engineer,275000
+Engineer,Data Engineer,160000
+Analyst,Data Analyst,115934
+Analyst,Data Analyst,81666
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,120000
+Engineer,Machine Learning Data Engineer,150000
+Engineer,Machine Learning Data Engineer,120000
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,175000
+Analyst,Data Analyst,206000
+Analyst,Data Analyst,130000
+Architect,Data Architect,138000
+Architect,Data Architect,92000
+Analyst,Data Analyst,65000
+Analyst,Data Analyst,48000
+Analyst,Data Analyst,110000
+Analyst,Data Analyst,75000
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,87000
+Analyst,Data Analyst,160000
+Analyst,Data Analyst,112000
+Engineer,Data Engineer,162500
+Engineer,Data Engineer,130000
+Analyst,Data Analyst,299500
+Analyst,Data Analyst,245100
+Scientist,Data Scientist,145000
+Scientist,Data Scientist,100000
+Engineer,Data Engineer,147100
+Engineer,Data Engineer,90700
+Engineer,Data Engineer,115100
+Engineer,Data Engineer,73900
+Engineer,Data Engineer,168400
+Engineer,Data Engineer,105200
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,145000
+Scientist,Data Scientist,100000
+Scientist,Data Scientist,222200
+Scientist,Data Scientist,136000
+Analyst,Data Analyst,100000
+Analyst,Data Analyst,85000
+Engineer,Data Engineer,85745
+Engineer,Data Engineer,58184
+Scientist,Data Scientist,200000
+Scientist,Data Scientist,145000
+Engineer,Data Engineer,140000
+Engineer,Data Engineer,95000
+Analyst,Data Analyst,185000
+Analyst,Data Analyst,120250
+Analyst,Business Data Analyst,130000
+Scientist,Data Scientist,205000
+Scientist,Data Scientist,140000
+Scientist,Data Scientist,297300
+Scientist,Data Scientist,198200
+Architect,Data Architect,141288
+Architect,Data Architect,94192
+Engineer,Data Engineer,184000
+Engineer,Data Engineer,143000
+Analyst,Data Analyst,70000
+Analyst,Data Analyst,55000
+Analyst,Data Analyst,275300
+Analyst,Data Analyst,183500
+Analyst,Data Analyst,75000
+Analyst,Data Analyst,65000
+Engineer,Machine Learning Data Engineer,160000
+Engineer,Machine Learning Data Engineer,147000
+Architect,Data Architect,149040
+Architect,Data Architect,113900
+Engineer,Data Engineer,75048
+Analyst,Data Analyst,180180
+Analyst,Data Analyst,106020
+Scientist,Data Scientist,17039
+Others,Data Others,70000
+Developer,Data Developer,80000
+Analyst,Data Analyst,18256
+Engineer,Machine Learning Data Engineer,250000
+Engineer,Machine Learning Data Engineer,150000
+Engineer,Data Engineer,139500
+Engineer,Data Engineer,109400
+Scientist,Data Scientist,105000
+Scientist,Data Scientist,70000
+Engineer,Data Engineer,210914
+Engineer,Data Engineer,116704
+Architect,Data Architect,150000
+Architect,Data Architect,100000
+Engineer,Data Engineer,146000
+Engineer,Data Engineer,75000
+Analyst,Data Analyst,75000
+Analyst,Data Analyst,60000
+Analyst,Data Analyst,185700
+Analyst,Data Analyst,165000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,130000
+Analyst,Data Analyst,169000
+Analyst,Data Analyst,110600
+Engineer,Data Engineer,193000
+Engineer,Data Engineer,136850
+Engineer,Machine Learning Data Engineer,139500
+Engineer,Machine Learning Data Engineer,109400
+Engineer,Data Engineer,276000
+Engineer,Data Engineer,178500
+Scientist,Data Scientist,59401
+Scientist,Data Scientist,48600
+Engineer,Data Engineer,75601
+Engineer,Data Engineer,48600
+Engineer,Machine Learning Data Engineer,197214
+Engineer,Machine Learning Data Engineer,102037
+Engineer,Data Engineer,138050
+Engineer,Data Engineer,102037
+Engineer,Data Engineer,252000
+Engineer,Data Engineer,129000
+Developer,Business Intelligence Data Developer,130000
+Scientist,Data Scientist,150000
+Engineer,Data Engineer,163800
+Engineer,Data Engineer,126000
+Engineer,Machine Learning Data Engineer,260000
+Engineer,Machine Learning Data Engineer,110000
+Analyst,Data Analyst,170000
+Analyst,Data Analyst,130000
+Engineer,Machine Learning Data Engineer,247500
+Engineer,Machine Learning Data Engineer,172200
+Scientist,Data Scientist,239748
+Scientist,Data Scientist,159832
+Engineer,Machine Learning Data Engineer,163800
+Engineer,Machine Learning Data Engineer,126000
+Scientist,Data Scientist,128750
+Scientist,Data Scientist,106250
+Engineer,Data Engineer,252000
+Engineer,Data Engineer,129000
+Analyst,Data Analyst,299500
+Analyst,Data Analyst,245100
+Analyst,Data Analyst,155000
+Analyst,Data Analyst,140000
+Engineer,Data Engineer,167500
+Engineer,Data Engineer,106500
+Architect,Data Architect,188500
+Architect,Data Architect,117000
+Analyst,Data Analyst,250000
+Analyst,Data Analyst,138000
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,100000
+Architect,Deep Learning Data Architect,124202
+Engineer,Data Engineer,140000
+Engineer,Data Engineer,120000
+Analyst,Business Intelligence Data Analyst,160000
+Analyst,Business Intelligence Data Analyst,135000
+Analyst,Data Analyst,104500
+Analyst,Data Analyst,70000
+Scientist,Data Scientist,90000
+Scientist,Data Scientist,70000
+Engineer,Data Engineer,153600
+Engineer,Data Engineer,106800
+Engineer,Data Engineer,125000
+Engineer,Data Engineer,90000
+Architect,Data Architect,185000
+Architect,Data Architect,125000
+Analyst,Data Analyst,127000
+Analyst,Data Analyst,94000
+Scientist,Data Scientist,210550
+Scientist,Data Scientist,153300
+Scientist,Data Scientist,200000
+Scientist,Data Scientist,150000
+Analyst,Data Analyst,161500
+Analyst,Data Analyst,119500
+Analyst,Data Analyst,175000
+Analyst,Data Analyst,145000
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,148750
+Analyst,Data Analyst,105000
+Analyst,Data Analyst,85000
+Architect,Data Architect,215000
+Architect,Data Architect,146300
+Developer,Data Developer,216004
+Engineer,Data Engineer,72000
+Engineer,Data Engineer,60000
+Engineer,Machine Learning Data Engineer,153400
+Engineer,Machine Learning Data Engineer,122700
+Engineer,Data Engineer,260000
+Engineer,Data Engineer,175000
+Scientist,Data Scientist,186300
+Scientist,Data Scientist,123900
+Architect,Data Architect,340000
+Architect,Data Architect,150000
+Engineer,Machine Learning Data Engineer,153400
+Engineer,Machine Learning Data Engineer,122700
+Engineer,Data Engineer,250000
+Engineer,Data Engineer,175000
+Scientist,Data Scientist,64801
+Analyst,Data Analyst,185900
+Analyst,Data Analyst,121700
+Analyst,Data Analyst,153600
+Analyst,Data Analyst,106800
+Engineer,Data Engineer,50000
+Analyst,Data Analyst,100000
+Engineer,Machine Learning Data Engineer,247500
+Engineer,Machine Learning Data Engineer,172200
+Engineer,Data Engineer,310000
+Engineer,Data Engineer,239000
+Analyst,Data Analyst,125000
+Analyst,Data Analyst,110000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,100000
+Scientist,Data Scientist,149076
+Scientist,Data Scientist,82365
+Engineer,Data Engineer,146000
+Engineer,Data Engineer,75000
+Engineer,Machine Learning Data Engineer,139500
+Engineer,Machine Learning Data Engineer,109400
+Engineer,Data Engineer,139500
+Engineer,Data Engineer,109400
+Engineer,Data Engineer,149600
+Engineer,Data Engineer,102000
+Analyst,Data Analyst,97994
+Analyst,Data Analyst,48997
+Engineer,Data Engineer,252000
+Engineer,Data Engineer,129000
+Analyst,Data Analyst,95000
+Analyst,Data Analyst,85500
+Analyst,Data Analyst,185900
+Analyst,Data Analyst,121700
+Architect,Data Architect,150000
+Architect,Data Architect,100000
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,125000
+Scientist,Data Scientist,150000
+Scientist,Data Scientist,97750
+Scientist,Data Scientist,201000
+Scientist,Data Scientist,122000
+Engineer,Data Engineer,252000
+Engineer,Data Engineer,129000
+Analyst,Data Analyst,120000
+Analyst,Data Analyst,75000
+Scientist,Data Scientist,116990
+Scientist,Data Scientist,82920
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Scientist,Machine Learning Data Scientist,200000
+Scientist,Machine Learning Data Scientist,125000
+Scientist,Data Scientist,201000
+Scientist,Data Scientist,122000
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Analyst,Data Analyst,155000
+Analyst,Data Analyst,140000
+Engineer,Machine Learning Data Engineer,205920
+Engineer,Machine Learning Data Engineer,171600
+Engineer,Data Engineer,121500
+Engineer,Data Engineer,78000
+Engineer,Data Engineer,154000
+Engineer,Data Engineer,116000
+Scientist,Data Scientist,190000
+Scientist,Data Scientist,136000
+Analyst,Data Analyst,79620
+Analyst,Data Analyst,44158
+Analyst,Data Analyst,180000
+Analyst,Data Analyst,110000
+Scientist,Data Scientist,275300
+Scientist,Data Scientist,183000
+Engineer,Data Engineer,170000
+Engineer,Data Engineer,140000
+Engineer,Data Engineer,154000
+Engineer,Data Engineer,116000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,130000
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,120000
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,160000
+Engineer,Data Engineer,128618
+Engineer,Data Engineer,104119
+Engineer,Data Engineer,153600
+Engineer,Data Engineer,106800
+Analyst,Data Analyst,85000
+Analyst,Data Analyst,75000
+Scientist,Data Scientist,225000
+Scientist,Data Scientist,156400
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,120000
+Engineer,Machine Learning Data Engineer,163800
+Engineer,Machine Learning Data Engineer,126000
+Analyst,Data Analyst,145000
+Analyst,Data Analyst,90000
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Analyst,Data Analyst,95000
+Analyst,Data Analyst,85500
+Engineer,Data Engineer,167500
+Engineer,Data Engineer,106500
+Engineer,Data Engineer,163800
+Engineer,Data Engineer,126000
+Analyst,Data Analyst,155000
+Analyst,Data Analyst,140000
+Architect,Data Architect,250000
+Architect,Data Architect,200000
+Scientist,Data Scientist,260000
+Scientist,Data Scientist,186000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,130000
+Architect,Data Architect,200000
+Architect,Data Architect,150000
+Scientist,Data Scientist,48600
+Scientist,Data Scientist,38880
+Scientist,Data Scientist,150000
+Scientist,Data Scientist,120000
+Analyst,Data Analyst,30000
+Architect,Data Architect,185000
+Architect,Data Architect,125000
+Analyst,Data Analyst,34320
+Others,Data Others,75601
+Analyst,Data Analyst,106000
+Analyst,Data Analyst,175000
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,122000
+Analyst,Data Analyst,93800
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,90000
+Analyst,Data Analyst,165000
+Analyst,Data Analyst,112000
+Engineer,Data Engineer,220000
+Analyst,Business Intelligence Data Analyst,72361
+Developer,Data Developer,64801
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Analyst,Data Analyst,15821
+Engineer,Machine Learning Data Engineer,200000
+Engineer,Machine Learning Data Engineer,175000
+Engineer,Data Engineer,185900
+Engineer,Data Engineer,129300
+Analyst,Data Analyst,185900
+Analyst,Data Analyst,121700
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Scientist,Data Scientist,40000
+Scientist,Data Scientist,29419
+Analyst,Data Analyst,180180
+Analyst,Data Analyst,106020
+Scientist,Data Scientist,136000
+Scientist,Data Scientist,104000
+Analyst,Data Analyst,125000
+Analyst,Data Analyst,110000
+Engineer,Machine Learning Data Engineer,153400
+Engineer,Machine Learning Data Engineer,122700
+Engineer,Data Engineer,310000
+Engineer,Data Engineer,239000
+Analyst,Data Analyst,152380
+Analyst,Data Analyst,121904
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Engineer,Machine Learning Data Engineer,247500
+Engineer,Machine Learning Data Engineer,172200
+Architect,Data Architect,168400
+Architect,Data Architect,105200
+Engineer,Machine Learning Data Engineer,128280
+Engineer,Machine Learning Data Engineer,106900
+Scientist,Data Scientist,192000
+Engineer,Data Engineer,140000
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,108002
+Engineer,Data Engineer,86401
+Engineer,Machine Learning Data Engineer,275000
+Engineer,Machine Learning Data Engineer,174000
+Engineer,Data Engineer,139500
+Engineer,Data Engineer,109400
+Engineer,Machine Learning Data Engineer,139500
+Engineer,Machine Learning Data Engineer,109400
+Analyst,Data Analyst,170500
+Analyst,Data Analyst,85000
+Analyst,Data Analyst,73529
+Analyst,Data Analyst,54799
+Scientist,Data Scientist,161567
+Scientist,Data Scientist,128484
+Engineer,Data Engineer,80000
+Engineer,Data Engineer,65000
+Engineer,Data Engineer,124740
+Engineer,Data Engineer,65488
+Analyst,Data Analyst,72200
+Analyst,Data Analyst,64980
+Engineer,Data Engineer,153600
+Engineer,Data Engineer,106800
+Analyst,Data Analyst,179975
+Analyst,Data Analyst,86466
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,90000
+Analyst,Data Analyst,51447
+Analyst,Data Analyst,42872
+Scientist,Data Scientist,149076
+Scientist,Data Scientist,82365
+Analyst,Data Analyst,169000
+Analyst,Data Analyst,110600
+Analyst,Data Analyst,175000
+Analyst,Data Analyst,120000
+Analyst,Data Analyst,230000
+Analyst,Data Analyst,180000
+Analyst,Data Analyst,153600
+Analyst,Data Analyst,106800
+Analyst,Data Analyst,140000
+Analyst,Data Analyst,120000
+Engineer,Machine Learning Data Engineer,205920
+Engineer,Machine Learning Data Engineer,171600
+Analyst,Data Analyst,165000
+Analyst,Data Analyst,125000
+Engineer,Data Engineer,265000
+Engineer,Data Engineer,185000
+Engineer,Machine Learning Data Engineer,130000
+Scientist,Data Scientist,168000
+Scientist,Data Scientist,38880
+Analyst,Data Analyst,95000
+Analyst,Data Analyst,85500
+Scientist,Data Scientist,147100
+Scientist,Data Scientist,90700
+Engineer,Data Engineer,167580
+Engineer,Data Engineer,87980
+Engineer,Data Engineer,202000
+Engineer,Data Engineer,135000
+Engineer,Data Engineer,163800
+Engineer,Data Engineer,126000
+Engineer,Machine Learning Data Engineer,163800
+Engineer,Machine Learning Data Engineer,126000
+Engineer,Data Engineer,104000
+Engineer,Data Engineer,65000
+Engineer,Data Engineer,230000
+Engineer,Data Engineer,148000
+Engineer,Machine Learning Data Engineer,269000
+Engineer,Machine Learning Data Engineer,158000
+Analyst,Data Analyst,197000
+Analyst,Data Analyst,106000
+Engineer,Deep Learning Data Engineer,150000
+Engineer,Deep Learning Data Engineer,100000
+Engineer,Data Engineer,290000
+Engineer,Data Engineer,210000
+Engineer,Data Engineer,192000
+Engineer,Data Engineer,172800
+Scientist,Data Scientist,300240
+Scientist,Data Scientist,200160
+Scientist,Data Scientist,300240
+Scientist,Data Scientist,200160
+Analyst,Data Analyst,175000
+Analyst,Data Analyst,140000
+Analyst,Data Analyst,169000
+Analyst,Data Analyst,100000
+Scientist,Data Scientist,370000
+Scientist,Data Scientist,245000
+Engineer,Data Engineer,116368
+Analyst,Data Analyst,110000
+Analyst,Data Analyst,80000
+Analyst,Data Analyst,55000
+Analyst,Data Analyst,48000
+Analyst,Data Analyst,95000
+Analyst,Data Analyst,85000
+Engineer,Data Engineer,137500
+Engineer,Data Engineer,81500
+Engineer,Machine Learning Data Engineer,323300
+Engineer,Machine Learning Data Engineer,184700
+Scientist,Data Scientist,30000
+Engineer,Machine Learning Data Engineer,186000
+Engineer,Machine Learning Data Engineer,153088
+Engineer,Data Engineer,190000
+Engineer,Data Engineer,160000
+Engineer,Machine Learning Data Engineer,200000
+Engineer,Machine Learning Data Engineer,150000
+Engineer,Data Engineer,190000
+Engineer,Data Engineer,183310
+Engineer,Machine Learning Data Engineer,240000
+Engineer,Machine Learning Data Engineer,180000
+Engineer,Machine Learning Data Engineer,200000
+Engineer,Machine Learning Data Engineer,150000
+Analyst,Data Analyst,299500
+Analyst,Data Analyst,245100
+Engineer,Data Engineer,144000
+Engineer,Data Engineer,66000
+Engineer,Machine Learning Data Engineer,148500
+Engineer,Machine Learning Data Engineer,126277
+Architect,Data Architect,228000
+Architect,Data Architect,120000
+Engineer,Machine Learning Data Engineer,180000
+Engineer,Machine Learning Data Engineer,90000
+Scientist,Data Scientist,126500
+Scientist,Data Scientist,78000
+Engineer,Data Engineer,180000
+Engineer,Data Engineer,160000
+Engineer,Machine Learning Data Engineer,272000
+Engineer,Machine Learning Data Engineer,170000
+Analyst,Data Analyst,80000
+Analyst,Data Analyst,60000
+Engineer,Data Engineer,259000
+Engineer,Data Engineer,146000
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,310000
+Engineer,Data Engineer,239000
+Analyst,Data Analyst,142000
+Analyst,Data Analyst,95000
+Scientist,Data Scientist,155000
+Scientist,Data Scientist,139500
+Engineer,Data Engineer,140000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,259000
+Engineer,Data Engineer,146000
+Analyst,Data Analyst,110244
+Analyst,Data Analyst,73496
+Analyst,Data Analyst,18009
+Scientist,Data Scientist,19738
+Scientist,Data Scientist,247500
+Scientist,Data Scientist,172200
+Scientist,Data Scientist,225000
+Scientist,Data Scientist,156400
+Engineer,Data Engineer,139500
+Engineer,Data Engineer,109400
+Engineer,Data Engineer,125000
+Engineer,Data Engineer,90000
+Engineer,Machine Learning Data Engineer,108002
+Engineer,Machine Learning Data Engineer,75601
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Engineer,Machine Learning Data Engineer,139500
+Engineer,Machine Learning Data Engineer,109400
+Analyst,Data Analyst,120000
+Analyst,Data Analyst,75000
+Analyst,Data Analyst,169000
+Analyst,Data Analyst,110600
+Engineer,Machine Learning Data Engineer,288000
+Engineer,Machine Learning Data Engineer,140000
+Engineer,Machine Learning Data Engineer,288000
+Engineer,Machine Learning Data Engineer,140000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,90000
+Scientist,Data Scientist,73496
+Scientist,Data Scientist,61246
+Scientist,Data Scientist,215050
+Scientist,Data Scientist,156400
+Architect,Data Architect,198000
+Architect,Data Architect,114000
+Analyst,Data Analyst,75000
+Analyst,Data Analyst,60000
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Scientist,Data Scientist,209300
+Scientist,Data Scientist,182200
+Analyst,Data Analyst,140000
+Analyst,Data Analyst,120000
+Scientist,Data Scientist,85000
+Engineer,Machine Learning Data Engineer,48997
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,60000
+Engineer,Machine Learning Data Engineer,147100
+Engineer,Machine Learning Data Engineer,90700
+Engineer,Data Engineer,230000
+Engineer,Data Engineer,170000
+Analyst,Data Analyst,227000
+Analyst,Data Analyst,108000
+Engineer,Data Engineer,180000
+Engineer,Data Engineer,160000
+Architect,Data Architect,180000
+Architect,Data Architect,160000
+Engineer,Data Engineer,180000
+Engineer,Data Engineer,130000
+Analyst,Data Analyst,56161
+Analyst,Data Analyst,51841
+Analyst,Data Analyst,60000
+Analyst,Data Analyst,50000
+Engineer,Data Engineer,226700
+Engineer,Data Engineer,133300
+Engineer,Data Engineer,252000
+Engineer,Data Engineer,129000
+Architect,Business Intelligence Data Architect,153115
+Analyst,Data Analyst,80000
+Analyst,Data Analyst,52500
+Engineer,Data Engineer,250000
+Engineer,Data Engineer,162500
+Analyst,Data Analyst,85000
+Analyst,Data Analyst,75000
+Analyst,Data Analyst,153600
+Analyst,Data Analyst,106800
+Analyst,Data Analyst,165000
+Analyst,Data Analyst,124000
+Analyst,Data Analyst,115934
+Analyst,Data Analyst,81666
+Engineer,Data Engineer,167580
+Engineer,Data Engineer,87980
+Engineer,Data Engineer,250000
+Engineer,Data Engineer,63000
+Architect,Data Architect,253750
+Architect,Data Architect,169200
+Architect,Data Architect,253750
+Architect,Data Architect,169200
+Scientist,Data Scientist,170000
+Scientist,Data Scientist,120000
+Engineer,Data Engineer,124740
+Engineer,Data Engineer,65488
+Engineer,Data Engineer,213580
+Engineer,Data Engineer,163625
+Engineer,Machine Learning Data Engineer,375000
+Engineer,Data Engineer,102601
+Analyst,Data Analyst,16430
+Engineer,Machine Learning Data Engineer,220000
+Engineer,Machine Learning Data Engineer,170000
+Engineer,Data Engineer,235000
+Engineer,Data Engineer,210000
+Architect,Data Architect,180000
+Architect,Data Architect,115000
+Architect,Data Architect,200000
+Architect,Data Architect,115000
+Analyst,Data Analyst,231250
+Analyst,Data Analyst,138750
+Engineer,Machine Learning Data Engineer,284310
+Engineer,Machine Learning Data Engineer,153090
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,75000
+Analyst,Data Analyst,125000
+Analyst,Data Analyst,105000
+Analyst,Data Analyst,110244
+Analyst,Data Analyst,85745
+Analyst,Data Analyst,55000
+Analyst,Data Analyst,48000
+Analyst,Data Analyst,100000
+Scientist,Data Scientist,225900
+Scientist,Data Scientist,156400
+Engineer,Data Engineer,250000
+Engineer,Data Engineer,162500
+Engineer,Machine Learning Data Engineer,318300
+Engineer,Machine Learning Data Engineer,188800
+Analyst,Data Analyst,385000
+Analyst,Data Analyst,60000
+Analyst,Data Analyst,110000
+Analyst,Data Analyst,95000
+Scientist,Data Scientist,145000
+Scientist,Data Scientist,135000
+Analyst,Data Analyst,180180
+Analyst,Data Analyst,106020
+Analyst,Data Analyst,93919
+Analyst,Data Analyst,51962
+Engineer,Data Engineer,241871
+Engineer,Data Engineer,133832
+Scientist,Data Scientist,170000
+Scientist,Data Scientist,90000
+Engineer,Data Engineer,210914
+Engineer,Data Engineer,116704
+Analyst,Data Analyst,192500
+Analyst,Data Analyst,140000
+Scientist,Data Scientist,149076
+Scientist,Data Scientist,82365
+Engineer,Machine Learning Data Engineer,36000
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,148750
+Architect,Data Architect,370000
+Architect,Data Architect,200000
+Scientist,Data Scientist,235000
+Scientist,Data Scientist,185000
+Engineer,Machine Learning Data Engineer,122493
+Engineer,Machine Learning Data Engineer,97994
+Scientist,Data Scientist,216100
+Scientist,Data Scientist,140800
+Engineer,Machine Learning Data Engineer,146992
+Engineer,Machine Learning Data Engineer,122493
+Engineer,Data Engineer,54001
+Scientist,Data Scientist,110000
+Engineer,Data Engineer,128000
+Engineer,Data Engineer,81500
+Engineer,Data Engineer,67371
+Engineer,Data Engineer,63696
+Analyst,Data Analyst,61246
+Analyst,Data Analyst,55122
+Engineer,Data Engineer,284000
+Engineer,Data Engineer,236000
+Architect,Data Architect,248100
+Architect,Data Architect,145900
+Engineer,Data Engineer,155850
+Engineer,Data Engineer,102544
+Scientist,Data Scientist,151410
+Scientist,Data Scientist,115360
+Engineer,Data Engineer,66961
+Engineer,Data Engineer,59401
+Scientist,Data Scientist,125793
+Engineer,Cloud Data Engineer,100000
+Scientist,Data Scientist,250000
+Scientist,Data Scientist,162500
+Scientist,Data Scientist,185000
+Scientist,Data Scientist,120250
+Engineer,Data Engineer,27000
+Scientist,Data Scientist,180000
+Architect,Data Architect,85000
+Architect,Data Architect,70000
+Developer,Business Intelligence Data Developer,135000
+Developer,Business Intelligence Data Developer,100000
+Analyst,Data Analyst,155000
+Analyst,Data Analyst,140000
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Engineer,Data Engineer,226700
+Engineer,Data Engineer,133300
+Scientist,Data Scientist,225000
+Scientist,Data Scientist,156400
+Engineer,Data Engineer,163800
+Engineer,Data Engineer,126000
+Engineer,Machine Learning Data Engineer,163800
+Engineer,Machine Learning Data Engineer,126000
+Engineer,Machine Learning Data Engineer,220000
+Engineer,Machine Learning Data Engineer,150000
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,115000
+Analyst,Data Analyst,204500
+Analyst,Data Analyst,138900
+Engineer,Data Engineer,162500
+Engineer,Data Engineer,130000
+Engineer,Data Engineer,150000
+Engineer,Data Engineer,107000
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,110000
+Engineer,Data Engineer,226700
+Engineer,Data Engineer,133300
+Engineer,Data Engineer,252000
+Engineer,Data Engineer,129000
+Engineer,Machine Learning Data Engineer,150000
+Engineer,Machine Learning Data Engineer,125000
+Engineer,Data Engineer,252000
+Engineer,Data Engineer,129000
+Scientist,Data Scientist,225000
+Scientist,Data Scientist,156400
+Architect,Data Architect,23000
+Engineer,Machine Learning Data Engineer,110000
+Engineer,Data Engineer,265000
+Engineer,Data Engineer,182750
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,100000
+Analyst,Data Analyst,153600
+Analyst,Data Analyst,106800
+Engineer,Data Engineer,137500
+Engineer,Data Engineer,81500
+Scientist,Data Scientist,314100
+Scientist,Data Scientist,195800
+Scientist,Data Scientist,205000
+Scientist,Data Scientist,180000
+Scientist,Data Scientist,165000
+Scientist,Data Scientist,144000
+Developer,Business Intelligence Data Developer,160000
+Developer,Business Intelligence Data Developer,100000
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,145000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,100000
+Analyst,Data Analyst,199000
+Analyst,Data Analyst,112000
+Scientist,Data Scientist,105000
+Scientist,Data Scientist,70000
+Engineer,Business Intelligence Data Engineer,130000
+Analyst,Data Analyst,180180
+Analyst,Data Analyst,106020
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,135000
+Scientist,Data Scientist,183000
+Scientist,Data Scientist,134000
+Engineer,Machine Learning Data Engineer,220000
+Engineer,Machine Learning Data Engineer,150000
+Scientist,Data Scientist,350000
+Scientist,Data Scientist,262500
+Analyst,Data Analyst,122000
+Analyst,Data Analyst,94000
+Engineer,Machine Learning Data Engineer,276000
+Engineer,Machine Learning Data Engineer,184000
+Engineer,Data Engineer,310000
+Engineer,Data Engineer,239000
+Scientist,Data Scientist,225000
+Scientist,Data Scientist,156400
+Engineer,Machine Learning Data Engineer,180000
+Engineer,Machine Learning Data Engineer,150000
+Scientist,Data Scientist,228000
+Scientist,Data Scientist,152000
+Scientist,Data Scientist,209450
+Scientist,Data Scientist,158677
+Analyst,Data Analyst,175000
+Analyst,Data Analyst,145000
+Engineer,Data Engineer,240000
+Engineer,Data Engineer,170000
+Analyst,Data Analyst,103200
+Analyst,Data Analyst,61200
+Scientist,Data Scientist,155000
+Engineer,Data Engineer,66970
+Scientist,Data Scientist,63721
+Scientist,Data Scientist,237000
+Scientist,Data Scientist,145000
+Scientist,Data Scientist,240000
+Scientist,Data Scientist,139000
+Architect,Data Architect,174500
+Architect,Data Architect,113000
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,87000
+Analyst,Data Analyst,160000
+Analyst,Data Analyst,108000
+Engineer,Data Engineer,165000
+Engineer,Data Engineer,107250
+Engineer,Data Engineer,300000
+Engineer,Data Engineer,119000
+Scientist,Data Scientist,285800
+Scientist,Data Scientist,154600
+Scientist,Data Scientist,60853
+Analyst,Data Analyst,30000
+Analyst,Data Analyst,220000
+Analyst,Data Analyst,195000
+Analyst,Data Analyst,168400
+Analyst,Data Analyst,105200
+Analyst,Data Analyst,206000
+Analyst,Data Analyst,160000
+Analyst,Data Analyst,200000
+Analyst,Data Analyst,175000
+Analyst,Data Analyst,231250
+Analyst,Data Analyst,138750
+Engineer,Data Engineer,153000
+Engineer,Data Engineer,94000
+Engineer,Data Engineer,240500
+Engineer,Data Engineer,123700
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,90000
+Scientist,Data Scientist,124234
+Scientist,Data Scientist,74540
+Analyst,Data Analyst,109000
+Analyst,Data Analyst,79000
+Engineer,Machine Learning Data Engineer,84053
+Engineer,Machine Learning Data Engineer,50000
+Scientist,Data Scientist,275300
+Scientist,Data Scientist,183500
+Scientist,Data Scientist,275300
+Scientist,Data Scientist,183500
+Analyst,Data Analyst,160000
+Analyst,Data Analyst,125600
+Engineer,Data Engineer,170000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,225000
+Engineer,Data Engineer,140000
+Analyst,Data Analyst,141290
+Analyst,Data Analyst,74178
+Scientist,Data Scientist,150000
+Scientist,Data Scientist,120000
+Engineer,Data Engineer,85000
+Engineer,Data Engineer,75000
+Engineer,Data Engineer,220000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,205600
+Engineer,Data Engineer,107500
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,95000
+Engineer,Data Engineer,185900
+Engineer,Data Engineer,129300
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,130000
+Engineer,Data Engineer,250000
+Engineer,Data Engineer,175000
+Scientist,Data Scientist,136000
+Scientist,Data Scientist,104000
+Analyst,Data Analyst,80000
+Analyst,Data Analyst,52500
+Scientist,Data Scientist,110000
+Scientist,Data Scientist,84000
+Analyst,Business Intelligence Data Analyst,125000
+Analyst,Business Intelligence Data Analyst,110000
+Analyst,Data Analyst,90000
+Analyst,Data Analyst,80000
+Engineer,Machine Learning Data Engineer,200000
+Engineer,Machine Learning Data Engineer,135000
+Analyst,Business Data Analyst,48000
+Developer,Data Developer,120000
+Engineer,Data Engineer,130000
+Engineer,Data Engineer,75000
+Engineer,Data Engineer,252000
+Engineer,Data Engineer,129000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,100000
+Engineer,Data Engineer,226700
+Engineer,Data Engineer,133300
+Scientist,Data Scientist,190000
+Scientist,Data Scientist,165000
+Engineer,Data Engineer,170000
+Engineer,Data Engineer,150000
+Engineer,Data Engineer,150000
+Engineer,Data Engineer,130000
+Scientist,Data Scientist,225000
+Scientist,Data Scientist,156400
+Engineer,Data Engineer,200000
+Scientist,Data Scientist,80000
+Analyst,Data Analyst,17525
+Scientist,Data Scientist,257000
+Scientist,Data Scientist,134000
+Scientist,Data Scientist,77761
+Scientist,Data Scientist,38880
+Engineer,Data Engineer,205600
+Engineer,Data Engineer,105700
+Developer,Business Intelligence Data Developer,140000
+Developer,Business Intelligence Data Developer,110000
+Analyst,Data Analyst,299500
+Analyst,Data Analyst,245100
+Architect,Data Architect,210000
+Architect,Data Architect,151800
+Scientist,Data Scientist,54001
+Analyst,Data Analyst,51841
+Analyst,Data Analyst,41040
+Analyst,Data Analyst,51841
+Analyst,Data Analyst,41040
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,135000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,95000
+Engineer,Data Engineer,250000
+Engineer,Data Engineer,63000
+Scientist,Data Scientist,237000
+Scientist,Data Scientist,145000
+Scientist,Data Scientist,130000
+Scientist,Data Scientist,90000
+Analyst,Data Analyst,120000
+Analyst,Data Analyst,100000
+Architect,Data Architect,174500
+Architect,Data Architect,113000
+Scientist,Data Scientist,183310
+Scientist,Data Scientist,183310
+Analyst,Data Analyst,145000
+Analyst,Data Analyst,102500
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,185000
+Architect,Data Architect,174500
+Architect,Data Architect,113000
+Scientist,Data Scientist,122000
+Scientist,Data Scientist,94000
+Scientist,Data Scientist,220000
+Scientist,Data Scientist,146000
+Engineer,Data Engineer,300000
+Engineer,Data Engineer,130000
+Scientist,Data Scientist,24712
+Engineer,Data Engineer,15897
+Scientist,Data Scientist,145000
+Scientist,Data Scientist,128000
+Scientist,Data Scientist,182000
+Scientist,Data Scientist,140000
+Engineer,Data Engineer,122000
+Engineer,Data Engineer,94000
+Engineer,Machine Learning Data Engineer,77761
+Engineer,Machine Learning Data Engineer,38880
+Scientist,Data Scientist,300000
+Scientist,Data Scientist,200000
+Analyst,Data Analyst,135000
+Analyst,Data Analyst,105500
+Engineer,Data Engineer,252000
+Engineer,Data Engineer,129000
+Scientist,Data Scientist,110000
+Scientist,Data Scientist,136000
+Scientist,Data Scientist,104000
+Scientist,Data Scientist,168000
+Scientist,Data Scientist,130000
+Analyst,Data Analyst,79620
+Analyst,Data Analyst,44158
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,95000
+Scientist,Data Scientist,153400
+Scientist,Data Scientist,122700
+Scientist,Data Scientist,185000
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,205000
+Scientist,Data Scientist,185000
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Engineer,Machine Learning Data Engineer,145000
+Engineer,Machine Learning Data Engineer,87000
+Scientist,Data Scientist,50000
+Engineer,Machine Learning Data Engineer,234100
+Engineer,Machine Learning Data Engineer,203500
+Scientist,Data Scientist,223800
+Scientist,Data Scientist,172100
+Scientist,Data Scientist,180000
+Scientist,Data Scientist,150000
+Engineer,Data Engineer,232200
+Engineer,Data Engineer,167200
+Developer,Business Intelligence Data Developer,197000
+Developer,Business Intelligence Data Developer,106000
+Architect,Data Architect,180000
+Architect,Data Architect,145000
+Others,Data Others,225000
+Others,Data Others,200000
+Engineer,Data Engineer,170000
+Engineer,Data Engineer,114000
+Engineer,Data Engineer,291500
+Engineer,Data Engineer,180000
+Engineer,Data Engineer,196200
+Engineer,Data Engineer,150900
+Scientist,Data Scientist,168400
+Scientist,Data Scientist,105200
+Engineer,Data Engineer,95000
+Engineer,Data Engineer,80000
+Analyst,Data Analyst,116000
+Analyst,Data Analyst,72000
+Analyst,Data Analyst,207000
+Analyst,Data Analyst,167000
+Engineer,Machine Learning Data Engineer,145000
+Engineer,Machine Learning Data Engineer,135000
+Engineer,Data Engineer,105000
+Engineer,Data Engineer,70000
+Architect,Data Architect,180000
+Architect,Data Architect,115000
+Engineer,Data Engineer,133800
+Engineer,Data Engineer,96100
+Analyst,Data Analyst,120000
+Analyst,Data Analyst,80000
+Engineer,Data Engineer,140000
+Engineer,Data Engineer,100000
+Architect,Data Architect,150000
+Architect,Data Architect,120000
+Engineer,Cloud Data Engineer,140000
+Engineer,Cloud Data Engineer,115000
+Analyst,Data Analyst,297300
+Analyst,Data Analyst,198200
+Scientist,Data Scientist,297300
+Scientist,Data Scientist,198200
+Engineer,Data Engineer,202000
+Engineer,Data Engineer,135000
+Scientist,Data Scientist,110000
+Scientist,Data Scientist,84000
+Engineer,Machine Learning Data Engineer,219000
+Scientist,Data Scientist,230000
+Scientist,Data Scientist,196000
+Developer,Business Intelligence Data Developer,140000
+Developer,Business Intelligence Data Developer,110000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,100000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,110000
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Scientist,Data Scientist,126100
+Scientist,Data Scientist,72000
+Engineer,Data Engineer,170000
+Engineer,Data Engineer,150000
+Engineer,Machine Learning Data Engineer,175000
+Engineer,Machine Learning Data Engineer,140000
+Analyst,Data Analyst,240500
+Analyst,Data Analyst,137500
+Scientist,Data Scientist,187500
+Scientist,Data Scientist,165000
+Engineer,Machine Learning Data Engineer,73496
+Analyst,Data Analyst,25216
+Architect,Data Architect,210000
+Architect,Data Architect,165750
+Scientist,Machine Learning Data Scientist,225000
+Scientist,Machine Learning Data Scientist,165750
+Engineer,Machine Learning Data Engineer,109876
+Engineer,Machine Learning Data Engineer,67677
+Scientist,Data Scientist,135000
+Scientist,Data Scientist,115000
+Engineer,Data Engineer,275000
+Engineer,Data Engineer,175000
+Scientist,Data Scientist,170000
+Scientist,Data Scientist,140000
+Engineer,Data Engineer,175308
+Engineer,Data Engineer,100706
+Engineer,Data Engineer,235000
+Engineer,Data Engineer,135000
+Engineer,Data Engineer,310000
+Engineer,Data Engineer,229000
+Engineer,Machine Learning Data Engineer,289076
+Engineer,Machine Learning Data Engineer,202353
+Engineer,Data Engineer,70201
+Engineer,Data Engineer,37800
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,226700
+Engineer,Data Engineer,133300
+Analyst,Data Analyst,125000
+Analyst,Data Analyst,85000
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,80000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,100000
+Scientist,Data Scientist,54094
+Analyst,Business Data Analyst,18314
+Engineer,Data Engineer,231250
+Engineer,Data Engineer,138750
+Engineer,Data Engineer,199000
+Engineer,Data Engineer,162000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,135000
+Scientist,Data Scientist,100000
+Architect,Data Architect,200000
+Architect,Data Architect,150000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,120000
+Architect,Data Architect,250000
+Architect,Data Architect,200000
+Engineer,Deep Learning Data Engineer,150000
+Engineer,Deep Learning Data Engineer,120000
+Engineer,Data Engineer,150000
+Engineer,Data Engineer,100000
+Analyst,Data Analyst,133000
+Scientist,Data Scientist,272550
+Scientist,Data Scientist,198200
+Scientist,Data Scientist,182000
+Scientist,Data Scientist,140000
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,160000
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Scientist,Data Scientist,120000
+Scientist,Data Scientist,105000
+Engineer,Data Engineer,187500
+Engineer,Data Engineer,175000
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Analyst,Data Analyst,155000
+Analyst,Data Analyst,64000
+Engineer,Data Engineer,235000
+Engineer,Data Engineer,185000
+Architect,Data Architect,174500
+Architect,Data Architect,113000
+Scientist,Data Scientist,143100
+Scientist,Data Scientist,113000
+Scientist,Data Scientist,184000
+Scientist,Data Scientist,142000
+Scientist,Data Scientist,140000
+Scientist,Data Scientist,120000
+Architect,Data Architect,174500
+Architect,Data Architect,113000
+Scientist,Data Scientist,180560
+Scientist,Data Scientist,115440
+Scientist,Data Scientist,140000
+Scientist,Data Scientist,120000
+Architect,Data Architect,248100
+Architect,Data Architect,145900
+Scientist,Data Scientist,120000
+Scientist,Data Scientist,110000
+Engineer,Data Engineer,291500
+Engineer,Data Engineer,180000
+Engineer,Machine Learning Data Engineer,75946
+Engineer,Machine Learning Data Engineer,63696
+Engineer,Data Engineer,161800
+Engineer,Data Engineer,141600
+Engineer,Machine Learning Data Engineer,58796
+Engineer,Machine Learning Data Engineer,46547
+Engineer,Data Engineer,166000
+Engineer,Data Engineer,128000
+Architect,Data Architect,170000
+Architect,Data Architect,110000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,75000
+Engineer,Data Engineer,236000
+Engineer,Data Engineer,182000
+Scientist,Data Scientist,130000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,100000
+Engineer,Machine Learning Data Engineer,261500
+Engineer,Machine Learning Data Engineer,134500
+Scientist,Data Scientist,130000
+Scientist,Data Scientist,90000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,135000
+Analyst,Data Analyst,125000
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,155000
+Engineer,Data Engineer,153600
+Engineer,Data Engineer,106800
+Scientist,Data Scientist,150000
+Scientist,Data Scientist,140000
+Scientist,Data Scientist,122000
+Scientist,Data Scientist,94500
+Engineer,Data Engineer,170000
+Engineer,Data Engineer,130000
+Scientist,Data Scientist,145000
+Scientist,Data Scientist,128000
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,115000
+Scientist,Machine Learning Data Scientist,150000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,100000
+Scientist,Data Scientist,150000
+Scientist,Data Scientist,127500
+Scientist,Data Scientist,126500
+Scientist,Data Scientist,51000
+Engineer,Data Engineer,260000
+Engineer,Data Engineer,175000
+Scientist,Data Scientist,40000
+Others,Data Others,40000
+Engineer,Data Engineer,250000
+Engineer,Data Engineer,63000
+Engineer,Machine Learning Data Engineer,210000
+Engineer,Machine Learning Data Engineer,160000
+Scientist,Data Scientist,272550
+Scientist,Data Scientist,198200
+Scientist,Data Scientist,94560
+Scientist,Data Scientist,52533
+Scientist,Data Scientist,220000
+Scientist,Data Scientist,146000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,100000
+Engineer,Machine Learning Data Engineer,248400
+Engineer,Machine Learning Data Engineer,183600
+Engineer,Data Engineer,150000
+Engineer,Data Engineer,150000
+Developer,Machine Learning Data Developer,40000
+Scientist,Data Scientist,56723
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,95000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,135000
+Scientist,Data Scientist,24165
+Engineer,Data Engineer,216000
+Engineer,Data Engineer,144000
+Engineer,Data Engineer,85000
+Engineer,Data Engineer,65000
+Analyst,Data Analyst,149000
+Analyst,Data Analyst,119000
+Scientist,Data Scientist,140000
+Scientist,Data Scientist,120000
+Scientist,Data Scientist,150000
+Scientist,Data Scientist,110000
+Engineer,Machine Learning Data Engineer,246000
+Engineer,Machine Learning Data Engineer,201000
+Scientist,Data Scientist,190000
+Scientist,Data Scientist,155000
+Engineer,Machine Learning Data Engineer,235000
+Engineer,Machine Learning Data Engineer,185000
+Engineer,Cloud Data Engineer,190000
+Engineer,Cloud Data Engineer,160000
+Analyst,Data Analyst,100000
+Engineer,Data Engineer,130000
+Engineer,Data Engineer,115000
+Scientist,Data Scientist,92350
+Scientist,Data Scientist,67723
+Engineer,Data Engineer,105000
+Engineer,Data Engineer,70000
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Engineer,Machine Learning Data Engineer,192000
+Engineer,Machine Learning Data Engineer,164000
+Engineer,Data Engineer,185900
+Engineer,Data Engineer,129300
+Engineer,Data Engineer,130000
+Engineer,Data Engineer,75000
+Analyst,Data Analyst,175000
+Analyst,Data Analyst,120000
+Engineer,Data Engineer,167500
+Engineer,Data Engineer,106500
+Analyst,Data Analyst,75000
+Analyst,Data Analyst,60000
+Scientist,Data Scientist,184000
+Scientist,Data Scientist,142000
+Scientist,Data Scientist,145000
+Scientist,Data Scientist,100000
+Scientist,Data Scientist,31795
+Engineer,Data Engineer,44365
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,92350
+Engineer,Data Engineer,73880
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,100000
+Scientist,Data Scientist,192000
+Scientist,Data Scientist,164000
+Engineer,Data Engineer,310000
+Engineer,Data Engineer,239000
+Analyst,Data Analyst,120000
+Analyst,Data Analyst,95000
+Engineer,Machine Learning Data Engineer,145000
+Engineer,Machine Learning Data Engineer,135000
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,78000
+Engineer,Data Engineer,73546
+Engineer,Data Engineer,36773
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,120000
+Scientist,Data Scientist,190000
+Scientist,Data Scientist,150000
+Engineer,Data Engineer,35610
+Scientist,Data Scientist,125000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,95000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,100000
+Scientist,Data Scientist,47280
+Scientist,Data Scientist,37824
+Analyst,Data Analyst,115934
+Analyst,Data Analyst,81666
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,140000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,95000
+Engineer,Data Engineer,249500
+Engineer,Data Engineer,149850
+Analyst,Data Analyst,122500
+Analyst,Data Analyst,100000
+Scientist,Data Scientist,249500
+Scientist,Data Scientist,149850
+Analyst,Data Analyst,55000
+Analyst,Data Analyst,48000
+Architect,Data Architect,249500
+Architect,Data Architect,149850
+Engineer,Data Engineer,58837
+Engineer,Data Engineer,190000
+Engineer,Data Engineer,120000
+Analyst,Data Analyst,127000
+Analyst,Data Analyst,104000
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,150000
+Engineer,Machine Learning Data Engineer,210000
+Engineer,Machine Learning Data Engineer,150000
+Engineer,Data Engineer,210000
+Engineer,Data Engineer,130000
+Scientist,Data Scientist,182750
+Scientist,Data Scientist,161500
+Analyst,Data Analyst,102640
+Analyst,Data Analyst,66100
+Architect,Data Architect,210000
+Architect,Data Architect,150000
+Engineer,Data Engineer,198800
+Engineer,Data Engineer,122600
+Engineer,Data Engineer,130000
+Engineer,Data Engineer,80000
+Scientist,Data Scientist,136000
+Scientist,Data Scientist,104000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,100000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,135000
+Engineer,Data Engineer,216000
+Engineer,Data Engineer,144000
+Scientist,Data Scientist,159000
+Scientist,Data Scientist,130000
+Analyst,Data Analyst,115934
+Analyst,Data Analyst,81666
+Engineer,Data Engineer,215000
+Engineer,Data Engineer,150000
+Engineer,Machine Learning Data Engineer,246000
+Engineer,Machine Learning Data Engineer,201000
+Engineer,Data Engineer,187000
+Engineer,Data Engineer,153000
+Engineer,Machine Learning Data Engineer,255000
+Engineer,Machine Learning Data Engineer,185000
+Analyst,Data Analyst,430967
+Analyst,Data Analyst,55410
+Analyst,Data Analyst,50432
+Analyst,Data Analyst,39925
+Analyst,Data Analyst,169000
+Analyst,Data Analyst,110600
+Analyst,Business Intelligence Data Analyst,60938
+Developer,Business Intelligence Data Developer,140000
+Developer,Business Intelligence Data Developer,120000
+Analyst,Data Analyst,75000
+Analyst,Data Analyst,60000
+Analyst,Data Analyst,50000
+Engineer,Machine Learning Data Engineer,134000
+Engineer,Machine Learning Data Engineer,124000
+Analyst,Data Analyst,166700
+Analyst,Data Analyst,119000
+Scientist,Data Scientist,124234
+Scientist,Data Scientist,74540
+Analyst,Data Analyst,100000
+Analyst,Data Analyst,65000
+Analyst,Data Analyst,16904
+Scientist,Data Scientist,200000
+Engineer,Data Engineer,220000
+Engineer,Data Engineer,146000
+Engineer,Data Engineer,68293
+Engineer,Data Engineer,36773
+Others,Data Others,110000
+Others,Data Others,70000
+Analyst,Data Analyst,50000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,95000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,100000
+Scientist,Data Scientist,47280
+Scientist,Data Scientist,37824
+Architect,Data Architect,190000
+Architect,Data Architect,135000
+Scientist,Data Scientist,128000
+Scientist,Data Scientist,81500
+Scientist,Data Scientist,173000
+Scientist,Data Scientist,110000
+Engineer,Machine Learning Data Engineer,192000
+Engineer,Machine Learning Data Engineer,120000
+Analyst,Data Analyst,115934
+Analyst,Data Analyst,81666
+Analyst,Data Analyst,120000
+Analyst,Data Analyst,95000
+Engineer,Machine Learning Data Engineer,190000
+Engineer,Data Engineer,194000
+Engineer,Data Engineer,129400
+Analyst,Data Analyst,201000
+Analyst,Data Analyst,89200
+Scientist,Data Scientist,165000
+Scientist,Data Scientist,125000
+Scientist,Data Scientist,230000
+Scientist,Data Scientist,196000
+Engineer,Machine Learning Data Engineer,130000
+Engineer,Machine Learning Data Engineer,90000
+Architect,Machine Learning Data Architect,150000
+Architect,Machine Learning Data Architect,100000
+Engineer,Machine Learning Data Engineer,230000
+Engineer,Machine Learning Data Engineer,150000
+Engineer,Data Engineer,153600
+Engineer,Data Engineer,106800
+Architect,Machine Learning Data Architect,130000
+Architect,Machine Learning Data Architect,100000
+Engineer,Data Engineer,216000
+Engineer,Data Engineer,144000
+Scientist,Data Scientist,180000
+Scientist,Data Scientist,120000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,135000
+Analyst,Data Analyst,192500
+Analyst,Data Analyst,140000
+Engineer,Data Engineer,152500
+Engineer,Data Engineer,130000
+Analyst,Data Analyst,65000
+Analyst,Data Analyst,55000
+Engineer,Data Engineer,178750
+Engineer,Data Engineer,160000
+Scientist,Data Scientist,63040
+Scientist,Data Scientist,52533
+Scientist,Machine Learning Data Scientist,165000
+Scientist,Machine Learning Data Scientist,135000
+Analyst,Data Analyst,170000
+Analyst,Data Analyst,125000
+Engineer,Data Engineer,105000
+Engineer,Data Engineer,70000
+Scientist,Data Scientist,130000
+Scientist,Data Scientist,95000
+Scientist,Data Scientist,203500
+Scientist,Data Scientist,152000
+Engineer,Data Engineer,197430
+Engineer,Data Engineer,134760
+Scientist,Data Scientist,120000
+Engineer,Data Engineer,197000
+Engineer,Data Engineer,99000
+Engineer,Data Engineer,220000
+Engineer,Data Engineer,162000
+Engineer,Data Engineer,110446
+Engineer,Data Engineer,79178
+Scientist,Data Scientist,70186
+Scientist,Data Scientist,51716
+Architect,Data Architect,149040
+Architect,Data Architect,113900
+Analyst,Business Data Analyst,95000
+Analyst,Data Analyst,115000
+Analyst,Data Analyst,171000
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,78000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,95000
+Others,Data Others,110000
+Others,Data Others,70000
+Analyst,Data Analyst,50000
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,100000
+Engineer,Data Engineer,230000
+Engineer,Data Engineer,154600
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,75000
+Scientist,Data Scientist,47280
+Scientist,Data Scientist,37824
+Engineer,Data Engineer,213000
+Engineer,Data Engineer,152000
+Scientist,Data Scientist,140000
+Scientist,Data Scientist,120000
+Scientist,Data Scientist,110000
+Scientist,Data Scientist,70000
+Engineer,Machine Learning Data Engineer,227200
+Engineer,Machine Learning Data Engineer,168000
+Scientist,Data Scientist,64090
+Scientist,Data Scientist,60938
+Engineer,Machine Learning Data Engineer,243000
+Engineer,Machine Learning Data Engineer,183000
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,150000
+Scientist,Data Scientist,130000
+Scientist,Data Scientist,90000
+Analyst,Data Analyst,165000
+Analyst,Data Analyst,124000
+Engineer,Data Engineer,178000
+Engineer,Data Engineer,132000
+Engineer,Data Engineer,300000
+Engineer,Data Engineer,130000
+Analyst,Data Analyst,169000
+Analyst,Data Analyst,110600
+Analyst,Data Analyst,116000
+Analyst,Data Analyst,96000
+Analyst,Data Analyst,92350
+Analyst,Data Analyst,70186
+Analyst,Data Analyst,105000
+Analyst,Data Analyst,70000
+Architect,Machine Learning Data Architect,105236
+Engineer,Data Engineer,194000
+Engineer,Data Engineer,129400
+Architect,Data Architect,190000
+Architect,Data Architect,135000
+Analyst,Data Analyst,100000
+Analyst,Data Analyst,70000
+Engineer,Machine Learning Data Engineer,189750
+Engineer,Machine Learning Data Engineer,140250
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,100000
+Analyst,Data Analyst,160000
+Analyst,Data Analyst,109000
+Engineer,Data Engineer,250000
+Engineer,Data Engineer,150000
+Analyst,Data Analyst,206000
+Analyst,Data Analyst,160000
+Engineer,Data Engineer,135000
+Engineer,Data Engineer,120000
+Engineer,Machine Learning Data Engineer,115573
+Engineer,Machine Learning Data Engineer,73546
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,135000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,100000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,95000
+Engineer,Data Engineer,68293
+Engineer,Data Engineer,42026
+Engineer,Data Engineer,191200
+Engineer,Data Engineer,130000
+Engineer,Data Engineer,191200
+Engineer,Data Engineer,130000
+Engineer,Machine Learning Data Engineer,66192
+Engineer,Data Engineer,230000
+Engineer,Data Engineer,154600
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,95000
+Scientist,Data Scientist,140000
+Scientist,Data Scientist,120000
+Analyst,Data Analyst,169000
+Analyst,Data Analyst,110600
+Analyst,Data Analyst,80000
+Engineer,Data Engineer,185900
+Engineer,Data Engineer,129300
+Analyst,Data Analyst,135000
+Analyst,Data Analyst,110000
+Analyst,Data Analyst,155000
+Analyst,Data Analyst,140000
+Engineer,Data Engineer,205000
+Engineer,Data Engineer,150000
+Engineer,Data Engineer,179500
+Engineer,Data Engineer,134000
+Scientist,Data Scientist,180000
+Scientist,Data Scientist,120000
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,145000
+Architect,Data Architect,235000
+Architect,Data Architect,175000
+Scientist,Data Scientist,27317
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,90000
+Engineer,Data Engineer,68293
+Engineer,Data Engineer,36773
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,115000
+Others,Data Others,165000
+Others,Data Others,135000
+Engineer,Data Engineer,168400
+Engineer,Data Engineer,105200
+Engineer,Deep Learning Data Engineer,86193
+Engineer,Deep Learning Data Engineer,49253
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,160000
+Scientist,Data Scientist,47280
+Scientist,Data Scientist,37824
+Scientist,Data Scientist,198800
+Scientist,Data Scientist,122600
+Engineer,Machine Learning Data Engineer,100000
+Analyst,Business Intelligence Data Analyst,105066
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,100000
+Analyst,Data Analyst,104663
+Analyst,Data Analyst,73880
+Engineer,Data Engineer,125000
+Engineer,Data Engineer,110000
+Analyst,Data Analyst,165000
+Analyst,Data Analyst,124000
+Scientist,Data Scientist,148000
+Scientist,Data Scientist,107000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,100000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,135000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,95000
+Engineer,Data Engineer,153600
+Engineer,Data Engineer,106800
+Analyst,Data Analyst,100000
+Analyst,Data Analyst,65000
+Engineer,Data Engineer,120000
+Engineer,Data Engineer,95000
+Engineer,Data Engineer,63040
+Engineer,Data Engineer,36773
+Engineer,Data Engineer,310000
+Engineer,Data Engineer,239000
+Analyst,Data Analyst,299500
+Analyst,Data Analyst,245100
+Scientist,Data Scientist,168000
+Scientist,Data Scientist,130000
+Scientist,Data Scientist,136000
+Scientist,Data Scientist,104000
+Engineer,Data Engineer,161000
+Engineer,Data Engineer,118000
+Scientist,Data Scientist,205000
+Scientist,Data Scientist,184000
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Analyst,Data Analyst,247500
+Analyst,Data Analyst,172200
+Analyst,Data Analyst,68293
+Analyst,Data Analyst,177000
+Analyst,Data Analyst,131000
+Scientist,Data Scientist,205000
+Scientist,Data Scientist,184000
+Engineer,Data Engineer,146000
+Engineer,Data Engineer,102000
+Analyst,Data Analyst,169000
+Analyst,Data Analyst,110600
+Scientist,Data Scientist,230000
+Scientist,Data Scientist,196000
+Engineer,Data Engineer,135000
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,80000
+Engineer,Data Engineer,65000
+Engineer,Data Engineer,135000
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,61566
+Engineer,Data Engineer,43096
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,135000
+Scientist,Data Scientist,80000
+Engineer,Data Engineer,231250
+Engineer,Data Engineer,138750
+Analyst,Data Analyst,193750
+Analyst,Data Analyst,116250
+Engineer,Data Engineer,231250
+Engineer,Data Engineer,138750
+Analyst,Data Analyst,231250
+Analyst,Data Analyst,138750
+Analyst,Data Analyst,231250
+Analyst,Data Analyst,138750
+Engineer,Data Engineer,193750
+Engineer,Data Engineer,116250
+Scientist,Data Scientist,208000
+Scientist,Data Scientist,127000
+Architect,Data Architect,300000
+Architect,Data Architect,196000
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Others,Data Others,45555
+Engineer,Data Engineer,185900
+Engineer,Data Engineer,129300
+Scientist,Data Scientist,47280
+Scientist,Data Scientist,37824
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Scientist,Data Scientist,205000
+Scientist,Data Scientist,185000
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Engineer,Machine Learning Data Engineer,247500
+Engineer,Machine Learning Data Engineer,172200
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,135000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,100000
+Analyst,Data Analyst,110000
+Analyst,Data Analyst,95000
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Scientist,Data Scientist,205000
+Scientist,Data Scientist,184000
+Scientist,Data Scientist,17684
+Scientist,Data Scientist,375000
+Engineer,Data Engineer,191200
+Engineer,Data Engineer,130000
+Scientist,Data Scientist,225000
+Scientist,Data Scientist,156400
+Analyst,Data Analyst,169000
+Analyst,Data Analyst,110600
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Engineer,Machine Learning Data Engineer,104663
+Engineer,Machine Learning Data Engineer,80036
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Scientist,Data Scientist,140700
+Scientist,Data Scientist,93800
+Scientist,Data Scientist,350000
+Scientist,Data Scientist,135000
+Analyst,Data Analyst,115934
+Analyst,Data Analyst,81666
+Engineer,Machine Learning Data Engineer,104697
+Developer,Machine Learning Data Developer,33000
+Scientist,Machine Learning Data Scientist,34672
+Engineer,Machine Learning Data Engineer,201000
+Engineer,Machine Learning Data Engineer,119000
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,150000
+Analyst,Data Analyst,154560
+Analyst,Data Analyst,123648
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,100000
+Engineer,Data Engineer,170000
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,135000
+Engineer,Data Engineer,100000
+Scientist,Data Scientist,247500
+Scientist,Data Scientist,172200
+Scientist,Data Scientist,177500
+Scientist,Data Scientist,134000
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Architect,Data Architect,192564
+Architect,Data Architect,144854
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,105000
+Engineer,Data Engineer,179305
+Engineer,Data Engineer,142127
+Engineer,Data Engineer,315000
+Engineer,Data Engineer,225000
+Scientist,Data Scientist,243900
+Scientist,Data Scientist,156600
+Analyst,Data Analyst,206000
+Analyst,Data Analyst,160000
+Analyst,Data Analyst,109000
+Analyst,Data Analyst,79000
+Analyst,Data Analyst,160000
+Analyst,Data Analyst,109000
+Scientist,Data Scientist,89306
+Engineer,Data Engineer,182500
+Engineer,Data Engineer,128500
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,90000
+Analyst,Data Analyst,77300
+Analyst,Data Analyst,45600
+Analyst,Data Analyst,127000
+Analyst,Data Analyst,110000
+Architect,Data Architect,210000
+Architect,Data Architect,136000
+Engineer,Data Engineer,170000
+Engineer,Data Engineer,140000
+Engineer,Data Engineer,247500
+Engineer,Data Engineer,172200
+Engineer,Data Engineer,225000
+Engineer,Data Engineer,184100
+Engineer,Machine Learning Data Engineer,130000
+Engineer,Machine Learning Data Engineer,90000
+Scientist,Data Scientist,120000
+Scientist,Data Scientist,100000
+Scientist,Data Scientist,85000
+Scientist,Data Scientist,78000
+Engineer,Data Engineer,161000
+Engineer,Data Engineer,110000
+Scientist,Data Scientist,136000
+Scientist,Data Scientist,104000
+Scientist,Data Scientist,47280
+Scientist,Data Scientist,37824
+Others,Data Others,205000
+Others,Data Others,160000
+Analyst,Data Analyst,169000
+Analyst,Data Analyst,110600
+Engineer,Data Engineer,61566
+Engineer,Data Engineer,49253
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,130000
+Scientist,Data Scientist,245000
+Scientist,Data Scientist,180000
+Engineer,Data Engineer,135000
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,220000
+Engineer,Data Engineer,150000
+Scientist,Data Scientist,198440
+Scientist,Data Scientist,144000
+Engineer,Data Engineer,240000
+Engineer,Data Engineer,170000
+Scientist,Data Scientist,198440
+Scientist,Data Scientist,144000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,100000
+Analyst,Data Analyst,120000
+Analyst,Data Analyst,95000
+Scientist,Data Scientist,57872
+Analyst,Data Analyst,64000
+Scientist,Data Scientist,39925
+Engineer,Machine Learning Data Engineer,187200
+Engineer,Machine Learning Data Engineer,116100
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,127000
+Engineer,Data Engineer,275000
+Engineer,Data Engineer,166000
+Scientist,Data Scientist,159699
+Scientist,Data Scientist,138938
+Analyst,Business Intelligence Data Analyst,76000
+Analyst,Data Analyst,166700
+Analyst,Data Analyst,119000
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,100000
+Analyst,Data Analyst,103432
+Analyst,Data Analyst,92350
+Analyst,Data Analyst,80000
+Analyst,Data Analyst,52500
+Engineer,Data Engineer,236000
+Engineer,Data Engineer,182000
+Scientist,Data Scientist,180000
+Scientist,Data Scientist,140000
+Scientist,Data Scientist,225000
+Scientist,Data Scientist,156400
+Analyst,Data Analyst,135000
+Analyst,Data Analyst,100000
+Engineer,Machine Learning Data Engineer,204500
+Engineer,Machine Learning Data Engineer,142200
+Engineer,Data Engineer,240000
+Analyst,Data Analyst,125404
+Engineer,Data Engineer,300000
+Engineer,Data Engineer,130000
+Engineer,Data Engineer,195000
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,155000
+Engineer,Data Engineer,110000
+Analyst,Data Analyst,123000
+Analyst,Data Analyst,92250
+Engineer,Data Engineer,170000
+Engineer,Data Engineer,150000
+Engineer,Machine Learning Data Engineer,180000
+Engineer,Machine Learning Data Engineer,100000
+Engineer,Data Engineer,97000
+Engineer,Data Engineer,90000
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,160000
+Engineer,Machine Learning Data Engineer,210000
+Engineer,Machine Learning Data Engineer,180000
+Engineer,Data Engineer,260000
+Engineer,Data Engineer,180000
+Analyst,Data Analyst,210000
+Analyst,Data Analyst,157000
+Scientist,Data Scientist,180000
+Scientist,Data Scientist,100000
+Analyst,Data Analyst,80000
+Analyst,Data Analyst,52500
+Architect,Data Architect,128000
+Architect,Data Architect,81500
+Engineer,Data Engineer,105000
+Engineer,Data Engineer,70000
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,122500
+Engineer,Data Engineer,171000
+Engineer,Data Engineer,117000
+Scientist,Data Scientist,202800
+Scientist,Data Scientist,104300
+Analyst,Data Analyst,50432
+Analyst,Data Analyst,36773
+Engineer,Data Engineer,197000
+Engineer,Data Engineer,99000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,110000
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Scientist,Data Scientist,30000
+Analyst,Data Analyst,78000
+Analyst,Data Analyst,48000
+Engineer,Data Engineer,170000
+Engineer,Data Engineer,130000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,95000
+Engineer,Data Engineer,78000
+Engineer,Data Engineer,42000
+Architect,Data Architect,345600
+Architect,Data Architect,230400
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,115000
+Analyst,Business Intelligence Data Analyst,78000
+Analyst,Business Intelligence Data Analyst,48000
+Analyst,Data Analyst,175950
+Analyst,Data Analyst,130050
+Engineer,Data Engineer,205600
+Engineer,Data Engineer,105700
+Analyst,Data Analyst,236600
+Analyst,Data Analyst,89200
+Scientist,Data Scientist,84000
+Scientist,Data Scientist,54000
+Scientist,Data Scientist,80000
+Analyst,Data Analyst,200000
+Scientist,Data Scientist,73742
+Scientist,Data Scientist,165000
+Scientist,Data Scientist,33246
+Engineer,Data Engineer,185900
+Engineer,Data Engineer,129300
+Analyst,Data Analyst,169000
+Analyst,Data Analyst,110600
+Engineer,Data Engineer,75050
+Engineer,Data Engineer,225000
+Engineer,Data Engineer,184100
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Scientist,Data Scientist,225000
+Scientist,Data Scientist,156400
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Engineer,Machine Learning Data Engineer,108000
+Scientist,Data Scientist,155000
+Scientist,Data Scientist,38000
+Analyst,Data Analyst,85000
+Analyst,Data Analyst,65000
+Scientist,Data Scientist,155000
+Scientist,Data Scientist,38000
+Engineer,Data Engineer,110820
+Engineer,Data Engineer,92350
+Scientist,Data Scientist,153600
+Scientist,Data Scientist,106800
+Scientist,Data Scientist,185000
+Scientist,Data Scientist,50000
+Engineer,Data Engineer,185900
+Engineer,Data Engineer,129300
+Scientist,Data Scientist,155000
+Scientist,Data Scientist,38000
+Scientist,Data Scientist,168000
+Scientist,Data Scientist,130000
+Scientist,Data Scientist,123400
+Scientist,Data Scientist,88100
+Scientist,Data Scientist,120000
+Scientist,Data Scientist,55000
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Engineer,Data Engineer,191200
+Engineer,Data Engineer,130000
+Analyst,Data Analyst,169000
+Analyst,Data Analyst,110600
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,120000
+Scientist,Data Scientist,139000
+Scientist,Data Scientist,122000
+Scientist,Data Scientist,185900
+Scientist,Data Scientist,129300
+Analyst,Data Analyst,139600
+Analyst,Data Analyst,85700
+Engineer,Data Engineer,185000
+Engineer,Data Engineer,50000
+Engineer,Data Engineer,185900
+Engineer,Data Engineer,129300
+Scientist,Data Scientist,225000
+Scientist,Data Scientist,156400
+Scientist,Data Scientist,200000
+Scientist,Data Scientist,175000
+Engineer,Data Engineer,185900
+Engineer,Data Engineer,129300
+Engineer,Machine Learning Data Engineer,148500
+Engineer,Machine Learning Data Engineer,98200
+Analyst,Data Analyst,115000
+Analyst,Data Analyst,95000
+Architect,Data Architect,225000
+Architect,Data Architect,66000
+Scientist,Data Scientist,185000
+Scientist,Data Scientist,50000
+Scientist,Data Scientist,47280
+Scientist,Data Scientist,37824
+Analyst,Data Analyst,134000
+Analyst,Data Analyst,98000
+Analyst,Data Analyst,105000
+Analyst,Data Analyst,62000
+Analyst,Business Intelligence Data Analyst,57000
+Engineer,Business Intelligence Data Engineer,161311
+Scientist,Data Scientist,144200
+Scientist,Data Scientist,115360
+Scientist,Data Scientist,83171
+Architect,Data Architect,38154
+Engineer,Data Engineer,73546
+Engineer,Data Engineer,42026
+Engineer,Data Engineer,170000
+Engineer,Data Engineer,150000
+Architect,Data Architect,180000
+Architect,Data Architect,160000
+Scientist,Data Scientist,108000
+Analyst,Machine Learning Data Analyst,200000
+Analyst,Machine Learning Data Analyst,150000
+Analyst,Data Analyst,125976
+Engineer,Data Engineer,188700
+Engineer,Data Engineer,160395
+Analyst,Data Analyst,115934
+Analyst,Data Analyst,81666
+Engineer,Data Engineer,300000
+Engineer,Data Engineer,225000
+Scientist,Data Scientist,198440
+Scientist,Data Scientist,144000
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Analyst,Data Analyst,50432
+Analyst,Data Analyst,36773
+Scientist,Data Scientist,75648
+Scientist,Data Scientist,156868
+Analyst,Business Intelligence Data Analyst,200000
+Scientist,Data Scientist,198440
+Scientist,Data Scientist,144000
+Engineer,Machine Learning Data Engineer,69344
+Analyst,Data Analyst,90000
+Architect,Data Architect,126080
+Architect,Data Architect,84053
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,180000
+Analyst,Data Analyst,108000
+Analyst,Data Analyst,85000
+Engineer,Machine Learning Data Engineer,210000
+Engineer,Machine Learning Data Engineer,180000
+Engineer,Data Engineer,165000
+Engineer,Data Engineer,132000
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,110000
+Analyst,Business Intelligence Data Analyst,45050
+Analyst,Data Analyst,42028
+Analyst,Data Analyst,135000
+Engineer,Data Engineer,178800
+Engineer,Data Engineer,132100
+Analyst,Data Analyst,20000
+Engineer,Machine Learning Data Engineer,140000
+Engineer,Machine Learning Data Engineer,110000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,85000
+Developer,Data Developer,250000
+Developer,Data Developer,63000
+Engineer,Data Engineer,187200
+Engineer,Data Engineer,116100
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,229998
+Engineer,Data Engineer,154545
+Scientist,Data Scientist,215000
+Scientist,Data Scientist,159000
+Engineer,Data Engineer,229998
+Engineer,Data Engineer,154545
+Scientist,Data Scientist,50000
+Scientist,Data Scientist,183000
+Analyst,Data Analyst,99750
+Analyst,Data Analyst,68400
+Scientist,Data Scientist,236900
+Scientist,Data Scientist,159200
+Analyst,Data Analyst,243225
+Analyst,Data Analyst,179775
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,150000
+Engineer,Machine Learning Data Engineer,210000
+Engineer,Machine Learning Data Engineer,180000
+Scientist,Data Scientist,148000
+Scientist,Data Scientist,128000
+Architect,Data Architect,190000
+Architect,Data Architect,135000
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,110000
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,85000
+Scientist,Data Scientist,218000
+Scientist,Data Scientist,145300
+Engineer,Machine Learning Data Engineer,195400
+Engineer,Machine Learning Data Engineer,131300
+Others,Data Others,105000
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Scientist,Data Scientist,207000
+Scientist,Data Scientist,153000
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Analyst,Data Analyst,110000
+Analyst,Data Analyst,99000
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Engineer,Machine Learning Data Engineer,200000
+Engineer,Machine Learning Data Engineer,135000
+Scientist,Data Scientist,207000
+Scientist,Data Scientist,153000
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Engineer,Data Engineer,195700
+Engineer,Data Engineer,130500
+Engineer,Machine Learning Data Engineer,130000
+Engineer,Machine Learning Data Engineer,84000
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,60000
+Engineer,Data Engineer,80036
+Engineer,Data Engineer,67723
+Engineer,Data Engineer,141300
+Engineer,Data Engineer,102100
+Analyst,Data Analyst,50432
+Analyst,Data Analyst,36773
+Analyst,Business Data Analyst,150000
+Scientist,Data Scientist,102200
+Scientist,Data Scientist,22892
+Analyst,Data Analyst,144000
+Analyst,Data Analyst,113000
+Scientist,Data Scientist,31520
+Architect,Data Architect,195400
+Architect,Data Architect,131300
+Engineer,Machine Learning Data Engineer,195400
+Engineer,Machine Learning Data Engineer,131300
+Architect,Data Architect,195400
+Architect,Data Architect,131300
+Architect,Data Architect,190000
+Architect,Data Architect,135000
+Engineer,Data Engineer,135000
+Engineer,Data Engineer,80000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,85000
+Engineer,Data Engineer,178800
+Engineer,Data Engineer,132100
+Engineer,Data Engineer,60000
+Engineer,Machine Learning Data Engineer,63040
+Analyst,Business Data Analyst,50000
+Engineer,Data Engineer,140000
+Engineer,Data Engineer,105000
+Engineer,Data Engineer,80036
+Engineer,Data Engineer,67723
+Analyst,Data Analyst,190000
+Analyst,Data Analyst,140000
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,60000
+Scientist,Data Scientist,180000
+Scientist,Data Scientist,165000
+Scientist,Machine Learning Data Scientist,108000
+Engineer,Machine Learning Data Engineer,20000
+Architect,Data Architect,190000
+Architect,Data Architect,135000
+Scientist,Data Scientist,179400
+Scientist,Data Scientist,154000
+Scientist,Machine Learning Data Scientist,193900
+Scientist,Machine Learning Data Scientist,129300
+Analyst,Data Analyst,222640
+Analyst,Data Analyst,182160
+Engineer,Data Engineer,150000
+Engineer,Data Engineer,100000
+Analyst,Data Analyst,122500
+Analyst,Data Analyst,100000
+Engineer,Data Engineer,297500
+Engineer,Data Engineer,260000
+Developer,Machine Learning Data Developer,15000
+Engineer,Data Engineer,193000
+Scientist,Data Scientist,93000
+Scientist,Data Scientist,73000
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,60000
+Scientist,Data Scientist,136994
+Scientist,Data Scientist,101570
+Developer,Data Developer,250000
+Developer,Data Developer,63000
+Analyst,Data Analyst,134000
+Analyst,Data Analyst,98000
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Scientist,Data Scientist,57786
+Analyst,Data Analyst,136000
+Analyst,Data Analyst,112000
+Scientist,Data Scientist,172000
+Scientist,Data Scientist,140000
+Engineer,Data Engineer,215000
+Engineer,Data Engineer,164000
+Engineer,Data Engineer,300000
+Engineer,Data Engineer,130000
+Engineer,Data Engineer,250000
+Engineer,Data Engineer,63000
+Engineer,Data Engineer,180000
+Engineer,Data Engineer,150000
+Engineer,Data Engineer,45390
+Engineer,Data Engineer,250000
+Engineer,Data Engineer,63000
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Analyst,Data Analyst,97500
+Scientist,Data Scientist,212800
+Scientist,Data Scientist,142800
+Scientist,Data Scientist,73546
+Scientist,Data Scientist,50000
+Scientist,Data Scientist,151800
+Scientist,Data Scientist,130240
+Analyst,Data Analyst,165000
+Analyst,Data Analyst,140250
+Engineer,Data Engineer,135000
+Engineer,Data Engineer,115000
+Scientist,Data Scientist,179400
+Scientist,Data Scientist,154000
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Analyst,Business Data Analyst,75000
+Engineer,Data Engineer,84053
+Engineer,Data Engineer,73546
+Engineer,Data Engineer,98506
+Engineer,Data Engineer,86193
+Engineer,Data Engineer,84053
+Engineer,Data Engineer,73546
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Analyst,Data Analyst,102663
+Analyst,Data Analyst,80041
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Engineer,Data Engineer,104611
+Engineer,Data Engineer,82280
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Analyst,Data Analyst,115000
+Scientist,Data Scientist,31520
+Analyst,Data Analyst,81000
+Analyst,Data Analyst,66000
+Analyst,Data Analyst,46000
+Engineer,Data Engineer,80000
+Scientist,Machine Learning Data Scientist,200000
+Scientist,Machine Learning Data Scientist,180000
+Scientist,Data Scientist,200000
+Scientist,Data Scientist,204100
+Scientist,Data Scientist,136100
+Analyst,Data Analyst,250000
+Analyst,Data Analyst,63000
+Scientist,Data Scientist,118208
+Scientist,Data Scientist,110820
+Engineer,Data Engineer,19073
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Scientist,Data Scientist,191475
+Scientist,Data Scientist,141525
+Others,Data Others,95000
+Others,Data Others,70000
+Scientist,Machine Learning Data Scientist,75000
+Analyst,Data Analyst,113000
+Scientist,Data Scientist,170000
+Scientist,Data Scientist,130000
+Analyst,Data Analyst,113000
+Analyst,Data Analyst,140000
+Analyst,Data Analyst,50000
+Analyst,Business Intelligence Data Analyst,53368
+Scientist,Data Scientist,175000
+Scientist,Data Scientist,140000
+Scientist,Data Scientist,29944
+Analyst,Data Analyst,250000
+Analyst,Data Analyst,63000
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,119300
+Architect,Data Architect,145000
+Engineer,Data Engineer,105000
+Engineer,Data Engineer,90000
+Developer,Data Developer,146200
+Developer,Data Developer,124270
+Scientist,Data Scientist,225000
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,54634
+Engineer,Data Engineer,185800
+Engineer,Data Engineer,137400
+Analyst,Data Analyst,245000
+Analyst,Data Analyst,180000
+Analyst,Data Analyst,203500
+Analyst,Data Analyst,152000
+Engineer,Data Engineer,250000
+Engineer,Data Engineer,63000
+Engineer,Machine Learning Data Engineer,186000
+Engineer,Machine Learning Data Engineer,148800
+Engineer,Machine Learning Data Engineer,95386
+Engineer,Machine Learning Data Engineer,128058
+Scientist,Data Scientist,82000
+Scientist,Data Scientist,110000
+Scientist,Machine Learning Data Scientist,173000
+Scientist,Data Scientist,203500
+Scientist,Data Scientist,152000
+Engineer,Machine Learning Data Engineer,186000
+Engineer,Machine Learning Data Engineer,148800
+Analyst,Data Analyst,158000
+Analyst,Data Analyst,134000
+Scientist,Data Scientist,170000
+Scientist,Data Scientist,120000
+Analyst,Data Analyst,200000
+Analyst,Data Analyst,150000
+Analyst,Data Analyst,216200
+Analyst,Data Analyst,144100
+Scientist,Data Scientist,115573
+Scientist,Data Scientist,89306
+Developer,Data Developer,250000
+Developer,Data Developer,63000
+Engineer,Data Engineer,135000
+Engineer,Data Engineer,85000
+Engineer,Machine Learning Data Engineer,135000
+Engineer,Machine Learning Data Engineer,85000
+Analyst,Data Analyst,206000
+Analyst,Data Analyst,175100
+Engineer,Machine Learning Data Engineer,189650
+Engineer,Machine Learning Data Engineer,164996
+Architect,Data Architect,149040
+Architect,Data Architect,113900
+Engineer,Data Engineer,154000
+Engineer,Data Engineer,126000
+Engineer,Machine Learning Data Engineer,200000
+Engineer,Machine Learning Data Engineer,150000
+Engineer,Data Engineer,195700
+Engineer,Data Engineer,130500
+Analyst,Data Analyst,170000
+Analyst,Data Analyst,135000
+Engineer,Data Engineer,98506
+Engineer,Data Engineer,73880
+Analyst,Data Analyst,117000
+Analyst,Data Analyst,99450
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,135000
+Engineer,Machine Learning Data Engineer,193900
+Engineer,Machine Learning Data Engineer,129300
+Engineer,Machine Learning Data Engineer,55410
+Analyst,Data Analyst,86193
+Analyst,Data Analyst,61566
+Analyst,Data Analyst,175000
+Analyst,Data Analyst,130000
+Engineer,Data Engineer,188100
+Engineer,Data Engineer,139860
+Engineer,Machine Learning Data Engineer,248700
+Engineer,Machine Learning Data Engineer,167100
+Scientist,Data Scientist,123400
+Scientist,Data Scientist,88100
+Analyst,Business Intelligence Data Analyst,50432
+Scientist,Data Scientist,245000
+Scientist,Data Scientist,205000
+Engineer,Data Engineer,141300
+Engineer,Data Engineer,102100
+Architect,Data Architect,141300
+Architect,Data Architect,102100
+Analyst,Data Analyst,50000
+Scientist,Data Scientist,84053
+Scientist,Data Scientist,61566
+Architect,Data Architect,250000
+Architect,Data Architect,63000
+Analyst,Data Analyst,189500
+Analyst,Data Analyst,140100
+Engineer,Data Engineer,177600
+Engineer,Data Engineer,131300
+Engineer,Data Engineer,24000
+Engineer,Data Engineer,24000
+Engineer,Data Engineer,250000
+Engineer,Data Engineer,63000
+Engineer,Machine Learning Data Engineer,202900
+Engineer,Machine Learning Data Engineer,131300
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,115000
+Engineer,Machine Learning Data Engineer,115000
+Engineer,Machine Learning Data Engineer,193900
+Engineer,Machine Learning Data Engineer,129300
+Scientist,Data Scientist,180000
+Scientist,Data Scientist,140000
+Analyst,Data Analyst,216200
+Analyst,Data Analyst,144100
+Scientist,Machine Learning Data Scientist,216000
+Scientist,Machine Learning Data Scientist,144000
+Analyst,Data Analyst,150000
+Scientist,Data Scientist,53416
+Scientist,Data Scientist,50000
+Architect,Cloud Data Architect,250000
+Architect,Data Architect,84053
+Scientist,Data Scientist,131752
+Analyst,Data Analyst,48000
+Analyst,Data Analyst,260500
+Analyst,Data Analyst,175100
+Engineer,Data Engineer,210000
+Engineer,Data Engineer,100000
+Analyst,Data Analyst,55000
+Analyst,Data Analyst,130000
+Scientist,Machine Learning Data Scientist,77119
+Scientist,Data Scientist,52008
+Scientist,Machine Learning Data Scientist,30523
+Engineer,Data Engineer,206699
+Engineer,Data Engineer,99100
+Analyst,Data Analyst,200000
+Analyst,Data Analyst,54000
+Engineer,Data Engineer,250000
+Engineer,Data Engineer,63000
+Architect,Data Architect,250000
+Architect,Data Architect,63000
+Engineer,Data Engineer,250000
+Engineer,Data Engineer,63000
+Analyst,Data Analyst,130000
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,80000
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,100000
+Others,Data Others,221300
+Others,Data Others,148700
+Engineer,Machine Learning Data Engineer,30000
+Analyst,Data Analyst,28368
+Engineer,Data Engineer,91118
+Engineer,Data Engineer,61566
+Scientist,Data Scientist,60938
+Analyst,Data Analyst,249260
+Analyst,Data Analyst,185400
+Engineer,Data Engineer,170000
+Engineer,Data Engineer,130000
+Scientist,Data Scientist,80036
+Analyst,Data Analyst,128875
+Analyst,Data Analyst,93700
+Engineer,Machine Learning Data Engineer,180000
+Engineer,Machine Learning Data Engineer,100000
+Analyst,Data Analyst,136260
+Analyst,Data Analyst,109280
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,92000
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,135446
+Engineer,Data Engineer,104663
+Analyst,Data Analyst,117000
+Analyst,Data Analyst,99450
+Engineer,Data Engineer,129000
+Engineer,Data Engineer,86000
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,119300
+Analyst,Business Data Analyst,100000
+Scientist,Data Scientist,25000
+Analyst,Data Analyst,65257
+Scientist,Data Scientist,200000
+Developer,Machine Learning Data Developer,180000
+Scientist,Data Scientist,153000
+Engineer,Data Engineer,210000
+Engineer,Data Engineer,100000
+Analyst,Data Analyst,150075
+Analyst,Data Analyst,110925
+Scientist,Machine Learning Data Scientist,22800
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,92000
+Engineer,Machine Learning Data Engineer,202900
+Engineer,Machine Learning Data Engineer,131300
+Analyst,Data Analyst,22809
+Analyst,Data Analyst,15000
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,135000
+Analyst,Data Analyst,133766
+Engineer,Machine Learning Data Engineer,83000
+Engineer,Data Engineer,92350
+Engineer,Data Engineer,67723
+Scientist,Data Scientist,186000
+Scientist,Data Scientist,148800
+Analyst,Data Analyst,112900
+Analyst,Data Analyst,90320
+Engineer,Machine Learning Data Engineer,240000
+Engineer,Machine Learning Data Engineer,160000
+Analyst,Data Analyst,300000
+Analyst,Data Analyst,200000
+Engineer,Data Engineer,65666
+Scientist,Data Scientist,200000
+Engineer,Machine Learning Data Engineer,116976
+Engineer,Machine Learning Data Engineer,92350
+Scientist,Data Scientist,120000
+Analyst,Data Analyst,112900
+Analyst,Data Analyst,90320
+Analyst,Data Analyst,145000
+Analyst,Data Analyst,105400
+Scientist,Data Scientist,49268
+Engineer,Data Engineer,110820
+Engineer,Data Engineer,92350
+Scientist,Data Scientist,215300
+Scientist,Data Scientist,158200
+Engineer,Data Engineer,209100
+Engineer,Data Engineer,154600
+Analyst,Data Analyst,115934
+Analyst,Data Analyst,81666
+Engineer,Data Engineer,175000
+Engineer,Data Engineer,155000
+Engineer,Machine Learning Data Engineer,84053
+Analyst,Data Analyst,164000
+Analyst,Data Analyst,132000
+Scientist,Data Scientist,170000
+Scientist,Data Scientist,123000
+Engineer,Machine Learning Data Engineer,189650
+Engineer,Machine Learning Data Engineer,164996
+Developer,Data Developer,52533
+Developer,Data Developer,52533
+Engineer,Data Engineer,115222
+Engineer,Data Engineer,165400
+Engineer,Data Engineer,132320
+Architect,Data Architect,208775
+Architect,Data Architect,147800
+Engineer,Data Engineer,136994
+Engineer,Data Engineer,101570
+Analyst,Data Analyst,128875
+Analyst,Data Analyst,93700
+Others,Machine Learning Data Others,76309
+Engineer,Machine Learning Data Engineer,35093
+Engineer,Data Engineer,183600
+Engineer,Data Engineer,100800
+Analyst,Data Analyst,49253
+Analyst,Data Analyst,36940
+Analyst,Data Analyst,42026
+Analyst,Data Analyst,31520
+Engineer,Data Engineer,84053
+Engineer,Data Engineer,73546
+Engineer,Data Engineer,98506
+Engineer,Data Engineer,86193
+Engineer,Data Engineer,84053
+Engineer,Data Engineer,73546
+Engineer,Machine Learning Data Engineer,189650
+Engineer,Machine Learning Data Engineer,164996
+Analyst,Data Analyst,42026
+Analyst,Data Analyst,31520
+Engineer,Data Engineer,92350
+Engineer,Data Engineer,73880
+Scientist,Data Scientist,215300
+Scientist,Data Scientist,140400
+Engineer,Data Engineer,63040
+Engineer,Data Engineer,47280
+Scientist,Data Scientist,260000
+Scientist,Data Scientist,180000
+Scientist,Data Scientist,67723
+Scientist,Data Scientist,43096
+Engineer,Data Engineer,63040
+Engineer,Data Engineer,47280
+Engineer,Data Engineer,73880
+Engineer,Data Engineer,55410
+Engineer,Machine Learning Data Engineer,51064
+Engineer,Data Engineer,60000
+Engineer,Data Engineer,82900
+Engineer,Data Engineer,63900
+Scientist,Machine Learning Data Scientist,160000
+Scientist,Machine Learning Data Scientist,112300
+Analyst,Data Analyst,241000
+Analyst,Data Analyst,159000
+Scientist,Data Scientist,180000
+Scientist,Data Scientist,80000
+Analyst,Data Analyst,58000
+Analyst,Data Analyst,58000
+Engineer,Data Engineer,136000
+Engineer,Data Engineer,108800
+Engineer,Data Engineer,242000
+Engineer,Data Engineer,200000
+Scientist,Data Scientist,61566
+Scientist,Data Scientist,36940
+Engineer,Data Engineer,73880
+Engineer,Data Engineer,49253
+Scientist,Data Scientist,165220
+Scientist,Data Scientist,120160
+Analyst,Data Analyst,124190
+Analyst,Data Analyst,90320
+Engineer,Data Engineer,181940
+Engineer,Data Engineer,132320
+Engineer,Data Engineer,220110
+Engineer,Data Engineer,160080
+Scientist,Data Scientist,180000
+Scientist,Data Scientist,120000
+Analyst,Data Analyst,126500
+Analyst,Data Analyst,106260
+Analyst,Data Analyst,116000
+Analyst,Data Analyst,99000
+Analyst,Data Analyst,155000
+Analyst,Data Analyst,120600
+Scientist,Data Scientist,130000
+Scientist,Data Scientist,90000
+Engineer,Data Engineer,170000
+Engineer,Data Engineer,150000
+Analyst,Data Analyst,102100
+Analyst,Data Analyst,84900
+Scientist,Data Scientist,136620
+Scientist,Data Scientist,99360
+Scientist,Data Scientist,110820
+Scientist,Data Scientist,98506
+Scientist,Data Scientist,146000
+Scientist,Data Scientist,123000
+Engineer,Data Engineer,49253
+Engineer,Data Engineer,43096
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,110000
+Analyst,Data Analyst,170000
+Analyst,Data Analyst,135000
+Analyst,Data Analyst,161342
+Analyst,Data Analyst,137141
+Scientist,Data Scientist,167000
+Scientist,Data Scientist,123000
+Engineer,Data Engineer,73880
+Engineer,Data Engineer,61566
+Scientist,Data Scientist,211500
+Scientist,Data Scientist,138600
+Architect,Data Architect,192400
+Architect,Data Architect,90700
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,61300
+Analyst,Data Analyst,130000
+Analyst,Data Analyst,61300
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,113000
+Scientist,Data Scientist,150000
+Scientist,Data Scientist,95550
+Analyst,Data Analyst,167000
+Analyst,Data Analyst,115500
+Analyst,Data Analyst,112900
+Analyst,Data Analyst,90320
+Analyst,Data Analyst,112900
+Analyst,Data Analyst,90320
+Engineer,Data Engineer,165400
+Engineer,Data Engineer,132320
+Engineer,Data Engineer,243900
+Engineer,Data Engineer,156600
+Analyst,Data Analyst,136600
+Analyst,Data Analyst,109280
+Engineer,Data Engineer,128875
+Engineer,Data Engineer,93700
+Scientist,Data Scientist,224000
+Scientist,Data Scientist,167875
+Analyst,Data Analyst,175000
+Analyst,Data Analyst,135000
+Engineer,Data Engineer,209100
+Engineer,Data Engineer,154600
+Engineer,Data Engineer,180000
+Engineer,Data Engineer,160000
+Scientist,Data Scientist,205300
+Scientist,Data Scientist,140400
+Scientist,Data Scientist,176000
+Scientist,Data Scientist,144000
+Engineer,Data Engineer,200100
+Engineer,Data Engineer,160000
+Engineer,Data Engineer,70500
+Engineer,Data Engineer,54000
+Scientist,Data Scientist,205300
+Scientist,Data Scientist,140400
+Analyst,Data Analyst,205300
+Analyst,Data Analyst,184700
+Engineer,Data Engineer,175100
+Engineer,Data Engineer,140250
+Analyst,Data Analyst,116150
+Analyst,Data Analyst,99050
+Engineer,Data Engineer,145000
+Engineer,Data Engineer,130000
+Analyst,Data Analyst,112900
+Analyst,Data Analyst,90320
+Analyst,Data Analyst,85000
+Analyst,Data Analyst,75000
+Engineer,Machine Learning Data Engineer,214000
+Engineer,Machine Learning Data Engineer,192600
+Architect,Data Architect,266400
+Architect,Data Architect,213120
+Engineer,Data Engineer,155000
+Engineer,Data Engineer,115000
+Scientist,Data Scientist,141300
+Scientist,Data Scientist,102100
+Analyst,Data Analyst,115934
+Analyst,Data Analyst,81666
+Engineer,Data Engineer,206699
+Engineer,Data Engineer,99100
+Engineer,Data Engineer,130000
+Engineer,Data Engineer,110500
+Analyst,Data Analyst,61566
+Analyst,Data Analyst,43096
+Analyst,Data Analyst,80000
+Analyst,Data Analyst,60000
+Architect,Data Architect,192564
+Architect,Data Architect,144854
+Scientist,Data Scientist,230000
+Scientist,Data Scientist,150000
+Analyst,Data Analyst,150260
+Analyst,Data Analyst,109280
+Analyst,Data Analyst,170000
+Analyst,Data Analyst,150000
+Scientist,Data Scientist,160000
+Scientist,Data Scientist,130000
+Analyst,Data Analyst,67000
+Analyst,Data Analyst,52000
+Engineer,Data Engineer,154000
+Engineer,Data Engineer,126000
+Analyst,Data Analyst,129000
+Analyst,Data Analyst,99000
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,140000
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,140000
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,140000
+Analyst,Data Analyst,100000
+Analyst,Data Analyst,69000
+Scientist,Data Scientist,210000
+Scientist,Data Scientist,140000
+Analyst,Data Analyst,150075
+Analyst,Data Analyst,110925
+Engineer,Data Engineer,100000
+Engineer,Data Engineer,25000
+Analyst,Data Analyst,126500
+Analyst,Data Analyst,106260
+Engineer,Data Engineer,220110
+Engineer,Data Engineer,160080
+Analyst,Data Analyst,105000
+Analyst,Data Analyst,100000
+Analyst,Data Analyst,170000
+Analyst,Data Analyst,135000
+Scientist,Data Scientist,230000
+Scientist,Data Scientist,140000
+Analyst,Data Analyst,135000
+Analyst,Data Analyst,50000
+Scientist,Data Scientist,220000
+Scientist,Data Scientist,140000
+Scientist,Data Scientist,172386
+Scientist,Data Scientist,86193
+Engineer,Machine Learning Data Engineer,220000
+Engineer,Machine Learning Data Engineer,120000
+Scientist,Data Scientist,200000
+Scientist,Data Scientist,120000
+Engineer,Machine Learning Data Engineer,120000
+Engineer,Machine Learning Data Engineer,65000
+Engineer,Data Engineer,324000
+Engineer,Data Engineer,216000
+Engineer,Data Engineer,210000
+Engineer,Data Engineer,100000
+Scientist,Data Scientist,185100
+Scientist,Data Scientist,104890
+Engineer,Data Engineer,105000
+Engineer,Data Engineer,80000
+Developer,Machine Learning Data Developer,76814
+Analyst,Machine Learning Data Analyst,117104
+Scientist,Data Scientist,192037
+Engineer,Machine Learning Data Engineer,120000
+Analyst,Business Data Analyst,17805
+Scientist,Data Scientist,30523
+Engineer,Machine Learning Data Engineer,55685
+Engineer,Data Engineer,52533
+Scientist,Data Scientist,17805
+Scientist,Machine Learning Data Scientist,75000
+Scientist,Data Scientist,157000
+Analyst,Business Data Analyst,69133
+Engineer,Data Engineer,65000
+Engineer,Machine Learning Data Engineer,68293
+Scientist,Data Scientist,109000
+Scientist,Data Scientist,67597
+Analyst,Data Analyst,20000
+Others,Data Others,102839
+Others,Data Others,200000
+Scientist,Data Scientist,51081
+Scientist,Data Scientist,78000
+Engineer,Data Engineer,135000
+Engineer,Data Engineer,115000
+Engineer,Machine Learning Data Engineer,83864
+Scientist,Data Scientist,40000
+Others,Data Others,31520
+Engineer,Machine Learning Data Engineer,59888
+Engineer,Data Engineer,54742
+Architect,Data Architect,89306
+Scientist,Data Scientist,83171
+Scientist,Data Scientist,165000
+Scientist,Machine Learning Data Scientist,153000
+Scientist,Data Scientist,100000
+Developer,Machine Learning Data Developer,76814
+Scientist,Data Scientist,33609
+Analyst,Data Analyst,75000
+Analyst,Data Analyst,20000
+Scientist,Machine Learning Data Scientist,30469
+Architect,Data Architect,69999
+Engineer,Data Engineer,55475
+Architect,Data Architect,61989
+Analyst,Data Analyst,152500
+Architect,Data Architect,120000
+Scientist,Data Scientist,135000
+Analyst,Data Analyst,405000
+Engineer,Data Engineer,150000
+Analyst,Data Analyst,240000
+Analyst,Data Analyst,135000
+Scientist,Data Scientist,80000
+Scientist,Data Scientist,380000
+Scientist,Data Scientist,120402
+Scientist,Data Scientist,177000
+Engineer,Data Engineer,65141
+Scientist,Data Scientist,48000
+Analyst,Data Analyst,20000
+Scientist,Data Scientist,220000
+Engineer,Machine Learning Data Engineer,77364
+Engineer,Machine Learning Data Engineer,63711
+Engineer,Data Engineer,150000
+Analyst,Data Analyst,90000
+Scientist,Data Scientist,100000
+Scientist,Data Scientist,100000
+Scientist,Data Scientist,100000
+Architect,Data Architect,144000
+Scientist,Data Scientist,155499
+Engineer,Data Engineer,24000
+Scientist,Machine Learning Data Scientist,38400
+Analyst,Business Data Analyst,100000
+Scientist,Data Scientist,82500
+Scientist,Data Scientist,49646
+Scientist,Data Scientist,40570
+Engineer,Data Engineer,120000
+Engineer,Machine Learning Data Engineer,84053
+Engineer,Machine Learning Data Engineer,20000
+Engineer,Data Engineer,125000
+Scientist,Machine Learning Data Scientist,120000
+Scientist,Data Scientist,110037
+Engineer,Machine Learning Data Engineer,21013
+Analyst,Data Analyst,50000
+Engineer,Data Engineer,200000
+Engineer,Business Intelligence Data Engineer,60000
+Engineer,Data Engineer,200000
+Developer,Machine Learning Data Developer,100000
+Engineer,Data Engineer,100000
+Engineer,Machine Learning Data Engineer,82744
+Engineer,Data Engineer,59303
+Architect,Data Architect,62649
+Engineer,Data Engineer,82528
+Architect,Data Architect,170000
+Architect,Data Architect,150000
+Analyst,Business Intelligence Data Analyst,55000
+Scientist,Data Scientist,250000
+Engineer,Data Engineer,80000
+Engineer,Business Intelligence Data Engineer,70000
+Scientist,Data Scientist,130026
+Scientist,Data Scientist,63831
+Scientist,Data Scientist,68428
+Scientist,Data Scientist,85000
+Others,Data Others,230000
+Engineer,Machine Learning Data Engineer,125000
+Analyst,Data Analyst,120000
+Architect,Data Architect,450000
+Analyst,Data Analyst,46759
+Engineer,Data Engineer,74130
+Engineer,Data Engineer,127221
+Analyst,Data Analyst,144000
+Scientist,Data Scientist,75774
+Scientist,Data Scientist,150000
+Scientist,Data Scientist,103000
+Engineer,Data Engineer,153000
+Engineer,Data Engineer,90000
+Analyst,Data Analyst,90000
+Analyst,Data Analyst,60000
+Scientist,Data Scientist,50000
+Engineer,Machine Learning Data Engineer,270000
+Scientist,Data Scientist,54238
+Engineer,Machine Learning Data Engineer,47282
+Scientist,Data Scientist,153667
+Engineer,Data Engineer,28476
+Analyst,Data Analyst,110000
+Architect,Data Architect,82528
+Engineer,Machine Learning Data Engineer,250000
+Analyst,Data Analyst,59102
+Analyst,Data Analyst,80000
+Engineer,Machine Learning Data Engineer,138000
+Engineer,Data Engineer,140000
+Analyst,Data Analyst,79197
+Analyst,Data Analyst,170000
+Analyst,Data Analyst,80000
+Scientist,Data Scientist,45760
+Analyst,Business Intelligence Data Analyst,100000
+Scientist,Data Scientist,53192
+Others,Data Others,235000
+Analyst,Business Intelligence Data Analyst,150000
+Engineer,Data Engineer,79833
+Scientist,Machine Learning Data Scientist,225000
+Scientist,Data Scientist,76833
+Engineer,Machine Learning Data Engineer,50180
+Analyst,Data Analyst,88654
+Engineer,Data Engineer,103160
+Engineer,Data Engineer,113476
+Engineer,Machine Learning Data Engineer,94564
+Engineer,Data Engineer,30428
+Engineer,Data Engineer,150000
+Engineer,Data Engineer,115000
+Architect,Data Architect,187442
+Analyst,Data Analyst,51519
+Engineer,Data Engineer,106000
+Engineer,Data Engineer,112872
+Analyst,Business Intelligence Data Analyst,36259
+Engineer,Data Engineer,150000
+Engineer,Machine Learning Data Engineer,15966
+Engineer,Data Engineer,95746
+Engineer,Data Engineer,70000
+Scientist,Data Scientist,76958
+Engineer,Cloud Data Engineer,89294
+Scientist,Data Scientist,29751
+Engineer,Data Engineer,276000
+Engineer,Data Engineer,188000
+Engineer,Cloud Data Engineer,160000
+Scientist,Data Scientist,105000
+Engineer,Data Engineer,200000
+Engineer,Data Engineer,174000
+Analyst,Data Analyst,93000
+Scientist,Data Scientist,28399
+Architect,Data Architect,60757
+Scientist,Data Scientist,90000
+Engineer,Data Engineer,70139
+Engineer,Data Engineer,33511
+Analyst,Data Analyst,170000
+Engineer,Data Engineer,96282
+Scientist,Data Scientist,36643
+Engineer,Data Engineer,72212
+Analyst,Data Analyst,91000
+Architect,Business Intelligence Data Architect,99703
+Scientist,Data Scientist,165000
+Analyst,Data Analyst,80000
+Scientist,Data Scientist,103691
+Engineer,Data Engineer,21637
+Architect,Data Architect,42000
+Scientist,Data Scientist,115000
+Architect,Data Architect,63810
+Scientist,Machine Learning Data Scientist,260000
+Scientist,Data Scientist,110000
+Architect,Data Architect,180000
+Analyst,Data Analyst,200000
+Engineer,Business Intelligence Data Engineer,109024
+Engineer,Data Engineer,200000
+Engineer,Machine Learning Data Engineer,256000
+Engineer,Data Engineer,110000
+Scientist,Data Scientist,79833
+Engineer,Data Engineer,72500
+Engineer,Machine Learning Data Engineer,185000
+Engineer,Data Engineer,69741
+Architect,Data Architect,100000
+Engineer,Data Engineer,112000
+Engineer,Machine Learning Data Engineer,150000
+Scientist,Data Scientist,20171
+Scientist,Data Scientist,55000
+Scientist,Data Scientist,58000
+Scientist,Data Scientist,100000
+Scientist,Data Scientist,77684
+Engineer,Machine Learning Data Engineer,85000
+Scientist,Data Scientist,76833
+Scientist,Data Scientist,105000
+Analyst,Data Analyst,72000
+Engineer,Data Engineer,65013
+Engineer,Data Engineer,28016
+Engineer,Data Engineer,111775
+Engineer,Data Engineer,93150
+Engineer,Data Engineer,160000
+Scientist,Data Scientist,25532
+Engineer,Machine Learning Data Engineer,66265
+Scientist,Data Scientist,16904
+Analyst,Data Analyst,63831
+Scientist,Data Scientist,190000
+Scientist,Data Scientist,141846
+Engineer,Business Intelligence Data Engineer,16228
+Analyst,Data Analyst,71786
+Scientist,Data Scientist,35735
+Scientist,Data Scientist,135000
+Engineer,Machine Learning Data Engineer,24823
+Analyst,Data Analyst,54094
+Engineer,Machine Learning Data Engineer,24342
+Scientist,Data Scientist,147000
+Architect,Data Architect,96113
+Analyst,Data Analyst,174000
+Analyst,Business Data Analyst,135000
+Engineer,Machine Learning Data Engineer,21844
+Engineer,Data Engineer,125000
+Scientist,Data Scientist,51321
+Scientist,Data Scientist,40481
+Scientist,Data Scientist,69741
+Analyst,Data Analyst,50000
+Scientist,Data Scientist,39916
+Analyst,Data Analyst,87000
+Engineer,Data Engineer,26005
+Scientist,Data Scientist,90734
+Engineer,Business Intelligence Data Engineer,22611
+Engineer,Machine Learning Data Engineer,81000
+Scientist,Data Scientist,40038
+Scientist,Data Scientist,90000
+Scientist,Data Scientist,61467
+Engineer,Machine Learning Data Engineer,195000
+Scientist,Data Scientist,37825
+Analyst,Data Analyst,85000
+Scientist,Data Scientist,416000
+Scientist,Machine Learning Data Scientist,225000
+Scientist,Data Scientist,56256
+Scientist,Data Scientist,33808
+Scientist,Data Scientist,116914
+Engineer,Machine Learning Data Engineer,46597
+Engineer,Data Engineer,41689
+Engineer,Business Intelligence Data Engineer,114047
+Engineer,Machine Learning Data Engineer,88654
+Engineer,Data Engineer,56000
+Engineer,Data Engineer,28609
+Scientist,Data Scientist,88654
+Engineer,Data Engineer,47899
+Analyst,Business Intelligence Data Analyst,98000
+Engineer,Data Engineer,66022
+Architect,Data Architect,56738
+Engineer,Machine Learning Data Engineer,24823
+Analyst,Data Analyst,120000
+Engineer,Data Engineer,20000
+Scientist,Data Scientist,325000
+Engineer,Machine Learning Data Engineer,200000
+Scientist,Data Scientist,45896
+Scientist,Data Scientist,160000
+Architect,Data Architect,50000
+Engineer,Data Engineer,40189
+Engineer,Data Engineer,165000
+Scientist,Data Scientist,42197
+Engineer,Data Engineer,185000
+Scientist,Data Scientist,62726
+Scientist,Data Scientist,90734
+Scientist,Data Scientist,21669
+Engineer,Data Engineer,110000
+Analyst,Data Analyst,140000
+Scientist,Data Scientist,120000
+Scientist,Data Scientist,87738
+Analyst,Business Data Analyst,61896
+Engineer,Data Engineer,76833
+Engineer,Machine Learning Data Engineer,74000
+Analyst,Data Analyst,152000
+Engineer,Business Intelligence Data Engineer,18000
+Engineer,Data Engineer,60000
+Scientist,Data Scientist,130000
+Engineer,Data Engineer,18907
+Analyst,Business Data Analyst,59102
+Scientist,Data Scientist,173762
+Scientist,Data Scientist,148261
+Scientist,Data Scientist,38776
+Scientist,Data Scientist,46809
+Scientist,Data Scientist,18053
+Scientist,Data Scientist,91237
+Scientist,Data Scientist,62726
+Scientist,Data Scientist,115000
+Scientist,Data Scientist,235000
+Analyst,Data Analyst,19609
+Analyst,Data Analyst,75000
+Analyst,Data Analyst,62000
+Scientist,Data Scientist,73000
+Engineer,Data Engineer,45391
+Analyst,Data Analyst,190200
+Scientist,Data Scientist,118000
+Scientist,Data Scientist,138350
+Engineer,Data Engineer,130800
+Engineer,Machine Learning Data Engineer,45618
+Scientist,Data Scientist,168000
+Scientist,Data Scientist,119059
+Scientist,Machine Learning Data Scientist,423000
+Engineer,Data Engineer,28369
+Others,Data Others,165000
+Scientist,Data Scientist,412000
+Scientist,Data Scientist,151000
+Scientist,Data Scientist,105000
+Analyst,Business Data Analyst,100000
+Analyst,Data Analyst,94665

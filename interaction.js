@@ -41,18 +41,27 @@ window.addEventListener("scroll", function () {
     var scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
     var salaryPosition = document.getElementById("salary").offsetTop;
     var regionPosition = document.getElementById("region").offsetTop;
+    var forcePosition = document.getElementById("salary-by-jobs").offsetTop;
     var scrollThreshold = window.innerHeight / 2;
     if (scrollPosition >= 0 && scrollPosition < salaryPosition - scrollThreshold) {
         showSection("remote");
         hideSection("salary");
         hideSection("region");
+        hideSection("salary-by-jobs");
     } else if (scrollPosition >= salaryPosition - scrollThreshold && scrollPosition < regionPosition - scrollThreshold) {
         hideSection("remote");
         showSection("salary");
         hideSection("region");
-    } else if (scrollPosition >= regionPosition - scrollThreshold) {
+        hideSection("salary-by-jobs");
+    } else if (scrollPosition >= regionPosition - scrollThreshold && scrollPosition < forcePosition - scrollThreshold) {
         hideSection("remote");
         hideSection("salary");
         showSection("region");
+        showSection("salary-by-jobs");
+    } else if (scrollPosition >= forcePosition - scrollThreshold) {
+        hideSection("remote");
+        hideSection("salary");
+        hideSection("region");
+        showSection("salary-by-jobs");
     }
 });

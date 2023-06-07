@@ -1,12 +1,15 @@
 function finalProj() {
     let filePath1 = "data/salaries.csv";
     let filePath2 = "data/country_code.csv";
+    let filePath3 = "data/data_by_categories.csv";
     Promise.all([
         d3.csv(filePath1),
-        d3.csv(filePath2)
+        d3.csv(filePath2),
+        d3.csv(filePath3)
     ]).then(function (files) {
         var data1 = files[0];
         var data2 = files[1];
+        var data3 = files[2];
 
         data1.forEach((d) => {
             d.work_year = parseInt(d.work_year),
@@ -75,6 +78,10 @@ function finalProj() {
             }
         });
 
+        data3.forEach((d) => {
+            d.salary_in_usd = parseInt(d.salary_in_usd)
+        });
+
         var result = data1.reduce(function (acc, t1) {
             var matchedRows = data2.filter(function (t2) {
                 return t1.company_location === t2.Code;
@@ -89,7 +96,7 @@ function finalProj() {
         graph1(data1);
         graph2(result);
         graph3(data1);
-        graph4(data1);
+        graph4(data3);
     });
 }
 
@@ -694,4 +701,92 @@ function graph3(data) {
 
 // force directed graph
 function graph4(data) {
+    // data[['category', 'full_category', 'salary_in_usd']]
+    const data4 = d3.rollup(
+        data,
+        v => d3.mean(v, d => d.salary_in_usd),
+        d => d.category
+    )
+    // console.log(data4)
+    // console.log(data)
+
+    var uniquePairs = new Set();
+    data.forEach(d => {
+        var pair = d.category + "|" + d.full_category;
+        uniquePairs.add(pair);
+    });
+    var uniquePairsArray = Array.from(uniquePairs).map(pair => {
+        var [category, full_category] = pair.split("|");
+        return { category: category, full_category: full_category };
+    });
+
+    // console.log(uniquePairsArray);
+
+    var nodes = [];
+    var links = [];
+
+    // Create nodes and links from the data
+    uniquePairsArray.forEach(pair => {
+        nodes.push({ id: pair.category });
+        nodes.push({ id: pair.full_category });
+        links.push({ source: pair.category, target: pair.full_category });
+    });
+
+    console.log(nodes);
+    console.log(links);
+
+    const graph = {
+        nodes: nodes,
+        links: links
+    }
+
+    const margin = { top: 20, right: 40, bottom: 20, left: 40 },
+        width = 1000 - margin.left - margin.right,
+        height = 1000 - margin.top - margin.bottom;
+
+    const colorScale = d3.scaleOrdinal()
+        .domain(data4.keys())
+        .range(d3.schemeCategory10);
+
+    const simulation = d3.forceSimulation(graph.nodes)
+        .force("link", d3.forceLink(graph.links).id(d => d.id).distance(100))
+        .force("charge", d3.forceManyBody().strength(-100))
+        .force("center", d3.forceCenter(width / 2, height / 2));
+
+    const svg = d3.select("#force-svg")
+        .attr("width", width)
+        .attr("height", height)
+        .append("g")
+        .attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+    //create links
+    const link = svg
+        .selectAll("line")
+        .data(graph.links)
+        .enter()
+        .append("line")
+        .attr("stroke", "lightgray")
+        .attr("stroke-width", 1);
+
+    //create nodes
+    const node = svg
+        .selectAll("circle")
+        .data(graph.nodes)
+        .enter()
+        .append("circle")
+        .attr("r", 5)
+        // .attr("fill", d => colorScale(d.id));
+        .style("fill", "#40B5AD");
+
+    simulation.on("tick", function () {
+        link
+            .attr("x1", d => d.source.x)
+            .attr("y1", d => d.source.y + 20)
+            .attr("x2", d => d.target.x)
+            .attr("y2", d => d.target.y + 20);
+
+        node
+            .attr("cx", d => d.x)
+            .attr("cy", d => d.y + 20);
+    });
 }
