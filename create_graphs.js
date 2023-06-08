@@ -82,12 +82,12 @@ function finalProj() {
             d.salary_in_usd = parseInt(d.salary_in_usd)
         });
 
-        var result = data1.reduce(function (acc, t1) {
+        var result = data1.reduce((acc, t1) => {
             var matchedRows = data2.filter(function (t2) {
                 return t1.company_location === t2.Code;
             });
 
-            matchedRows.forEach(function (row) {
+            matchedRows.forEach((row) => {
                 acc.push(Object.assign({}, t1, { country_name: row['Name'] }));
             });
 
@@ -321,7 +321,7 @@ function graph2(data) {
 
     const zoom = d3.zoom()
         .scaleExtent([1, 8])
-        .on("zoom", function (event) {
+        .on("zoom", event => {
             svg.attr("transform", event.transform);
         });
     svg.call(zoom);
@@ -331,7 +331,7 @@ function graph2(data) {
         .append("button")
         .attr("id", "reset-button")
         .text("Reset");
-    resetButton.on("click", function () {
+    resetButton.on("click", () => {
         svg.transition().duration(200).call(zoom.transform, d3.zoomIdentity);
     });
 
@@ -340,7 +340,7 @@ function graph2(data) {
         .append("button")
         .attr("id", "zoom-in-button")
         .text("+");
-    zoomInButton.on("click", function () {
+    zoomInButton.on("click", () => {
         svg.transition().duration(500).call(zoom.scaleBy, 1.2);
     });
 
@@ -349,7 +349,7 @@ function graph2(data) {
         .append("button")
         .attr("id", "zoom-out-button")
         .text("-");
-    zoomOutButton.on("click", function () {
+    zoomOutButton.on("click", () => {
         svg.transition().duration(500).call(zoom.scaleBy, 0.8);
     });
 
@@ -398,26 +398,17 @@ function graph2(data) {
                         .style("opacity", 1)
                         .style("left", (event.pageX + 10) + "px")
                         .style("top", (event.pageY - 10) + "px");
-                    d3.select(this)
-                        .style("fill", "#ef233c")
                 } else {
                     tooltip.html(d.properties.name + "<br>" + "No Data")
                         .style("opacity", 1)
                         .style("left", (event.pageX + 10) + "px")
                         .style("top", (event.pageY - 10) + "px")
                 }
+                d3.select(this).style("stroke-width", 2);
             })
             .on("mouseout", function () {
-                tooltip.style("opacity", 0);
-                d3.select(this)
-                    .style("fill", d => {
-                        if (avg_sal.has(d.properties.name)) {
-                            return color(avg_sal.get(d.properties.name))
-                        } else {
-                            return "white"
-                        }
-                    }
-                    )
+                tooltip.style("opacity", 0).style("left", 0).style("top", 0);
+                d3.select(this).style("stroke-width", 0.5);
             });
     });
 
@@ -442,7 +433,7 @@ function graph2(data) {
         .attr("class", "legend");
 
     legend.selectAll("rect")
-        .data(color.range().map(function (d, i) {
+        .data(color.range().map((d, i) => {
             return {
                 x0: i ? width2 / 6 * i : width2 / 6 * i,
                 x1: i ? width2 / 6 * i + width2 / 6 : width2 / 6 * i + width2 / 6,
@@ -647,13 +638,13 @@ function graph3(data) {
         .enter()
         .append("g")
         .attr("cursor", "pointer")
-        .on("click", function (d) {
+        .on("click", d => {
             var ele = d.srcElement.__data__
             var elements = d3.selectAll("." + ele)
-            elements.transition().style("opacity", function () {
+            elements.transition().style("opacity", () => {
                 return elements.style("opacity") == 1 ? 0 : 1;
             });
-            d3.selectAll(".legend-" + ele).transition().style("opacity", function () {
+            d3.selectAll(".legend-" + ele).transition().style("opacity", () => {
                 return elements.style("opacity") == 1 ? 0.4 : 1;
             });
         })
@@ -712,46 +703,23 @@ function graph4(data) {
         d => d.category,
         d => d.full_category
     )
-    console.log(mean_sal_by_subcat)
-    var uniquePairs = new Set();
-    var uniqueCategories = new Set();
-    var uniqueFullCategories = new Set();
-    data.forEach(d => {
-        var pair = d.category + "|" + d.full_category;
-        uniquePairs.add(pair);
-        uniqueCategories.add(d.category);
-        if (d.category !== d.full_category) {
-            uniqueFullCategories.add(d.full_category)
-        }
-    });
-    var uniquePairsArray = Array.from(uniquePairs).map(pair => {
-        var [category, full_category] = pair.split("|");
-        return { category: category, full_category: full_category };
-    });
 
-    console.log(uniquePairsArray);
-    var nodes = [{ id: "Data Science Jobs" }];
+    var nodes = [{ id: "Data Science Jobs", value: 0 }];
     var links = [];
 
-    // Create nodes and links from the data
-    uniqueCategories.forEach(function (category) {
-        nodes.push({ id: category });
-        links.push({ source: 'Data Science Jobs', 
-        target: category, 
-        value: mean_sal_by_cat.get(category) });
-    });
-    uniqueFullCategories.forEach(function (full_category) {
-        nodes.push({ id: full_category });
-    });
-    uniquePairsArray.forEach(pair => {
-        if (pair.category !== pair.full_category) {
-            links.push({
-                source: pair.category,
-                target: pair.full_category,
-                value: mean_sal_by_subcat.get(pair.category).get(pair.full_category)
-            });
-        }
-    });
+    mean_sal_by_cat.forEach((value, key) => {
+        nodes.push({ id: key, value: value })
+        links.push({ source: "Data Science Jobs", target: key })
+    })
+
+    mean_sal_by_subcat.forEach((value, key) => {
+        value.forEach((val, k) => {
+            if (k !== key) {
+                nodes.push({ id: k, value: val })
+                links.push({ source: key, target: k })
+            }
+        })
+    })
 
     const graph = {
         nodes: nodes,
@@ -759,13 +727,25 @@ function graph4(data) {
     }
 
     const margin = { top: 20, right: 40, bottom: 20, left: 40 },
-        width = 700 - margin.left - margin.right,
-        height = 700 - margin.top - margin.bottom;
+        width = 1000 - margin.left - margin.right,
+        height = 800 - margin.top - margin.bottom;
+
+    const tooltip = d3.select("#salary-by-jobs")
+        .append("div")
+        .attr("id", "force-tooltip")
+        .style("opacity", 0)
+        .style("background-color", "white")
+        .style("border", "solid")
+        .style("border-width", "1px")
+        .style("border-radius", "5px")
+        .style("position", "absolute")
+        .style("padding", "5px");
 
     const simulation = d3.forceSimulation(graph.nodes)
         .force("link", d3.forceLink(graph.links).id(d => d.id))
         .force("charge", d3.forceManyBody().strength(-100))
-        .force("center", d3.forceCenter(width / 2, height / 2));
+        .force("center", d3.forceCenter(width / 2, height / 2))
+        .force("collide", d3.forceCollide().radius(40).strength(0.8))
 
     const svg = d3
         .select("#force-svg")
@@ -774,15 +754,13 @@ function graph4(data) {
         .append("g")
         .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-    const colorScale = d3
-        .scaleOrdinal()
+    const colorScale = d3.scaleOrdinal()
         .domain(mean_sal_by_cat.keys())
         .range(d3.schemeSet3);
 
-    const thickness = d3
-        .scaleLinear()
-        .domain(d3.extent(graph.links.map(d => d.value)))
-        .range([2, 6]);
+    const nodeSize = d3.scaleLinear()
+        .domain(d3.extent(graph.nodes, d => d.value))
+        .range([10, 30]);
 
     // Create links
     const link = svg
@@ -791,21 +769,58 @@ function graph4(data) {
         .enter()
         .append("line")
         .attr("stroke", "lightgray")
-        .attr("stroke-width", d => thickness(d.value));
+        .attr("stroke-width", 3);
+
+    function mouseover(e, d) {
+        if (d.id !== "Data Science Jobs") {
+            d3.select(this).style("cursor", "pointer")
+            tooltip.style("opacity", 1)
+                .style("left", (e.pageX + 10) + "px")
+                .style("top", (e.pageY + 10) + "px")
+                .html("<strong>" + d.id + "</strong><br/>" + "" + d.value.toLocaleString(
+                    'en-US', { style: 'currency', currency: 'USD' }
+                ));
+        }
+    }
 
     // Create nodes
     const node = svg
-        .selectAll("circle")
+        .selectAll("ellipses")
         .data(graph.nodes)
         .enter()
-        .append("circle")
-        .attr("r", 12)
-        .attr("fill", d => (d.id === "Data Science Jobs" ? "blue" : colorScale(d.id)))
+        .append("ellipse")
+        .attr("rx", d => {
+            if (d.id === "Data Science Jobs") {
+                return 40;
+            } else {
+                return nodeSize(d.value) + 5
+            }
+        })
+        .attr("ry", d => {
+            if (d.id === "Data Science Jobs") {
+                return 30;
+            } else {
+                return nodeSize(d.value)
+            }
+        })
+        .attr("fill", d => {
+            const lst = d.id.split(" ");
+            if (d.id === "Data Science Jobs") {
+                return "skyblue";
+            } else {
+                return colorScale(lst[lst.length - 1]);
+            }
+        })
+        .attr("stroke", "#566573")
         .call(d3.drag()
-                .on("start", dragstarted)
-                .on("drag", dragged)
-                .on("end", dragended)
-        );
+            .on("start", dragstarted)
+            .on("drag", dragged)
+            .on("end", dragended)
+        )
+        .on("mouseover", mouseover)
+        .on("mouseout", function (e, d) {
+            tooltip.style("opacity", 0).style("left", 0).style("top", 0);
+        })
 
     // Add text to nodes
     const texts = svg
@@ -816,15 +831,26 @@ function graph4(data) {
         .text(d => d.id)
         .attr("font-size", 12)
         .attr("dx", 15)
-        .attr("dy", 4);
+        .attr("dy", 4)
+        .attr("text-anchor", "middle")
+        .attr("dominant-baseline", "middle")
+        .attr("font-family", "sans-serif")
+        .on("mouseover", mouseover)
+        .on("mouseout", function (e, d) {
+            tooltip.style("opacity", 0).style("left", 0).style("top", 0);
+        })
 
-    simulation.on("tick", function () {
+    simulation.on("tick", () => {
         link.attr("x1", d => d.source.x)
             .attr("y1", d => d.source.y)
             .attr("x2", d => d.target.x)
             .attr("y2", d => d.target.y);
         node.attr("cx", d => d.x).attr("cy", d => d.y);
-        texts.attr("x", d => d.x).attr("y", d => d.y);
+        texts.attr("x", d => d.x - nodeSize(d.value) + 5).attr("y", d => d.y - 2);
+
+        const padding = 2;
+        node.attr("cx", d => Math.max(padding, Math.min(width - padding, d.x)))
+            .attr("cy", d => Math.max(padding, Math.min(height - padding, d.y)));
     });
 
     function dragstarted(event, d) {

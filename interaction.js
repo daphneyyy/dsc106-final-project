@@ -57,7 +57,7 @@ window.addEventListener("scroll", function () {
         hideSection("remote");
         hideSection("salary");
         showSection("region");
-        showSection("salary-by-jobs");
+        hideSection("salary-by-jobs");
     } else if (scrollPosition >= forcePosition - scrollThreshold) {
         hideSection("remote");
         hideSection("salary");
