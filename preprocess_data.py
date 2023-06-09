@@ -42,12 +42,12 @@ def assign_full_category(row):
     if row['sub_category'] != 'Others' and row['category'] != 'Others':
         return row['sub_category'] + ' Data ' + row['category']
     elif row['category'] != 'Others':
-        return 'Data ' + row['category']
+        return 'General Data ' + row['category']
     else:
         return 'Others'
 
 data['full_category'] = data.apply(assign_full_category, axis=1)
 
-data_by_categories = data[['category', 'full_category', 'salary_in_usd']]
+data_by_categories = data[data['work_year'] == 2023][['category', 'full_category', 'salary_in_usd']]
 
 data_by_categories.to_csv('data/data_by_categories.csv', index=False)

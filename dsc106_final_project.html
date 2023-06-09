@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <script type="text/javascript" src="create_graphs.js"></script>
-        <script type="text/javascript" src="interaction.js"></script>
+        <!-- <script type="text/javascript" src="interaction.js"></script> -->
         <link rel="stylesheet" href="styles.css">
         <script src="https://d3js.org/d3.v7.min.js"></script>
 
@@ -18,37 +18,76 @@
         </div>
         <h3>By: Xuewen Yang</h3>
         <div id="intro">
-            <p>The field of data science has experienced tremendous growh and is
+            <p>
+                The field of data science has experienced tremendous growh and
+                is
                 in high demand, with organiztions across industries increasingly
                 relying on data-driven insights for decision-making. As a
                 result, data science jobs have become sought after by
                 individuals seeking rewarding and well-compensated careers. It
                 is important to understand the industry landscape and make
-                informed career choices now.</p>
+                informed career choices now.
+                <br>
+                <br>
+                Explore the visualizations below to learn more about the status
+                and prospects of data science careers.
+            </p>
         </div>
 
-        <div class="category" id="remote"> 
+        <div class="category" id="remote">
             <svg id="remote-svg"></svg>
             <p>
-                While the spread of COVID-19 virus since 2020, many companies
-                have adopted remote work mode or hybrid work mode. However, as
-                the severity of the pandemic diminishes, many positions have
-                started transitioning back to offline offices starting from
+                Due to the global impact of the COVID-19 pandemic since 2020,
+                many companies have implemented remote work or hybrid work
+                models. However, as the situation improves, numerous positions
+                have gradually transitioned back to on-site work starting from
                 2022.
+                <br>
+                <br>
+                From 2020 to 2022, the percentage of remote positions are all
+                above 50% and higher than the percentage of on-site positions,
+                indicating that remote work was still the mainstream in the
+                industry. However, from 2023 onward, the percentage of remote
+                positions becomes (35.35%), which is lower than the percentage
+                of on-site positions (63.29%), indicating that the industry is
+                gradually returning to on-site work. Data Science job seekers
+                should be aware of this trend and be prepared to work on-site.
             </p>
         </div>
 
         <div class="category" id="salary">
             <p>
-                From this graph, we can see that __ level job salary is
-                increasing, while __ level job salary is decreasing. It means
-                there are lots of people entering the job market, causing __.
+                <span style="font-size: medium; font-family: Gill Sans;">
+                    EN: Entry-level, ML: Mid-level, SN: Senior, EX: Executive
+                </span>
+                <br>
+                <br>
+                We can see that salaries for executive-level positions are
+                constantly increasing and were not affected by the pandemic,
+                while salaries for entry-level, mid-level and senior positions
+                all decreased in 2021 and then rebound from 2021 onward.
+                <br>
+                <br>
+                However, in terms of the growth rate of salary, we can see that
+                the growth rate of executive-level positions is the lowest,
+                while the growth rate of entry-level positions is the highest,
+                which is a good sign for entry-level job seekers.
+                <br>
+                <br>
+                <br>
+                <span style="color: rgb(49, 160, 203); font-style: italic;">
+                    (Click on the legends to see the salary trend of different
+                    job levels.)
+                </span>
             </p>
             <svg id="salary-svg"></svg>
         </div>
 
+        <h2>
+            Explore the average salary of different regions in the world
+        </h2>
         <div class="category" id="region">
-            <p id="map-title">Average Salary by Region</p>
+            <p id="map-title">Full Time Average Salary by Region in 2023</p>
             <tb id="table">
                 <tr>
                     <td>
@@ -62,8 +101,15 @@
             <svg id="legend-svg"></svg>
         </div>
 
+        <h2>
+            Explore the average salary of different jobs
+        </h2>
         <div class="category" id="salary-by-jobs">
             <svg id="force-svg"></svg>
+        </div>
+
+        <div class="conclusion">
+            Thank you!
         </div>
         
         <div>

@@ -181,7 +181,7 @@ function graph1(data) {
         .range(["#98abc5", "#8a89a6", "#7b6888"]);
 
     const legends = {
-        "prop_0": "No remote work",
+        "prop_0": "On-site",
         "prop_50": "Hybird",
         "prop_100": "Fully remote"
     }
@@ -250,6 +250,7 @@ function graph1(data) {
 
     const legend = svg.append("g")
         .attr("font-size", 13)
+        .style("font-family", "Segoe UI")
         .selectAll("g")
         .data(obs)
         .enter()
@@ -273,6 +274,8 @@ function graph1(data) {
         .attr("y", 0 - (margin.top / 2) + 5)
         .attr("text-anchor", "middle")
         .style("font-size", "16px")
+        .style("font-family", "Segoe UI")
+        .style("font-weight", "bold")
         .text("Job Remoteness by Year");
 
     svg.append("text")
@@ -280,6 +283,7 @@ function graph1(data) {
         .attr("y", height - margin.bottom + 30)
         .attr("text-anchor", "middle")
         .style("font-size", "15px")
+        .style("font-family", "Segoe UI")
         .text("Year");
 
     svg.append("text")
@@ -287,6 +291,7 @@ function graph1(data) {
         .attr("x", 0 - (height / 2) - 20)
         .attr("y", 0 - margin.left + 20)
         .attr("text-anchor", "middle")
+        .style("font-family", "Segoe UI")
         .style("font-size", "15px")
         .text("Proportion of Remoteness");
 }
@@ -413,9 +418,9 @@ function graph2(data) {
     });
 
     var canvasWidth2 = canvasWidth,
-        canvasHeight2 = 60
+        canvasHeight2 = 130
 
-    const margin2 = { top: 20, right: 20, bottom: 20, left: 30 },
+    const margin2 = { top: 30, right: 20, bottom: 50, left: 30 },
         width2 = canvasWidth2 - margin2.left - margin2.right,
         height2 = canvasHeight2 - margin2.top - margin2.bottom;
 
@@ -451,7 +456,9 @@ function graph2(data) {
         .attr("class", "label")
         .attr("x", 0)
         .attr("y", -10)
-        .text("Full Time Average Salary in USD");
+        .style("font-family", "Segoe UI")
+        .style("font-size", 20)
+        .text("Salary in USD");
 
     legend.selectAll("text")
         .data(legend_labels)
@@ -479,6 +486,12 @@ function graph3(data) {
             avg.push({ work_year: i, experience_level: key, avg_sal: v })
         })
     ));
+
+    console.log(avg_sal)
+    console.log(avg)
+    console.log()
+
+    const years = Array.from(avg_sal.get("MI").keys()).sort((a, b) => a - b)
 
     const margin = { top: 20, right: 40, bottom: 20, left: 40 },
         width = 600 - margin.left - margin.right,
@@ -509,7 +522,7 @@ function graph3(data) {
     }
 
     const xScale = d3.scaleBand()
-        .domain([2020, 2021, 2022, 2023])
+        .domain(years)
         .range([margin.left, width - margin.right])
         .padding(0.1);
 
@@ -561,14 +574,28 @@ function graph3(data) {
             const lineOpacity = d3.select("." + d.experience_level).style("opacity");
             if (lineOpacity !== "0") {
                 d3.select(this).attr("r", 8);
-                tooltip
-                    .html(
-                        "Year: " + d.work_year + "<br>" +
-                        "Experience Level: " + d.experience_level + "<br>" +
-                        "Average Salary: " + d.avg_sal.toLocaleString(
-                            'en-US', { style: 'currency', currency: 'USD' }
+                if (d.work_year !== 2020) {
+                    const preSal = avg_sal.get(d.experience_level).get(d.work_year - 1);
+                    tooltip
+                        .html(
+                            "Year: " + d.work_year + "<br>" +
+                            "Experience Level: " + d.experience_level + "<br>" +
+                            "Average Salary: " + d.avg_sal.toLocaleString(
+                                'en-US', { style: 'currency', currency: 'USD' }
+                            ) + "<br>" +
+                            "Change: " + ((d.avg_sal - preSal) / preSal * 100).toFixed(2) + "%"
                         )
-                    )
+                } else {
+                    tooltip
+                        .html(
+                            "Year: " + d.work_year + "<br>" +
+                            "Experience Level: " + d.experience_level + "<br>" +
+                            "Average Salary: " + d.avg_sal.toLocaleString(
+                                'en-US', { style: 'currency', currency: 'USD' }
+                            )
+                        )
+                }
+                tooltip
                     .style("opacity", 1)
                     .style("left", (e.pageX + 10) + "px")
                     .style("top", (e.pageY + 10) + "px");
@@ -633,6 +660,7 @@ function graph3(data) {
     // Add legends text
     const legend = svg.append("g")
         .attr("font-size", 12)
+        .style("font-family", "Segoe UI")
         .selectAll("g")
         .data(Object.keys(colorScale))
         .enter()
@@ -663,6 +691,7 @@ function graph3(data) {
         .text(d => d)
         .style("fill", d => colorScale[d])
         .style("font-size", 15)
+        .style("font-family", "Segoe UI")
 
     // Add title
     svg.append("text")
@@ -670,7 +699,9 @@ function graph3(data) {
         .attr("y", 0 - (margin.top / 2) + 5)
         .attr("text-anchor", "middle")
         .style("font-size", "16px")
-        .text("Full Time Average Salary in USD");
+        .style("font-family", "Segoe UI")
+        .style("font-weight", "bold")
+        .text("Average Salary by Experience Level");
 
     // Add x-axis label
     svg.append("text")
@@ -678,7 +709,8 @@ function graph3(data) {
         .attr("y", height - margin.bottom + 30)
         .attr("text-anchor", "middle")
         .style("font-size", "15px")
-        .text("Work Year");
+        .style("font-family", "Segoe UI")
+        .text("Year");
 
     // Add y-axis label
     svg.append("text")
@@ -687,6 +719,7 @@ function graph3(data) {
         .attr("y", 0 - margin.left + 25)
         .attr("text-anchor", "middle")
         .style("font-size", "15px")
+        .style("font-family", "Segoe UI")
         .text("Salary in USD");
 }
 
@@ -707,15 +740,15 @@ function graph4(data) {
     var nodes = [{ id: "Data Science Jobs", value: 0 }];
     var links = [];
 
-    mean_sal_by_cat.forEach((value, key) => {
-        nodes.push({ id: key, value: value })
+    mean_sal_by_cat.forEach((val, key) => {
+        nodes.push({ id: key, value: val })
         links.push({ source: "Data Science Jobs", target: key })
     })
 
-    mean_sal_by_subcat.forEach((value, key) => {
-        value.forEach((val, k) => {
+    mean_sal_by_subcat.forEach((val, key) => {
+        val.forEach((v, k) => {
             if (k !== key) {
-                nodes.push({ id: k, value: val })
+                nodes.push({ id: k, value: v })
                 links.push({ source: key, target: k })
             }
         })
@@ -726,7 +759,7 @@ function graph4(data) {
         links: links
     }
 
-    const margin = { top: 20, right: 40, bottom: 20, left: 40 },
+    const margin = { top: 40, right: 40, bottom: 20, left: 40 },
         width = 1000 - margin.left - margin.right,
         height = 800 - margin.top - margin.bottom;
 
@@ -806,12 +839,12 @@ function graph4(data) {
         .attr("fill", d => {
             const lst = d.id.split(" ");
             if (d.id === "Data Science Jobs") {
-                return "skyblue";
+                return "white";
             } else {
                 return colorScale(lst[lst.length - 1]);
             }
         })
-        .attr("stroke", "#566573")
+        .attr("stroke", "gray")
         .call(d3.drag()
             .on("start", dragstarted)
             .on("drag", dragged)
@@ -834,7 +867,7 @@ function graph4(data) {
         .attr("dy", 4)
         .attr("text-anchor", "middle")
         .attr("dominant-baseline", "middle")
-        .attr("font-family", "sans-serif")
+        .style("font-family", "Segoe UI")
         .on("mouseover", mouseover)
         .on("mouseout", function (e, d) {
             tooltip.style("opacity", 0).style("left", 0).style("top", 0);
@@ -869,4 +902,14 @@ function graph4(data) {
         d.fx = null;
         d.fy = null;
     }
+
+    // add title
+    svg.append("text")
+        .attr("x", (width / 2))
+        .attr("y", margin.top)
+        .attr("text-anchor", "middle")
+        .style("font-size", 20)
+        .style("font-weight", "bold")
+        .style("font-family", "Segoe UI")
+        .text("Average Salary per Year by Job Titles");
 }
