@@ -1,19 +1,9 @@
-html {
-  scroll-behavior: smooth;
-}
-
 p {
   font-family: 'Segoe UI';
   text-align: justify;
   font-size: 20px;
   margin: 20px;
 }
-
-/* #title {
-  text-align: center;
-  margin-top: 50px;
-  font-family: 'Trebuchet MS';
-} */
 
 #title {
   text-align: center;
@@ -40,11 +30,6 @@ h3 {
   text-align: justify;
   margin: 20px;
 }
-
-.category {
-  opacity: 0;
-  transition: opacity 0.5s, transform 0.5s;
-} 
 
 #remote {
   opacity: 1;
