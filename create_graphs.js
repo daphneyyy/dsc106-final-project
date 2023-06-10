@@ -160,6 +160,7 @@ function graph1(data) {
     const tooltip = d3.select("#remote")
         .append("div")
         .attr("id", "remote-tooltip")
+        .attr("class", "tooltip")
         .style("opacity", 0)
         .style("position", "absolute")
         .style("background-color", "white")
@@ -364,6 +365,7 @@ function graph2(data) {
     const tooltip = d3.select("#region")
         .append("div")
         .attr("id", "map-tooltip")
+        .attr("class", "tooltip")
         .style("opacity", 0)
         .style("background-color", "white")
         .style("border", "solid")
@@ -487,10 +489,6 @@ function graph3(data) {
         })
     ));
 
-    console.log(avg_sal)
-    console.log(avg)
-    console.log()
-
     const years = Array.from(avg_sal.get("MI").keys()).sort((a, b) => a - b)
 
     const margin = { top: 20, right: 40, bottom: 20, left: 40 },
@@ -500,6 +498,7 @@ function graph3(data) {
     const tooltip = d3.select("#salary")
         .append("div")
         .attr("id", "salary-tooltip")
+        .attr("class", "tooltip")
         .style("opacity", 0)
         .style("position", "absolute")
         .style("background-color", "white")
