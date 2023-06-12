@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-data = pd.read_csv('data/salaries.csv')
+data = pd.read_csv('salaries.csv')
 
 def category(x):
     x = x.lower()

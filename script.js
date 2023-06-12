@@ -1,7 +1,7 @@
 function finalProj() {
-    let filePath1 = "data/salaries.csv";
-    let filePath2 = "data/country_code.csv";
-    let filePath3 = "data/data_by_categories.csv";
+    let filePath1 = "salaries.csv";
+    let filePath2 = "country_code.csv";
+    let filePath3 = "data_by_categories.csv";
     Promise.all([
         d3.csv(filePath1),
         d3.csv(filePath2),
