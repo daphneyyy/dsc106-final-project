@@ -374,7 +374,7 @@ function graph2(data) {
         .style("position", "absolute")
         .style("padding", "5px");
 
-    const worldmap = d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
+    const worldmap = d3.json("world.geojson")
 
     worldmap.then(function (map) {
         svg.append('path')
